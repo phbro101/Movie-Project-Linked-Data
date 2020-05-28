@@ -1,0 +1,16 @@
+name: home_project
+channels:
+  - defaults
+  - conda-forge
+  - ostrokach-forge
+  - pkgw-forge
+dependencies:
+  - python=3.7
+  - pandas
+  - sparqlwrapper
+  - rdflib
+  - pip
+  - pip:
+    - smm-wrapper==1.3.1
+    - powerlaw
+    - python-louvain

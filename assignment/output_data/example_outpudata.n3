@@ -1,0 +1,262 @@
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Alan_W._Bishop> a dbo:Scientist ;
+    dbo:birthdate "1920-05-27"^^xsd:date ;
+    dc:description "British engineer"@en ;
+    foaf:name "Alan W. Bishop"@en .
+
+<http://dbpedia.org/resource/Alexander_G._Petrov> a dbo:Scientist ;
+    dbo:birthdate "1948-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Alexander_G._Petrov.jpg?width=300> ;
+    dc:description "Bulgarian physicist"@en ;
+    foaf:name "Alexander G. Petrov"@en .
+
+<http://dbpedia.org/resource/André_Lussier> a dbo:Scientist ;
+    dbo:birthdate "1933-05-27"^^xsd:date ;
+    dbo:thumbnail <http://en.wikipedia.org/wiki/Special:FilePath/Andre-Lussier-Dec-2007-South-Carolina.JPG?width=300> ;
+    dc:description "Canadian rheumatologist"@en ;
+    foaf:name "André Lussier"@en .
+
+<http://dbpedia.org/resource/Anthony_A._Hyman> a dbo:Scientist ;
+    dbo:birthdate "1962-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/AnthonyHyman.jpg?width=300> ;
+    dc:description "British biologist"@en ;
+    foaf:name "Anthony A. Hyman"@en .
+
+<http://dbpedia.org/resource/Anthony_Pagden> a dbo:Scientist ;
+    dbo:birthdate "1945-05-27"^^xsd:date ;
+    dc:description "American academic"@en ;
+    foaf:name "Anthony Pagden"@en .
+
+<http://dbpedia.org/resource/Avrim_Blum> a dbo:Scientist ;
+    dbo:birthdate "1966-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia_avrimblum1.jpg?width=300> ;
+    dc:description "Computer scientist"@en ;
+    foaf:name "Avrim Blum"@en .
+
+<http://dbpedia.org/resource/Bernard_Dwork> a dbo:Scientist ;
+    dbo:birthdate "1923-05-27"^^xsd:date ;
+    dc:description "American mathematician"@en ;
+    foaf:name "Bernard Dwork"@en .
+
+<http://dbpedia.org/resource/Bernard_M._Oliver> a dbo:Scientist ;
+    dbo:birthdate "1916-05-27"^^xsd:date ;
+    dc:description "American scientist"@en ;
+    foaf:name "Bernard M. Oliver"@en .
+
+<http://dbpedia.org/resource/C._Arnold_Beevers> a dbo:Scientist ;
+    dbo:birthdate "1908-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Beevers-Lipson_strips_at_the_Museum_of_the_History_of_Science,_Oxford.JPG?width=300> ;
+    dc:description "Crystallographer"@en ;
+    foaf:name "C. Arnold Beevers"@en .
+
+<http://dbpedia.org/resource/Carl_Benedicks> a dbo:Scientist ;
+    dbo:birthdate "1875-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Benedicks,_Carl_(i_Hvar_8_dag_no_13_1910).jpg?width=300> ;
+    dc:description "Physicist"@en ;
+    foaf:name "Carl Benedicks"@en .
+
+<http://dbpedia.org/resource/Conrad_Elvehjem> a dbo:Scientist ;
+    dbo:birthdate "1901-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Linkomies_and_Elvehjelm.jpg?width=300> ;
+    dc:description "American biochemist"@en ;
+    foaf:name "Conrad Elvehjem"@en .
+
+<http://dbpedia.org/resource/Derald_Langham> a dbo:Scientist ;
+    dbo:birthdate "1913-05-27"^^xsd:date ;
+    dc:description "American geneticist"@en ;
+    foaf:name "Derald Langham"@en .
+
+<http://dbpedia.org/resource/Derek_Denton> a dbo:Scientist ;
+    dbo:birthdate "1924-05-27"^^xsd:date ;
+    dc:description "Australian scientist"@en ;
+    foaf:name "Derek Denton"@en .
+
+<http://dbpedia.org/resource/Edward_A._Irving> a dbo:Scientist ;
+    dbo:birthdate "1927-05-27"^^xsd:date ;
+    dc:description "Paleomagnetist"@en ;
+    foaf:name "Edward A. Irving"@en .
+
+<http://dbpedia.org/resource/Franciscus_Donders> a dbo:Scientist ;
+    dbo:birthdate "1818-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Donders,_Franciscus_Cornelis_(1818_-_1889).jpg?width=300> ;
+    dc:description "Dutch ophthalmologist"@en ;
+    foaf:name "Franciscus Donders"@en .
+
+<http://dbpedia.org/resource/František_Kotlaba> a dbo:Scientist ;
+    dbo:birthdate "1927-05-27"^^xsd:date ;
+    dc:description "Czech botanist and mycologist"@en ;
+    foaf:name "František Kotlaba"@en .
+
+<http://dbpedia.org/resource/François_Chevalier> a dbo:Scientist ;
+    dbo:birthdate "1914-05-27"^^xsd:date ;
+    dc:description "French professor"@en ;
+    foaf:name "François Chevalier"@en .
+
+<http://dbpedia.org/resource/George_T._Reynolds> a dbo:Scientist ;
+    dbo:birthdate "1917-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/George_T._Reynolds_Los_Alamos_ID.png?width=300> ;
+    dc:description "American astronomer"@en ;
+    foaf:name "George T. Reynolds"@en .
+
+<http://dbpedia.org/resource/Helen_Morgenthau_Fox> a dbo:Scientist ;
+    dbo:birthdate "1884-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Agnes_J._Quirk,_Helen_Morgenthau_Fox_(1884-1974),_and_Florence_Hedges_(1878-1956).jpg?width=300> ;
+    dc:description "Botanist and author of gardening books"@en ;
+    foaf:name "Helen Morgenthau Fox"@en .
+
+<http://dbpedia.org/resource/Helen_T._Edwards> a dbo:Scientist ;
+    dbo:birthdate "1936-05-27"^^xsd:date ;
+    dc:description "American physicist"@en ;
+    foaf:name "Helen T. Edwards"@en .
+
+<http://dbpedia.org/resource/Herbert_Gursky> a dbo:Scientist ;
+    dbo:birthdate "1930-05-27"^^xsd:date ;
+    dc:description "Astrophysicist"@en ;
+    foaf:name "Herbert Gursky"@en .
+
+<http://dbpedia.org/resource/Ignaz_Döllinger> a dbo:Scientist ;
+    dbo:birthdate "1770-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Ignaz_Döllinger_-_Anatom.jpg?width=300> ;
+    dc:description "German physiologist and anatomist"@en ;
+    foaf:name "Ignaz Döllinger"@en .
+
+<http://dbpedia.org/resource/Ion_Niculiță> a dbo:Scientist ;
+    dbo:birthdate "1939-05-27"^^xsd:date ;
+    dc:description "Archaeologist"@en ;
+    foaf:name "Ion Niculiță"@en .
+
+<http://dbpedia.org/resource/James_Q._Wilson> a dbo:Scientist ;
+    dbo:birthdate "1931-05-27"^^xsd:date ;
+    dc:description "American political scientist"@en ;
+    foaf:name "James Q. Wilson"@en .
+
+<http://dbpedia.org/resource/John_C._Bailar_Jr.> a dbo:Scientist ;
+    dbo:birthdate "1904-05-27"^^xsd:date ;
+    dc:description "American chemist"@en ;
+    foaf:name "John C. Bailar Jr."@en .
+
+<http://dbpedia.org/resource/John_Cockcroft> a dbo:Scientist ;
+    dbo:birthdate "1897-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Cockcroft.jpg?width=300> ;
+    dc:description "British physicist"@en ;
+    foaf:name "John Cockcroft"@en .
+
+<http://dbpedia.org/resource/John_Coleman_Moore> a dbo:Scientist ;
+    dbo:birthdate "1923-05-27"^^xsd:date ;
+    dc:description "American mathematician"@en ;
+    foaf:name "John Coleman Moore"@en .
+
+<http://dbpedia.org/resource/John_Edward_Campbell> a dbo:Scientist ;
+    dbo:birthdate "1862-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/John_Edward_Campbell.jpg?width=300> ;
+    dc:description "Irish mathematician"@en ;
+    foaf:name "John Edward Campbell"@en .
+
+<http://dbpedia.org/resource/John_Wishart_(surgeon)> a dbo:Scientist ;
+    dbo:birthdate "1850-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/John_Wishart_(1850_-_1926).jpg?width=300> ;
+    dc:description "Canadian surgeon"@en ;
+    foaf:name "John Wishart (surgeon)"@en .
+
+<http://dbpedia.org/resource/K._Sridhar> a dbo:Scientist ;
+    dbo:birthdate "1961-05-27"^^xsd:date ;
+    dc:description "Indian scientist"@en ;
+    foaf:name "K. Sridhar"@en .
+
+<http://dbpedia.org/resource/Karl_Bühler> a dbo:Scientist ;
+    dbo:birthdate "1879-05-27"^^xsd:date ;
+    dc:description "German psychologist"@en ;
+    foaf:name "Karl Bühler"@en .
+
+<http://dbpedia.org/resource/Kazimierz_Fajans> a dbo:Scientist ;
+    dbo:birthdate "1887-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Kazimierz_Fajans.jpg?width=300> ;
+    dc:description "American scientist"@en ;
+    foaf:name "Kazimierz Fajans"@en .
+
+<http://dbpedia.org/resource/Lars_Fredrik_Nilson> a dbo:Scientist ;
+    dbo:birthdate "1840-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Nilson_Lars_Fredrik.jpg?width=300> ;
+    dc:description "Swedish chemist"@en ;
+    foaf:name "Lars Fredrik Nilson"@en .
+
+<http://dbpedia.org/resource/Lawrence_C._F._Horle> a dbo:Scientist ;
+    dbo:birthdate "1892-05-27"^^xsd:date ;
+    dc:description "American electrical engineer"@en ;
+    foaf:name "Lawrence C. F. Horle"@en .
+
+<http://dbpedia.org/resource/Lawrence_M._Krauss> a dbo:Scientist ;
+    dbo:birthdate "1954-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Laurence_Krauss.JPG?width=300> ;
+    dc:description "American physicist"@en ;
+    foaf:name "Lawrence M. Krauss"@en .
+
+<http://dbpedia.org/resource/Lucjan_Malinowski> a dbo:Scientist ;
+    dbo:birthdate "1839-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Lucjan_Malinowski.jpg?width=300> ;
+    dc:description "Polish linguist"@en ;
+    foaf:name "Lucjan Malinowski"@en .
+
+<http://dbpedia.org/resource/Margaret_Becklake> a dbo:Scientist ;
+    dbo:birthdate "1922-05-27"^^xsd:date ;
+    dc:description "Canadian medical researcher"@en ;
+    foaf:name "Margaret Becklake"@en .
+
+<http://dbpedia.org/resource/Ralph_Larkin> a dbo:Scientist ;
+    dbo:birthdate "1940-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Ralph_W_Larkin.JPG?width=300> ;
+    dc:description "American sociologist"@en ;
+    foaf:name "Ralph Larkin"@en .
+
+<http://dbpedia.org/resource/Robert_Stirling_Newall> a dbo:Scientist ;
+    dbo:birthdate "1812-05-27"^^xsd:date ;
+    dbo:thumbnail <http://en.wikipedia.org/wiki/Special:FilePath/Robert_Stirling_Newall.jpg?width=300> ;
+    dc:description "Scottish engineer and astronomer"@en ;
+    foaf:name "Robert Stirling Newall"@en .
+
+<http://dbpedia.org/resource/Sam_Treiman> a dbo:Scientist ;
+    dbo:birthdate "1925-05-27"^^xsd:date ;
+    dc:description "American physicist"@en ;
+    foaf:name "Sam Treiman"@en .
+
+<http://dbpedia.org/resource/Sharon_Hammes-Schiffer> a dbo:Scientist ;
+    dbo:birthdate "1966-05-27"^^xsd:date ;
+    dc:description "American chemist"@en ;
+    foaf:name "Sharon Hammes-Schiffer"@en .
+
+<http://dbpedia.org/resource/Theodor_Curtius> a dbo:Scientist ;
+    dbo:birthdate "1857-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Theodor_Curtius.gif?width=300> ;
+    dc:description "German chemist"@en ;
+    foaf:name "Theodor Curtius"@en .
+
+<http://dbpedia.org/resource/Vykunta_Raju> a dbo:Scientist ;
+    dbo:birthdate "1975-05-27"^^xsd:date ;
+    dc:description "Indian paediatrician"@en ;
+    foaf:name "Vykunta Raju"@en .
+
+<http://dbpedia.org/resource/W._W._Hansen> a dbo:Scientist ;
+    dbo:birthdate "1909-05-27"^^xsd:date ;
+    dc:description "American physicist"@en ;
+    foaf:name "W. W. Hansen"@en .
+
+<http://dbpedia.org/resource/Wen-Tsuen_Chen> a dbo:Scientist ;
+    dbo:birthdate "1948-05-27"^^xsd:date ;
+    dc:description "Taiwanese computer scientist"@en ;
+    foaf:name "Wen-Tsuen Chen"@en .
+
+<http://dbpedia.org/resource/William_C._Wimsatt> a dbo:Scientist ;
+    dbo:birthdate "1941-05-27"^^xsd:date ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Wimsatt-May-16-2012.jpg?width=300> ;
+    dc:description "American philosopher"@en ;
+    foaf:name "William C. Wimsatt"@en .
+
+<http://dbpedia.org/resource/Wolfgang_Ostwald> a dbo:Scientist ;
+    dbo:birthdate "1883-05-27"^^xsd:date ;
+    dc:description "chemist."@en ;
+    foaf:name "Wolfgang Ostwald"@en .
+
