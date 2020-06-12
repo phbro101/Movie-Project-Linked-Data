@@ -1,368 +1,368 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rsc: <http://philip-broehl.org/resource/> .
-@prefix sch: <http://www.schema.org/> .
+@prefix sch: <https://schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 rsc:12_angry_men a sch:Movie ;
     rdfs:label "12 Angry Men"@en ;
-    sch:datePublished "1957-01-01"^^xsd:gYear ;
-    sch:director rsc:sidney_lumet ;
     = <http://dbpedia.org/resource/12_Angry_Men_(1957_film)>,
-        <http://www.wikidata.org/entity/Q386042> .
+        <http://www.wikidata.org/entity/Q2345> ;
+    sch:datePublished "1957-01-01"^^xsd:gYear ;
+    sch:director rsc:sidney_lumet .
 
 rsc:12_years_a_slave a sch:Movie ;
     rdfs:label "12 Years a Slave"@en ;
-    sch:datePublished "2013-01-01"^^xsd:gYear ;
-    sch:director rsc:steve_mcqueen ;
     = <http://dbpedia.org/resource/12_Years_a_Slave_(film)>,
-        <http://www.wikidata.org/entity/Q3023357> .
+        <http://www.wikidata.org/entity/Q3023357> ;
+    sch:datePublished "2013-01-01"^^xsd:gYear ;
+    sch:director rsc:steve_mcqueen .
 
 rsc:2001:_a_space_odyssey a sch:Movie ;
     rdfs:label "2001: A Space Odyssey"@en ;
-    sch:datePublished "1968-01-01"^^xsd:gYear ;
-    sch:director rsc:stanley_kubrick ;
     = <http://dbpedia.org/resource/2001:_A_Space_Odyssey_(film)>,
-        <http://www.wikidata.org/entity/Q103474> .
+        <http://www.wikidata.org/entity/Q103474> ;
+    sch:datePublished "1968-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
 rsc:a_beautiful_mind a sch:Movie ;
     rdfs:label "A Beautiful Mind"@en ;
-    sch:datePublished "2001-01-01"^^xsd:gYear ;
-    sch:director rsc:ron_howard ;
     = <http://dbpedia.org/resource/A_Beautiful_Mind_(film)>,
-        <http://www.wikidata.org/entity/Q164103> .
+        <http://www.wikidata.org/entity/Q164103> ;
+    sch:datePublished "2001-01-01"^^xsd:gYear ;
+    sch:director rsc:ron_howard .
 
 rsc:a_christmas_story a sch:Movie ;
     rdfs:label "A Christmas Story"@en ;
-    sch:datePublished "1983-01-01"^^xsd:gYear ;
-    sch:director rsc:bob_clark ;
     = <http://dbpedia.org/resource/A_Christmas_Story>,
-        <http://www.wikidata.org/entity/Q15733774> .
+        <http://www.wikidata.org/entity/Q15733774> ;
+    sch:datePublished "1983-01-01"^^xsd:gYear ;
+    sch:director rsc:bob_clark .
 
 rsc:a_clockwork_orange a sch:Movie ;
     rdfs:label "A Clockwork Orange"@en ;
-    sch:datePublished "1971-01-01"^^xsd:gYear ;
-    sch:director rsc:stanley_kubrick ;
     = <http://dbpedia.org/resource/A_Clockwork_Orange_(film)>,
-        <http://www.wikidata.org/entity/Q181086> .
+        <http://www.wikidata.org/entity/Q181086> ;
+    sch:datePublished "1971-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
 rsc:a_night_at_the_opera a sch:Movie ;
     rdfs:label "A Night at the Opera"@en ;
+    = <http://dbpedia.org/resource/A_Night_at_the_Opera_(film)>,
+        <http://www.wikidata.org/entity/Q943992> ;
     sch:datePublished "1935-01-01"^^xsd:gYear ;
     sch:director rsc:edmund_goulding,
-        rsc:sam_wood ;
-    = <http://dbpedia.org/resource/A_Night_at_the_Opera_(film)>,
-        <http://www.wikidata.org/entity/Q943992> .
+        rsc:sam_wood .
 
 rsc:a_streetcar_named_desire a sch:Movie ;
     rdfs:label "A Streetcar Named Desire"@en ;
-    sch:datePublished "1951-01-01"^^xsd:gYear ;
-    sch:director rsc:elia_kazan ;
     = <http://dbpedia.org/resource/A_Streetcar_Named_Desire_(1951_film)>,
-        <http://www.wikidata.org/entity/Q4659863> .
+        <http://www.wikidata.org/entity/Q4659863> ;
+    sch:datePublished "1951-01-01"^^xsd:gYear ;
+    sch:director rsc:elia_kazan .
 
 rsc:aladdin a sch:Movie ;
     rdfs:label "Aladdin"@en ;
+    = <http://dbpedia.org/resource/Son_of_Aladdin>,
+        <http://www.wikidata.org/entity/Q16826784> ;
     sch:datePublished "1992-01-01"^^xsd:gYear ;
     sch:director rsc:john_musker,
-        rsc:ron_clements ;
-    = <http://dbpedia.org/resource/Son_of_Aladdin>,
-        <http://www.wikidata.org/entity/Q20001033> .
+        rsc:ron_clements .
 
 rsc:alien a sch:Movie ;
     rdfs:label "Alien"@en ;
-    sch:datePublished "1979-01-01"^^xsd:gYear ;
-    sch:director rsc:ridley_scott ;
     = <http://dbpedia.org/resource/Alien_3>,
-        <http://www.wikidata.org/entity/Q4726471> .
+        <http://www.wikidata.org/entity/Q155163> ;
+    sch:datePublished "1979-01-01"^^xsd:gYear ;
+    sch:director rsc:ridley_scott .
 
 rsc:aliens a sch:Movie ;
     rdfs:label "Aliens"@en ;
-    sch:datePublished "1986-01-01"^^xsd:gYear ;
-    sch:director rsc:james_cameron ;
     = <http://dbpedia.org/resource/Evil_Aliens>,
-        <http://www.wikidata.org/entity/Q12125011> .
+        <http://www.wikidata.org/entity/Q7942419> ;
+    sch:datePublished "1986-01-01"^^xsd:gYear ;
+    sch:director rsc:james_cameron .
 
 rsc:all_about_eve a sch:Movie ;
     rdfs:label "All About Eve"@en ;
-    sch:datePublished "1950-01-01"^^xsd:gYear ;
-    sch:director rsc:joseph_l._mankiewicz ;
     = <http://dbpedia.org/resource/All_About_Eve>,
-        <http://www.wikidata.org/entity/Q200299> .
+        <http://www.wikidata.org/entity/Q4728498> ;
+    sch:datePublished "1950-01-01"^^xsd:gYear ;
+    sch:director rsc:joseph_l._mankiewicz .
 
 rsc:all_quiet_on_the_western_front a sch:Movie ;
     rdfs:label "All Quiet on the Western Front"@en ;
-    sch:datePublished "1930-01-01"^^xsd:gYear ;
-    sch:director rsc:lewis_milestone ;
     = <http://dbpedia.org/resource/All_Quiet_on_the_Western_Front_(1979_film)>,
-        <http://www.wikidata.org/entity/Q272599> .
+        <http://www.wikidata.org/entity/Q272599> ;
+    sch:datePublished "1930-01-01"^^xsd:gYear ;
+    sch:director rsc:lewis_milestone .
 
 rsc:amadeus a sch:Movie ;
     rdfs:label "Amadeus"@en ;
-    sch:datePublished "1984-01-01"^^xsd:gYear ;
-    sch:director rsc:milos_forman ;
     = <http://dbpedia.org/resource/Amadeus_(film)>,
-        <http://www.wikidata.org/entity/Q190956> .
+        <http://www.wikidata.org/entity/Q190956> ;
+    sch:datePublished "1984-01-01"^^xsd:gYear ;
+    sch:director rsc:milos_forman .
 
 rsc:american_beauty a sch:Movie ;
     rdfs:label "American Beauty"@en ;
-    sch:datePublished "1999-01-01"^^xsd:gYear ;
-    sch:director rsc:sam_mendes ;
     = <http://dbpedia.org/resource/The_American_Beauty>,
-        <http://www.wikidata.org/entity/Q16994414> .
+        <http://www.wikidata.org/entity/Q6875983> ;
+    sch:datePublished "1999-01-01"^^xsd:gYear ;
+    sch:director rsc:sam_mendes .
 
 rsc:american_history_x a sch:Movie ;
     rdfs:label "American History X"@en ;
-    sch:datePublished "1998-01-01"^^xsd:gYear ;
-    sch:director rsc:tony_kaye ;
     = <http://dbpedia.org/resource/American_History_X>,
-        <http://www.wikidata.org/entity/Q208572> .
+        <http://www.wikidata.org/entity/Q208572> ;
+    sch:datePublished "1998-01-01"^^xsd:gYear ;
+    sch:director rsc:tony_kaye .
 
 rsc:anatomy_of_a_murder a sch:Movie ;
     rdfs:label "Anatomy of a Murder"@en ;
-    sch:datePublished "1959-01-01"^^xsd:gYear ;
-    sch:director rsc:otto_preminger ;
     = <http://dbpedia.org/resource/Anatomy_of_a_Murder>,
-        <http://www.wikidata.org/entity/Q488376> .
+        <http://www.wikidata.org/entity/Q488376> ;
+    sch:datePublished "1959-01-01"^^xsd:gYear ;
+    sch:director rsc:otto_preminger .
 
 rsc:annie_hall a sch:Movie ;
     rdfs:label "Annie Hall"@en ;
-    sch:datePublished "1977-01-01"^^xsd:gYear ;
-    sch:director rsc:woody_allen ;
     = <http://dbpedia.org/resource/Annie_Hall>,
-        <http://www.wikidata.org/entity/Q233464> .
+        <http://www.wikidata.org/entity/Q233464> ;
+    sch:datePublished "1977-01-01"^^xsd:gYear ;
+    sch:director rsc:woody_allen .
 
 rsc:apocalypse_now a sch:Movie ;
     rdfs:label "Apocalypse Now"@en ;
-    sch:datePublished "1979-01-01"^^xsd:gYear ;
-    sch:director rsc:francis_ford_coppola ;
     = <http://dbpedia.org/resource/Apocalypse_Now_Redux>,
-        <http://www.wikidata.org/entity/Q3620669> .
+        <http://www.wikidata.org/entity/Q3620669> ;
+    sch:datePublished "1979-01-01"^^xsd:gYear ;
+    sch:director rsc:francis_ford_coppola .
 
 rsc:arsenic_and_old_lace a sch:Movie ;
     rdfs:label "Arsenic and Old Lace"@en ;
-    sch:datePublished "1944-01-01"^^xsd:gYear ;
-    sch:director rsc:frank_capra ;
     = <http://dbpedia.org/resource/Arsenic_and_Old_Lace_(film)>,
-        <http://www.wikidata.org/entity/Q59317> .
+        <http://www.wikidata.org/entity/Q59317> ;
+    sch:datePublished "1944-01-01"^^xsd:gYear ;
+    sch:director rsc:frank_capra .
 
 rsc:baby_driver a sch:Movie ;
     rdfs:label "Baby Driver"@en ;
-    sch:datePublished "2017-01-01"^^xsd:gYear ;
-    sch:director rsc:edgar_wright ;
     = <http://dbpedia.org/resource/Baby_Driver_(film)>,
-        <http://www.wikidata.org/entity/Q23016644> .
+        <http://www.wikidata.org/entity/Q23016644> ;
+    sch:datePublished "2017-01-01"^^xsd:gYear ;
+    sch:director rsc:edgar_wright .
 
 rsc:back_to_the_future a sch:Movie ;
     rdfs:label "Back to the Future"@en ;
-    sch:datePublished "1985-01-01"^^xsd:gYear ;
-    sch:director rsc:robert_zemeckis ;
     = <http://dbpedia.org/resource/Back_to_the_Future>,
-        <http://www.wikidata.org/entity/Q230552> .
+        <http://www.wikidata.org/entity/Q91558> ;
+    sch:datePublished "1985-01-01"^^xsd:gYear ;
+    sch:director rsc:robert_zemeckis .
 
 rsc:barry_lyndon a sch:Movie ;
     rdfs:label "Barry Lyndon"@en ;
-    sch:datePublished "1975-01-01"^^xsd:gYear ;
-    sch:director rsc:stanley_kubrick ;
     = <http://dbpedia.org/resource/Barry_Lyndon>,
-        <http://www.wikidata.org/entity/Q471716> .
+        <http://www.wikidata.org/entity/Q471716> ;
+    sch:datePublished "1975-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
 rsc:batman_begins a sch:Movie ;
     rdfs:label "Batman Begins"@en ;
-    sch:datePublished "2005-01-01"^^xsd:gYear ;
-    sch:director rsc:christopher_nolan ;
     = <http://dbpedia.org/resource/Batman_Begins>,
-        <http://www.wikidata.org/entity/Q166262> .
+        <http://www.wikidata.org/entity/Q166262> ;
+    sch:datePublished "2005-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
 rsc:beauty_and_the_beast a sch:Movie ;
     rdfs:label "Beauty and the Beast"@en ;
+    = <http://dbpedia.org/resource/Beauty_and_the_Beast_(1983_film)>,
+        <http://www.wikidata.org/entity/Q179673> ;
     sch:datePublished "1991-01-01"^^xsd:gYear ;
     sch:director rsc:gary_trousdale,
-        rsc:kirk_wise ;
-    = <http://dbpedia.org/resource/Beauty_and_the_Beast_(2017_film)>,
-        <http://www.wikidata.org/entity/Q3206613> .
+        rsc:kirk_wise .
 
 rsc:before_sunrise a sch:Movie ;
     rdfs:label "Before Sunrise"@en ;
-    sch:datePublished "1995-01-01"^^xsd:gYear ;
-    sch:director rsc:richard_linklater ;
     = <http://dbpedia.org/resource/Before_Sunrise>,
-        <http://www.wikidata.org/entity/Q659609> .
+        <http://www.wikidata.org/entity/Q659609> ;
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:richard_linklater .
 
 rsc:before_sunset a sch:Movie ;
     rdfs:label "Before Sunset"@en ;
-    sch:datePublished "2004-01-01"^^xsd:gYear ;
-    sch:director rsc:richard_linklater ;
     = <http://dbpedia.org/resource/Before_Sunset>,
-        <http://www.wikidata.org/entity/Q652186> .
+        <http://www.wikidata.org/entity/Q652186> ;
+    sch:datePublished "2004-01-01"^^xsd:gYear ;
+    sch:director rsc:richard_linklater .
 
 rsc:ben-hur a sch:Movie ;
     rdfs:label "Ben-Hur"@en ;
-    sch:datePublished "1959-01-01"^^xsd:gYear ;
-    sch:director rsc:william_wyler ;
     = <http://dbpedia.org/resource/Ben-Hur_(2016_film)>,
-        <http://www.wikidata.org/entity/Q18785102> .
+        <http://www.wikidata.org/entity/Q383795> ;
+    sch:datePublished "1959-01-01"^^xsd:gYear ;
+    sch:director rsc:william_wyler .
 
 rsc:big_fish a sch:Movie ;
     rdfs:label "Big Fish"@en ;
-    sch:datePublished "2003-01-01"^^xsd:gYear ;
-    sch:director rsc:tim_burton ;
     = <http://dbpedia.org/resource/Big_Fish>,
-        <http://www.wikidata.org/entity/Q7733564> .
+        <http://www.wikidata.org/entity/Q278997> ;
+    sch:datePublished "2003-01-01"^^xsd:gYear ;
+    sch:director rsc:tim_burton .
 
 rsc:blade_runner a sch:Movie ;
     rdfs:label "Blade Runner"@en ;
-    sch:datePublished "1982-01-01"^^xsd:gYear ;
-    sch:director rsc:ridley_scott ;
     = <http://dbpedia.org/resource/Blade_Runner>,
-        <http://www.wikidata.org/entity/Q21500755> .
+        <http://www.wikidata.org/entity/Q21500755> ;
+    sch:datePublished "1982-01-01"^^xsd:gYear ;
+    sch:director rsc:ridley_scott .
 
 rsc:blood_diamond a sch:Movie ;
     rdfs:label "Blood Diamond"@en ;
-    sch:datePublished "2006-01-01"^^xsd:gYear ;
-    sch:director rsc:edward_zwick ;
     = <http://dbpedia.org/resource/Blood_Diamond_(film)>,
-        <http://www.wikidata.org/entity/Q74958> .
+        <http://www.wikidata.org/entity/Q74958> ;
+    sch:datePublished "2006-01-01"^^xsd:gYear ;
+    sch:director rsc:edward_zwick .
 
 rsc:braveheart a sch:Movie ;
     rdfs:label "Braveheart"@en ;
-    sch:datePublished "1995-01-01"^^xsd:gYear ;
-    sch:director rsc:mel_gibson ;
     = <http://dbpedia.org/resource/Braveheart>,
-        <http://www.wikidata.org/entity/Q162729> .
+        <http://www.wikidata.org/entity/Q162729> ;
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:mel_gibson .
 
 rsc:brief_encounter a sch:Movie ;
     rdfs:label "Brief Encounter"@en ;
-    sch:datePublished "1945-01-01"^^xsd:gYear ;
-    sch:director rsc:david_lean ;
     = <http://dbpedia.org/resource/Brief_Encounter>,
-        <http://www.wikidata.org/entity/Q5606867> .
+        <http://www.wikidata.org/entity/Q814296> ;
+    sch:datePublished "1945-01-01"^^xsd:gYear ;
+    sch:director rsc:david_lean .
 
 rsc:butch_cassidy_and_the_sundance_kid a sch:Movie ;
     rdfs:label "Butch Cassidy and the Sundance Kid"@en ;
-    sch:datePublished "1969-01-01"^^xsd:gYear ;
-    sch:director rsc:george_roy_hill ;
     = <http://dbpedia.org/resource/Butch_Cassidy_and_the_Sundance_Kid>,
-        <http://www.wikidata.org/entity/Q232000> .
+        <http://www.wikidata.org/entity/Q232000> ;
+    sch:datePublished "1969-01-01"^^xsd:gYear ;
+    sch:director rsc:george_roy_hill .
 
 rsc:casablanca a sch:Movie ;
     rdfs:label "Casablanca"@en ;
-    sch:datePublished "1942-01-01"^^xsd:gYear ;
-    sch:director rsc:michael_curtiz ;
     = <http://dbpedia.org/resource/Casablanca_(film)>,
-        <http://www.wikidata.org/entity/Q3661370> .
+        <http://www.wikidata.org/entity/Q2940785> ;
+    sch:datePublished "1942-01-01"^^xsd:gYear ;
+    sch:director rsc:michael_curtiz .
 
 rsc:casino a sch:Movie ;
     rdfs:label "Casino"@en ;
-    sch:datePublished "1995-01-01"^^xsd:gYear ;
-    sch:director rsc:martin_scorsese ;
     = <http://dbpedia.org/resource/Gran_Casino>,
-        <http://www.wikidata.org/entity/Q1653153> .
+        <http://www.wikidata.org/entity/Q2941094> ;
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:martin_scorsese .
 
 rsc:cat_on_a_hot_tin_roof a sch:Movie ;
     rdfs:label "Cat on a Hot Tin Roof"@en ;
+    = <http://dbpedia.org/resource/Cat_on_a_Hot_Tin_Roof_(1958_film)>,
+        <http://www.wikidata.org/entity/Q16028862> ;
     sch:datePublished "1958-01-01"^^xsd:gYear ;
-    sch:director rsc:richard_brooks ;
-    = <http://dbpedia.org/resource/Cat_on_a_Hot_Tin_Roof_(1984_film)>,
-        <http://www.wikidata.org/entity/Q16028862> .
+    sch:director rsc:richard_brooks .
 
 rsc:catch_me_if_you_can a sch:Movie ;
     rdfs:label "Catch Me If You Can"@en ;
-    sch:datePublished "2002-01-01"^^xsd:gYear ;
-    sch:director rsc:steven_spielberg ;
     = <http://dbpedia.org/resource/Catch_Me_If_You_Can>,
-        <http://www.wikidata.org/entity/Q5051654> .
+        <http://www.wikidata.org/entity/Q208108> ;
+    sch:datePublished "2002-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
 rsc:chinatown a sch:Movie ;
     rdfs:label "Chinatown"@en ;
-    sch:datePublished "1974-01-01"^^xsd:gYear ;
-    sch:director rsc:roman_polanski ;
     = <http://dbpedia.org/resource/King_of_Chinatown>,
-        <http://www.wikidata.org/entity/Q17026632> .
+        <http://www.wikidata.org/entity/Q5100164> ;
+    sch:datePublished "1974-01-01"^^xsd:gYear ;
+    sch:director rsc:roman_polanski .
 
 rsc:citizen_kane a sch:Movie ;
     rdfs:label "Citizen Kane"@en ;
-    sch:datePublished "1941-01-01"^^xsd:gYear ;
-    sch:director rsc:orson_welles ;
     = <http://dbpedia.org/resource/Citizen_Kane>,
-        <http://www.wikidata.org/entity/Q4899948> .
+        <http://www.wikidata.org/entity/Q4899948> ;
+    sch:datePublished "1941-01-01"^^xsd:gYear ;
+    sch:director rsc:orson_welles .
 
 rsc:city_lights a sch:Movie ;
     rdfs:label "City Lights"@en ;
-    sch:datePublished "1931-01-01"^^xsd:gYear ;
-    sch:director rsc:charles_chaplin ;
     = <http://dbpedia.org/resource/City_Lights>,
-        <http://www.wikidata.org/entity/Q21527482> .
+        <http://www.wikidata.org/entity/Q238211> ;
+    sch:datePublished "1931-01-01"^^xsd:gYear ;
+    sch:director rsc:charles_chaplin .
 
 rsc:cool_hand_luke a sch:Movie ;
     rdfs:label "Cool Hand Luke"@en ;
-    sch:datePublished "1967-01-01"^^xsd:gYear ;
-    sch:director rsc:stuart_rosenberg ;
     = <http://dbpedia.org/resource/Cool_Hand_Luke>,
-        <http://www.wikidata.org/entity/Q684150> .
+        <http://www.wikidata.org/entity/Q684150> ;
+    sch:datePublished "1967-01-01"^^xsd:gYear ;
+    sch:director rsc:stuart_rosenberg .
 
 rsc:dead_poets_society a sch:Movie ;
     rdfs:label "Dead Poets Society"@en ;
-    sch:datePublished "1989-01-01"^^xsd:gYear ;
-    sch:director rsc:peter_weir ;
     = <http://dbpedia.org/resource/Dead_Poets_Society>,
-        <http://www.wikidata.org/entity/Q106316> .
+        <http://www.wikidata.org/entity/Q106316> ;
+    sch:datePublished "1989-01-01"^^xsd:gYear ;
+    sch:director rsc:peter_weir .
 
 rsc:deadpool a sch:Movie ;
     rdfs:label "Deadpool"@en ;
-    sch:datePublished "2016-01-01"^^xsd:gYear ;
-    sch:director rsc:tim_miller ;
     = <http://dbpedia.org/resource/Deadpool_(film)>,
-        <http://www.wikidata.org/entity/Q19347291> .
+        <http://www.wikidata.org/entity/Q19347291> ;
+    sch:datePublished "2016-01-01"^^xsd:gYear ;
+    sch:director rsc:tim_miller .
 
 rsc:dial_m_for_murder a sch:Movie ;
     rdfs:label "Dial M for Murder"@en ;
-    sch:datePublished "1954-01-01"^^xsd:gYear ;
-    sch:director rsc:alfred_hitchcock ;
     = <http://dbpedia.org/resource/Dial_M_for_Murder>,
-        <http://www.wikidata.org/entity/Q496255> .
+        <http://www.wikidata.org/entity/Q496255> ;
+    sch:datePublished "1954-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
 rsc:die_hard a sch:Movie ;
     rdfs:label "Die Hard"@en ;
-    sch:datePublished "1988-01-01"^^xsd:gYear ;
-    sch:director rsc:john_mctiernan ;
     = <http://dbpedia.org/resource/Die_Hard>,
-        <http://www.wikidata.org/entity/Q72276> .
+        <http://www.wikidata.org/entity/Q50861> ;
+    sch:datePublished "1988-01-01"^^xsd:gYear ;
+    sch:director rsc:john_mctiernan .
 
 rsc:django_unchained a sch:Movie ;
     rdfs:label "Django Unchained"@en ;
-    sch:datePublished "2012-01-01"^^xsd:gYear ;
-    sch:director rsc:quentin_tarantino ;
     = <http://dbpedia.org/resource/Django_Unchained>,
-        <http://www.wikidata.org/entity/Q571032> .
+        <http://www.wikidata.org/entity/Q571032> ;
+    sch:datePublished "2012-01-01"^^xsd:gYear ;
+    sch:director rsc:quentin_tarantino .
 
 rsc:dog_day_afternoon a sch:Movie ;
     rdfs:label "Dog Day Afternoon"@en ;
-    sch:datePublished "1975-01-01"^^xsd:gYear ;
-    sch:director rsc:sidney_lumet ;
     = <http://dbpedia.org/resource/Dog_Day_Afternoon>,
-        <http://www.wikidata.org/entity/Q458656> .
+        <http://www.wikidata.org/entity/Q458656> ;
+    sch:datePublished "1975-01-01"^^xsd:gYear ;
+    sch:director rsc:sidney_lumet .
 
 rsc:dogville a sch:Movie ;
     rdfs:label "Dogville"@en ;
-    sch:datePublished "2003-01-01"^^xsd:gYear ;
-    sch:director rsc:lars_von_trier ;
     = <http://dbpedia.org/resource/Dogville>,
-        <http://www.wikidata.org/entity/Q327681> .
+        <http://www.wikidata.org/entity/Q327681> ;
+    sch:datePublished "2003-01-01"^^xsd:gYear ;
+    sch:director rsc:lars_von_trier .
 
 rsc:donnie_darko a sch:Movie ;
     rdfs:label "Donnie Darko"@en ;
-    sch:datePublished "2001-01-01"^^xsd:gYear ;
-    sch:director rsc:richard_kelly ;
     = <http://dbpedia.org/resource/Donnie_Darko>,
-        <http://www.wikidata.org/entity/Q22350741> .
+        <http://www.wikidata.org/entity/Q426828> ;
+    sch:datePublished "2001-01-01"^^xsd:gYear ;
+    sch:director rsc:richard_kelly .
 
 rsc:double_indemnity a sch:Movie ;
     rdfs:label "Double Indemnity"@en ;
-    sch:datePublished "1944-01-01"^^xsd:gYear ;
-    sch:director rsc:billy_wilder ;
     = <http://dbpedia.org/resource/Double_Indemnity_(film)>,
-        <http://www.wikidata.org/entity/Q478209> .
+        <http://www.wikidata.org/entity/Q478209> ;
+    sch:datePublished "1944-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
 rsc:dr._strangelove_or:_how_i_learned_to_stop_worrying_and_love_the_bomb a sch:Movie ;
     rdfs:label "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"@en ;
@@ -371,133 +371,133 @@ rsc:dr._strangelove_or:_how_i_learned_to_stop_worrying_and_love_the_bomb a sch:M
 
 rsc:eternal_sunshine_of_the_spotless_mind a sch:Movie ;
     rdfs:label "Eternal Sunshine of the Spotless Mind"@en ;
-    sch:datePublished "2004-01-01"^^xsd:gYear ;
-    sch:director rsc:michel_gondry ;
     = <http://dbpedia.org/resource/Eternal_Sunshine_of_the_Spotless_Mind>,
-        <http://www.wikidata.org/entity/Q208269> .
+        <http://www.wikidata.org/entity/Q208269> ;
+    sch:datePublished "2004-01-01"^^xsd:gYear ;
+    sch:director rsc:michel_gondry .
 
 rsc:fargo a sch:Movie ;
     rdfs:label "Fargo"@en ;
+    = <http://dbpedia.org/resource/Fargo_(film)>,
+        <http://www.wikidata.org/entity/Q3285133> ;
     sch:datePublished "1996-01-01"^^xsd:gYear ;
     sch:director rsc:ethan_coen,
-        rsc:joel_coen ;
-    = <http://dbpedia.org/resource/Fargo_(film)>,
-        <http://www.wikidata.org/entity/Q15623024> .
+        rsc:joel_coen .
 
 rsc:fight_club a sch:Movie ;
     rdfs:label "Fight Club"@en ;
-    sch:datePublished "1999-01-01"^^xsd:gYear ;
-    sch:director rsc:david_fincher ;
     = <http://dbpedia.org/resource/Fight_Club>,
-        <http://www.wikidata.org/entity/Q190050> .
+        <http://www.wikidata.org/entity/Q190050> ;
+    sch:datePublished "1999-01-01"^^xsd:gYear ;
+    sch:director rsc:david_fincher .
 
 rsc:finding_nemo a sch:Movie ;
     rdfs:label "Finding Nemo"@en ;
+    = <http://dbpedia.org/resource/Finding_Nemo>,
+        <http://www.wikidata.org/entity/Q132863> ;
     sch:datePublished "2003-01-01"^^xsd:gYear ;
     sch:director rsc:andrew_stanton,
-        rsc:lee_unkrich ;
-    = <http://dbpedia.org/resource/Finding_Nemo>,
-        <http://www.wikidata.org/entity/Q132863> .
+        rsc:lee_unkrich .
 
 rsc:forrest_gump a sch:Movie ;
     rdfs:label "Forrest Gump"@en ;
-    sch:datePublished "1994-01-01"^^xsd:gYear ;
-    sch:director rsc:robert_zemeckis ;
     = <http://dbpedia.org/resource/Forrest_Gump>,
-        <http://www.wikidata.org/entity/Q134773> .
+        <http://www.wikidata.org/entity/Q134773> ;
+    sch:datePublished "1994-01-01"^^xsd:gYear ;
+    sch:director rsc:robert_zemeckis .
 
 rsc:full_metal_jacket a sch:Movie ;
     rdfs:label "Full Metal Jacket"@en ;
-    sch:datePublished "1987-01-01"^^xsd:gYear ;
-    sch:director rsc:stanley_kubrick ;
     = <http://dbpedia.org/resource/Full_Metal_Jacket>,
-        <http://www.wikidata.org/entity/Q243439> .
+        <http://www.wikidata.org/entity/Q243439> ;
+    sch:datePublished "1987-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
 rsc:gandhi a sch:Movie ;
     rdfs:label "Gandhi"@en ;
-    sch:datePublished "1982-01-01"^^xsd:gYear ;
-    sch:director rsc:richard_attenborough ;
     = <http://dbpedia.org/resource/Gandhinagara>,
-        <http://www.wikidata.org/entity/Q1343328> .
+        <http://www.wikidata.org/entity/Q3141206> ;
+    sch:datePublished "1982-01-01"^^xsd:gYear ;
+    sch:director rsc:richard_attenborough .
 
 rsc:gladiator a sch:Movie ;
     rdfs:label "Gladiator"@en ;
-    sch:datePublished "2000-01-01"^^xsd:gYear ;
-    sch:director rsc:ridley_scott ;
     = <http://dbpedia.org/resource/Gladiators_Seven>,
-        <http://www.wikidata.org/entity/Q128518> .
+        <http://www.wikidata.org/entity/Q7573862> ;
+    sch:datePublished "2000-01-01"^^xsd:gYear ;
+    sch:director rsc:ridley_scott .
 
 rsc:gone_girl a sch:Movie ;
     rdfs:label "Gone Girl"@en ;
-    sch:datePublished "2014-01-01"^^xsd:gYear ;
-    sch:director rsc:david_fincher ;
     = <http://dbpedia.org/resource/Gone_Girl_(film)>,
-        <http://www.wikidata.org/entity/Q14920425> .
+        <http://www.wikidata.org/entity/Q14920425> ;
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:david_fincher .
 
 rsc:gone_with_the_wind a sch:Movie ;
     rdfs:label "Gone with the Wind"@en ;
+    = <http://dbpedia.org/resource/Gone_with_the_Wind_(film)>,
+        <http://www.wikidata.org/entity/Q2875> ;
     sch:datePublished "1939-01-01"^^xsd:gYear ;
     sch:director rsc:george_cukor,
         rsc:sam_wood,
-        rsc:victor_fleming ;
-    = <http://dbpedia.org/resource/Gone_with_the_Wind_(film)>,
-        <http://www.wikidata.org/entity/Q2875> .
+        rsc:victor_fleming .
 
 rsc:good_will_hunting a sch:Movie ;
     rdfs:label "Good Will Hunting"@en ;
-    sch:datePublished "1997-01-01"^^xsd:gYear ;
-    sch:director rsc:gus_van_sant ;
     = <http://dbpedia.org/resource/Good_Will_Hunting>,
-        <http://www.wikidata.org/entity/Q193835> .
+        <http://www.wikidata.org/entity/Q193835> ;
+    sch:datePublished "1997-01-01"^^xsd:gYear ;
+    sch:director rsc:gus_van_sant .
 
 rsc:goodfellas a sch:Movie ;
     rdfs:label "Goodfellas"@en ;
-    sch:datePublished "1990-01-01"^^xsd:gYear ;
-    sch:director rsc:martin_scorsese ;
     = <http://dbpedia.org/resource/Goodfellas>,
-        <http://www.wikidata.org/entity/Q42047> .
+        <http://www.wikidata.org/entity/Q42047> ;
+    sch:datePublished "1990-01-01"^^xsd:gYear ;
+    sch:director rsc:martin_scorsese .
 
 rsc:gran_torino a sch:Movie ;
     rdfs:label "Gran Torino"@en ;
-    sch:datePublished "2008-01-01"^^xsd:gYear ;
-    sch:director rsc:clint_eastwood ;
     = <http://dbpedia.org/resource/Gran_Torino>,
-        <http://www.wikidata.org/entity/Q126699> .
+        <http://www.wikidata.org/entity/Q126699> ;
+    sch:datePublished "2008-01-01"^^xsd:gYear ;
+    sch:director rsc:clint_eastwood .
 
 rsc:groundhog_day a sch:Movie ;
     rdfs:label "Groundhog Day"@en ;
-    sch:datePublished "1993-01-01"^^xsd:gYear ;
-    sch:director rsc:harold_ramis ;
     = <http://dbpedia.org/resource/Groundhog_Day_(film)>,
-        <http://www.wikidata.org/entity/Q488655> .
+        <http://www.wikidata.org/entity/Q488655> ;
+    sch:datePublished "1993-01-01"^^xsd:gYear ;
+    sch:director rsc:harold_ramis .
 
 rsc:guardians_of_the_galaxy a sch:Movie ;
     rdfs:label "Guardians of the Galaxy"@en ;
-    sch:datePublished "2014-01-01"^^xsd:gYear ;
-    sch:director rsc:james_gunn ;
     = <http://dbpedia.org/resource/Guardians_of_the_Galaxy_(film)>,
-        <http://www.wikidata.org/entity/Q5887360> .
+        <http://www.wikidata.org/entity/Q20001199> ;
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:james_gunn .
 
 rsc:guardians_of_the_galaxy_vol._2 a sch:Movie ;
     rdfs:label "Guardians of the Galaxy Vol. 2"@en ;
-    sch:datePublished "2017-01-01"^^xsd:gYear ;
-    sch:director rsc:james_gunn ;
     = <http://dbpedia.org/resource/Guardians_of_the_Galaxy_Vol._2>,
-        <http://www.wikidata.org/entity/Q20001199> .
+        <http://www.wikidata.org/entity/Q20001199> ;
+    sch:datePublished "2017-01-01"^^xsd:gYear ;
+    sch:director rsc:james_gunn .
 
 <http://philip-broehl.org/resource/hachi:_a_dog's_tale> a sch:Movie ;
     rdfs:label "Hachi: A Dog's Tale"@en ;
-    sch:datePublished "2009-01-01"^^xsd:gYear ;
-    sch:director <http://philip-broehl.org/resource/lasse_hallstrã¶m> ;
     = <http://dbpedia.org/resource/Hachi:_A_Dog's_Tale>,
-        <http://www.wikidata.org/entity/Q59249> .
+        <http://www.wikidata.org/entity/Q59249> ;
+    sch:datePublished "2009-01-01"^^xsd:gYear ;
+    sch:director <http://philip-broehl.org/resource/lasse_hallstrã¶m> .
 
 rsc:hacksaw_ridge a sch:Movie ;
     rdfs:label "Hacksaw Ridge"@en ;
-    sch:datePublished "2016-01-01"^^xsd:gYear ;
-    sch:director rsc:mel_gibson ;
     = <http://dbpedia.org/resource/Hacksaw_Ridge>,
-        <http://www.wikidata.org/entity/Q21010856> .
+        <http://www.wikidata.org/entity/Q21010856> ;
+    sch:datePublished "2016-01-01"^^xsd:gYear ;
+    sch:director rsc:mel_gibson .
 
 rsc:harry_potter_and_the_deathly_hallows:_part_2 a sch:Movie ;
     rdfs:label "Harry Potter and the Deathly Hallows: Part 2"@en ;
@@ -506,139 +506,139 @@ rsc:harry_potter_and_the_deathly_hallows:_part_2 a sch:Movie ;
 
 rsc:harvey a sch:Movie ;
     rdfs:label "Harvey"@en ;
-    sch:datePublished "1950-01-01"^^xsd:gYear ;
-    sch:director rsc:henry_koster ;
     = <http://dbpedia.org/resource/Harvey_(film)>,
-        <http://www.wikidata.org/entity/Q1412513> .
+        <http://www.wikidata.org/entity/Q1355055> ;
+    sch:datePublished "1950-01-01"^^xsd:gYear ;
+    sch:director rsc:henry_koster .
 
 rsc:heat a sch:Movie ;
     rdfs:label "Heat"@en ;
-    sch:datePublished "1995-01-01"^^xsd:gYear ;
-    sch:director rsc:michael_mann ;
     = <http://dbpedia.org/resource/Red_Heat>,
-        <http://www.wikidata.org/entity/Q514293> .
+        <http://www.wikidata.org/entity/Q8024830> ;
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:michael_mann .
 
 rsc:high_noon a sch:Movie ;
     rdfs:label "High Noon"@en ;
-    sch:datePublished "1952-01-01"^^xsd:gYear ;
-    sch:director rsc:fred_zinnemann ;
     = <http://dbpedia.org/resource/High_Noon>,
-        <http://www.wikidata.org/entity/Q3505057> .
+        <http://www.wikidata.org/entity/Q245208> ;
+    sch:datePublished "1952-01-01"^^xsd:gYear ;
+    sch:director rsc:fred_zinnemann .
 
 rsc:his_girl_friday a sch:Movie ;
     rdfs:label "His Girl Friday"@en ;
-    sch:datePublished "1940-01-01"^^xsd:gYear ;
-    sch:director rsc:howard_hawks ;
     = <http://dbpedia.org/resource/His_Girl_Friday>,
-        <http://www.wikidata.org/entity/Q1066714> .
+        <http://www.wikidata.org/entity/Q1066714> ;
+    sch:datePublished "1940-01-01"^^xsd:gYear ;
+    sch:director rsc:howard_hawks .
 
 rsc:hotel_rwanda a sch:Movie ;
     rdfs:label "Hotel Rwanda"@en ;
-    sch:datePublished "2004-01-01"^^xsd:gYear ;
-    sch:director rsc:terry_george ;
     = <http://dbpedia.org/resource/Hotel_Rwanda>,
-        <http://www.wikidata.org/entity/Q223884> .
+        <http://www.wikidata.org/entity/Q223884> ;
+    sch:datePublished "2004-01-01"^^xsd:gYear ;
+    sch:director rsc:terry_george .
 
 rsc:how_to_train_your_dragon a sch:Movie ;
     rdfs:label "How to Train Your Dragon"@en ;
+    = <http://dbpedia.org/resource/How_to_Train_Your_Dragon_2>,
+        <http://www.wikidata.org/entity/Q373096> ;
     sch:datePublished "2010-01-01"^^xsd:gYear ;
     sch:director rsc:chris_sanders,
-        rsc:dean_deblois ;
-    = <http://dbpedia.org/resource/How_to_Train_Your_Dragon_2>,
-        <http://www.wikidata.org/entity/Q10298666> .
+        rsc:dean_deblois .
 
 rsc:in_the_name_of_the_father a sch:Movie ;
     rdfs:label "In the Name of the Father"@en ;
-    sch:datePublished "1993-01-01"^^xsd:gYear ;
-    sch:director rsc:jim_sheridan ;
     = <http://dbpedia.org/resource/In_the_Name_of_the_Fatherland>,
-        <http://www.wikidata.org/entity/Q4113848> .
+        <http://www.wikidata.org/entity/Q4113848> ;
+    sch:datePublished "1993-01-01"^^xsd:gYear ;
+    sch:director rsc:jim_sheridan .
 
 rsc:inception a sch:Movie ;
     rdfs:label "Inception"@en ;
-    sch:datePublished "2010-01-01"^^xsd:gYear ;
-    sch:director rsc:christopher_nolan ;
     = <http://dbpedia.org/resource/Inception>,
-        <http://www.wikidata.org/entity/Q25188> .
+        <http://www.wikidata.org/entity/Q25188> ;
+    sch:datePublished "2010-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
 rsc:indiana_jones_and_the_last_crusade a sch:Movie ;
     rdfs:label "Indiana Jones and the Last Crusade"@en ;
-    sch:datePublished "1989-01-01"^^xsd:gYear ;
-    sch:director rsc:steven_spielberg ;
     = <http://dbpedia.org/resource/Indiana_Jones_and_the_Last_Crusade>,
-        <http://www.wikidata.org/entity/Q185658> .
+        <http://www.wikidata.org/entity/Q185658> ;
+    sch:datePublished "1989-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
 rsc:inglourious_basterds a sch:Movie ;
     rdfs:label "Inglourious Basterds"@en ;
+    = <http://dbpedia.org/resource/Inglourious_Basterds>,
+        <http://www.wikidata.org/entity/Q153723> ;
     sch:datePublished "2009-01-01"^^xsd:gYear ;
     sch:director rsc:eli_roth,
-        rsc:quentin_tarantino ;
-    = <http://dbpedia.org/resource/Inglourious_Basterds>,
-        <http://www.wikidata.org/entity/Q153723> .
+        rsc:quentin_tarantino .
 
 rsc:inside_out a sch:Movie ;
     rdfs:label "Inside Out"@en ;
+    = <http://dbpedia.org/resource/Valerie_Inside_Outside>,
+        <http://www.wikidata.org/entity/Q4007818> ;
     sch:datePublished "2015-01-01"^^xsd:gYear ;
     sch:director rsc:pete_docter,
-        rsc:ronnie_del_carmen ;
-    = <http://dbpedia.org/resource/Inside_Out_(2015_film)>,
-        <http://www.wikidata.org/entity/Q6144664> .
+        rsc:ronnie_del_carmen .
 
 rsc:interstellar a sch:Movie ;
     rdfs:label "Interstellar"@en ;
-    sch:datePublished "2014-01-01"^^xsd:gYear ;
-    sch:director rsc:christopher_nolan ;
     = <http://dbpedia.org/resource/Interstellar_(film)>,
-        <http://www.wikidata.org/entity/Q13417189> .
+        <http://www.wikidata.org/entity/Q13417189> ;
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
 rsc:into_the_wild a sch:Movie ;
     rdfs:label "Into the Wild"@en ;
-    sch:datePublished "2007-01-01"^^xsd:gYear ;
-    sch:director rsc:sean_penn ;
     = <http://dbpedia.org/resource/Into_the_Wild_(film)>,
-        <http://www.wikidata.org/entity/Q1259032> .
+        <http://www.wikidata.org/entity/Q1259032> ;
+    sch:datePublished "2007-01-01"^^xsd:gYear ;
+    sch:director rsc:sean_penn .
 
 <http://philip-broehl.org/resource/it's_a_wonderful_life> a sch:Movie ;
     rdfs:label "It's a Wonderful Life"@en ;
-    sch:datePublished "1946-01-01"^^xsd:gYear ;
-    sch:director rsc:frank_capra ;
     = <http://dbpedia.org/resource/It's_a_Wonderful_Life>,
-        <http://www.wikidata.org/entity/Q11072093> .
+        <http://www.wikidata.org/entity/Q6091357> ;
+    sch:datePublished "1946-01-01"^^xsd:gYear ;
+    sch:director rsc:frank_capra .
 
 rsc:it_happened_one_night a sch:Movie ;
     rdfs:label "It Happened One Night"@en ;
-    sch:datePublished "1934-01-01"^^xsd:gYear ;
-    sch:director rsc:frank_capra ;
     = <http://dbpedia.org/resource/It_Happened_One_Night>,
-        <http://www.wikidata.org/entity/Q208632> .
+        <http://www.wikidata.org/entity/Q208632> ;
+    sch:datePublished "1934-01-01"^^xsd:gYear ;
+    sch:director rsc:frank_capra .
 
 rsc:jaws a sch:Movie ;
     rdfs:label "Jaws"@en ;
-    sch:datePublished "1975-01-01"^^xsd:gYear ;
-    sch:director rsc:steven_spielberg ;
     = <http://dbpedia.org/resource/Jaws_2>,
-        <http://www.wikidata.org/entity/Q1199834> .
+        <http://www.wikidata.org/entity/Q1199834> ;
+    sch:datePublished "1975-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
 rsc:jfk a sch:Movie ;
     rdfs:label "JFK"@en ;
-    sch:datePublished "1991-01-01"^^xsd:gYear ;
-    sch:director rsc:oliver_stone ;
     = <http://dbpedia.org/resource/JFK_(film)>,
-        <http://www.wikidata.org/entity/Q741823> .
+        <http://www.wikidata.org/entity/Q741823> ;
+    sch:datePublished "1991-01-01"^^xsd:gYear ;
+    sch:director rsc:oliver_stone .
 
 rsc:judgment_at_nuremberg a sch:Movie ;
     rdfs:label "Judgment at Nuremberg"@en ;
-    sch:datePublished "1961-01-01"^^xsd:gYear ;
-    sch:director rsc:stanley_kramer ;
     = <http://dbpedia.org/resource/Judgment_at_Nuremberg>,
-        <http://www.wikidata.org/entity/Q309545> .
+        <http://www.wikidata.org/entity/Q309545> ;
+    sch:datePublished "1961-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kramer .
 
 rsc:jurassic_park a sch:Movie ;
     rdfs:label "Jurassic Park"@en ;
-    sch:datePublished "1993-01-01"^^xsd:gYear ;
-    sch:director rsc:steven_spielberg ;
     = <http://dbpedia.org/resource/Jurassic_Park>,
-        <http://www.wikidata.org/entity/Q167726> .
+        <http://www.wikidata.org/entity/Q2336369> ;
+    sch:datePublished "1993-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
 rsc:kill_bill:_vol._1 a sch:Movie ;
     rdfs:label "Kill Bill: Vol. 1"@en ;
@@ -647,66 +647,66 @@ rsc:kill_bill:_vol._1 a sch:Movie ;
 
 rsc:kind_hearts_and_coronets a sch:Movie ;
     rdfs:label "Kind Hearts and Coronets"@en ;
-    sch:datePublished "1949-01-01"^^xsd:gYear ;
-    sch:director rsc:robert_hamer ;
     = <http://dbpedia.org/resource/Kind_Hearts_and_Coronets>,
-        <http://www.wikidata.org/entity/Q353753> .
+        <http://www.wikidata.org/entity/Q353753> ;
+    sch:datePublished "1949-01-01"^^xsd:gYear ;
+    sch:director rsc:robert_hamer .
 
 rsc:l.a._confidential a sch:Movie ;
     rdfs:label "L.A. Confidential"@en ;
-    sch:datePublished "1997-01-01"^^xsd:gYear ;
-    sch:director rsc:curtis_hanson ;
     = <http://dbpedia.org/resource/L.A._Confidential_(film)>,
-        <http://www.wikidata.org/entity/Q339876> .
+        <http://www.wikidata.org/entity/Q339876> ;
+    sch:datePublished "1997-01-01"^^xsd:gYear ;
+    sch:director rsc:curtis_hanson .
 
 rsc:la_la_land a sch:Movie ;
     rdfs:label "La La Land"@en ;
-    sch:datePublished "2016-01-01"^^xsd:gYear ;
-    sch:director rsc:damien_chazelle ;
     = <http://dbpedia.org/resource/La_La_Land_(film)>,
-        <http://www.wikidata.org/entity/Q20856802> .
+        <http://www.wikidata.org/entity/Q20856802> ;
+    sch:datePublished "2016-01-01"^^xsd:gYear ;
+    sch:director rsc:damien_chazelle .
 
 rsc:laura a sch:Movie ;
     rdfs:label "Laura"@en ;
-    sch:datePublished "1944-01-01"^^xsd:gYear ;
-    sch:director rsc:otto_preminger ;
     = <http://dbpedia.org/resource/Lauracha>,
-        <http://www.wikidata.org/entity/Q925429> .
+        <http://www.wikidata.org/entity/Q7051426> ;
+    sch:datePublished "1944-01-01"^^xsd:gYear ;
+    sch:director rsc:otto_preminger .
 
 rsc:lawrence_of_arabia a sch:Movie ;
     rdfs:label "Lawrence of Arabia"@en ;
-    sch:datePublished "1962-01-01"^^xsd:gYear ;
-    sch:director rsc:david_lean ;
     = <http://dbpedia.org/resource/Lawrence_of_Arabia_(film)>,
-        <http://www.wikidata.org/entity/Q228186> .
+        <http://www.wikidata.org/entity/Q228186> ;
+    sch:datePublished "1962-01-01"^^xsd:gYear ;
+    sch:director rsc:david_lean .
 
 rsc:life_of_brian a sch:Movie ;
     rdfs:label "Life of Brian"@en ;
-    sch:datePublished "1979-01-01"^^xsd:gYear ;
-    sch:director rsc:terry_jones ;
     = <http://dbpedia.org/resource/Monty_Python's_Life_of_Brian>,
-        <http://www.wikidata.org/entity/Q24953> .
+        <http://www.wikidata.org/entity/Q24953> ;
+    sch:datePublished "1979-01-01"^^xsd:gYear ;
+    sch:director rsc:terry_jones .
 
 rsc:lion a sch:Movie ;
     rdfs:label "Lion"@en ;
-    sch:datePublished "2016-01-01"^^xsd:gYear ;
-    sch:director rsc:garth_davis ;
     = <http://dbpedia.org/resource/Four_Lions>,
-        <http://www.wikidata.org/entity/Q3830284> .
+        <http://www.wikidata.org/entity/Q7811164> ;
+    sch:datePublished "2016-01-01"^^xsd:gYear ;
+    sch:director rsc:garth_davis .
 
 <http://philip-broehl.org/resource/lock,_stock_and_two_smoking_barrels> a sch:Movie ;
     rdfs:label "Lock, Stock and Two Smoking Barrels"@en ;
-    sch:datePublished "1998-01-01"^^xsd:gYear ;
-    sch:director rsc:guy_ritchie ;
     = <http://dbpedia.org/resource/Lock,_Stock_and_Two_Smoking_Barrels>,
-        <http://www.wikidata.org/entity/Q851095> .
+        <http://www.wikidata.org/entity/Q851095> ;
+    sch:datePublished "1998-01-01"^^xsd:gYear ;
+    sch:director rsc:guy_ritchie .
 
 rsc:logan a sch:Movie ;
     rdfs:label "Logan"@en ;
-    sch:datePublished "2017-01-01"^^xsd:gYear ;
-    sch:director rsc:james_mangold ;
     = <http://dbpedia.org/resource/Logan_Lucky>,
-        <http://www.wikidata.org/entity/Q1219959> .
+        <http://www.wikidata.org/entity/Q24053263> ;
+    sch:datePublished "2017-01-01"^^xsd:gYear ;
+    sch:director rsc:james_mangold .
 
 <http://philip-broehl.org/resource/lã©on:_the_professional> a sch:Movie ;
     rdfs:label "LÃ©on: The Professional"@en ;
@@ -715,54 +715,54 @@ rsc:logan a sch:Movie ;
 
 rsc:mad_max:_fury_road a sch:Movie ;
     rdfs:label "Mad Max: Fury Road"@en ;
-    sch:datePublished "2015-01-01"^^xsd:gYear ;
-    sch:director rsc:george_miller ;
     = <http://dbpedia.org/resource/Mad_Max:_Fury_Road>,
-        <http://www.wikidata.org/entity/Q1757288> .
+        <http://www.wikidata.org/entity/Q1757288> ;
+    sch:datePublished "2015-01-01"^^xsd:gYear ;
+    sch:director rsc:george_miller .
 
 rsc:magnolia a sch:Movie ;
     rdfs:label "Magnolia"@en ;
-    sch:datePublished "1999-01-01"^^xsd:gYear ;
-    sch:director rsc:paul_thomas_anderson ;
     = <http://dbpedia.org/resource/Magnolia_(film)>,
-        <http://www.wikidata.org/entity/Q4439295> .
+        <http://www.wikidata.org/entity/Q4439295> ;
+    sch:datePublished "1999-01-01"^^xsd:gYear ;
+    sch:director rsc:paul_thomas_anderson .
 
 rsc:mary_and_max a sch:Movie ;
     rdfs:label "Mary and Max"@en ;
-    sch:datePublished "2009-01-01"^^xsd:gYear ;
-    sch:director rsc:adam_elliot ;
     = <http://dbpedia.org/resource/Mary_and_Max>,
-        <http://www.wikidata.org/entity/Q1128756> .
+        <http://www.wikidata.org/entity/Q1128756> ;
+    sch:datePublished "2009-01-01"^^xsd:gYear ;
+    sch:director rsc:adam_elliot .
 
 rsc:memento a sch:Movie ;
     rdfs:label "Memento"@en ;
-    sch:datePublished "2000-01-01"^^xsd:gYear ;
-    sch:director rsc:christopher_nolan ;
     = <http://dbpedia.org/resource/Memento_(film)>,
-        <http://www.wikidata.org/entity/Q190525> .
+        <http://www.wikidata.org/entity/Q190525> ;
+    sch:datePublished "2000-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
 rsc:million_dollar_baby a sch:Movie ;
     rdfs:label "Million Dollar Baby"@en ;
-    sch:datePublished "2004-01-01"^^xsd:gYear ;
-    sch:director rsc:clint_eastwood ;
     = <http://dbpedia.org/resource/Million_Dollar_Baby>,
-        <http://www.wikidata.org/entity/Q6859729> .
+        <http://www.wikidata.org/entity/Q184255> ;
+    sch:datePublished "2004-01-01"^^xsd:gYear ;
+    sch:director rsc:clint_eastwood .
 
 rsc:modern_times a sch:Movie ;
     rdfs:label "Modern Times"@en ;
-    sch:datePublished "1936-01-01"^^xsd:gYear ;
-    sch:director rsc:charles_chaplin ;
     = <http://dbpedia.org/resource/Modern_Times_(film)>,
-        <http://www.wikidata.org/entity/Q45602> .
+        <http://www.wikidata.org/entity/Q45602> ;
+    sch:datePublished "1936-01-01"^^xsd:gYear ;
+    sch:director rsc:charles_chaplin .
 
 <http://philip-broehl.org/resource/monsters,_inc.> a sch:Movie ;
     rdfs:label "Monsters, Inc."@en ;
+    = <http://dbpedia.org/resource/Monsters,_Inc.>,
+        <http://www.wikidata.org/entity/Q187726> ;
     sch:datePublished "2001-01-01"^^xsd:gYear ;
     sch:director rsc:david_silverman,
         rsc:lee_unkrich,
-        rsc:pete_docter ;
-    = <http://dbpedia.org/resource/Monsters,_Inc.>,
-        <http://www.wikidata.org/entity/Q187726> .
+        rsc:pete_docter .
 
 rsc:monty_python_and_the_holy_grail a sch:Movie ;
     rdfs:label "Monty Python and the Holy Grail"@en ;
@@ -772,17 +772,17 @@ rsc:monty_python_and_the_holy_grail a sch:Movie ;
 
 rsc:mr._smith_goes_to_washington a sch:Movie ;
     rdfs:label "Mr. Smith Goes to Washington"@en ;
-    sch:datePublished "1939-01-01"^^xsd:gYear ;
-    sch:director rsc:frank_capra ;
     = <http://dbpedia.org/resource/Mr._Smith_Goes_to_Washington>,
-        <http://www.wikidata.org/entity/Q866120> .
+        <http://www.wikidata.org/entity/Q866120> ;
+    sch:datePublished "1939-01-01"^^xsd:gYear ;
+    sch:director rsc:frank_capra .
 
 rsc:network a sch:Movie ;
     rdfs:label "Network"@en ;
-    sch:datePublished "1976-01-01"^^xsd:gYear ;
-    sch:director rsc:sidney_lumet ;
     = <http://dbpedia.org/resource/Network_(film)>,
-        <http://www.wikidata.org/entity/Q185888> .
+        <http://www.wikidata.org/entity/Q572165> ;
+    sch:datePublished "1976-01-01"^^xsd:gYear ;
+    sch:director rsc:sidney_lumet .
 
 rsc:no_country_for_old_men a sch:Movie ;
     rdfs:label "No Country for Old Men"@en ;
@@ -792,73 +792,73 @@ rsc:no_country_for_old_men a sch:Movie ;
 
 rsc:north_by_northwest a sch:Movie ;
     rdfs:label "North by Northwest"@en ;
-    sch:datePublished "1959-01-01"^^xsd:gYear ;
-    sch:director rsc:alfred_hitchcock ;
     = <http://dbpedia.org/resource/North_by_Northwest>,
-        <http://www.wikidata.org/entity/Q223139> .
+        <http://www.wikidata.org/entity/Q223139> ;
+    sch:datePublished "1959-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
 rsc:notorious a sch:Movie ;
     rdfs:label "Notorious"@en ;
-    sch:datePublished "1946-01-01"^^xsd:gYear ;
-    sch:director rsc:alfred_hitchcock ;
     = <http://dbpedia.org/resource/Rancho_Notorious>,
-        <http://www.wikidata.org/entity/Q20814829> .
+        <http://www.wikidata.org/entity/Q1815461> ;
+    sch:datePublished "1946-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
 rsc:on_the_waterfront a sch:Movie ;
     rdfs:label "On the Waterfront"@en ;
-    sch:datePublished "1954-01-01"^^xsd:gYear ;
-    sch:director rsc:elia_kazan ;
     = <http://dbpedia.org/resource/On_the_Waterfront>,
-        <http://www.wikidata.org/entity/Q211372> .
+        <http://www.wikidata.org/entity/Q211372> ;
+    sch:datePublished "1954-01-01"^^xsd:gYear ;
+    sch:director rsc:elia_kazan .
 
 rsc:once_upon_a_time_in_america a sch:Movie ;
     rdfs:label "Once Upon a Time in America"@en ;
-    sch:datePublished "1984-01-01"^^xsd:gYear ;
-    sch:director rsc:sergio_leone ;
     = <http://dbpedia.org/resource/Once_Upon_a_Time_in_America>,
-        <http://www.wikidata.org/entity/Q206388> .
+        <http://www.wikidata.org/entity/Q206388> ;
+    sch:datePublished "1984-01-01"^^xsd:gYear ;
+    sch:director rsc:sergio_leone .
 
 <http://philip-broehl.org/resource/one_flew_over_the_cuckoo's_nest> a sch:Movie ;
     rdfs:label "One Flew Over the Cuckoo's Nest"@en ;
-    sch:datePublished "1975-01-01"^^xsd:gYear ;
-    sch:director rsc:milos_forman ;
     = <http://dbpedia.org/resource/One_Flew_Over_the_Cuckoo's_Nest_(film)>,
-        <http://www.wikidata.org/entity/Q171669> .
+        <http://www.wikidata.org/entity/Q171669> ;
+    sch:datePublished "1975-01-01"^^xsd:gYear ;
+    sch:director rsc:milos_forman .
 
 rsc:out_of_the_past a sch:Movie ;
     rdfs:label "Out of the Past"@en ;
-    sch:datePublished "1947-01-01"^^xsd:gYear ;
-    sch:director rsc:jacques_tourneur ;
     = <http://dbpedia.org/resource/Out_of_the_Past>,
-        <http://www.wikidata.org/entity/Q1400390> .
+        <http://www.wikidata.org/entity/Q1400390> ;
+    sch:datePublished "1947-01-01"^^xsd:gYear ;
+    sch:director rsc:jacques_tourneur .
 
 rsc:papillon a sch:Movie ;
     rdfs:label "Papillon"@en ;
-    sch:datePublished "1973-01-01"^^xsd:gYear ;
-    sch:director rsc:franklin_j._schaffner ;
     = <http://dbpedia.org/resource/Papillon_(film)>,
-        <http://www.wikidata.org/entity/Q596965> .
+        <http://www.wikidata.org/entity/Q596965> ;
+    sch:datePublished "1973-01-01"^^xsd:gYear ;
+    sch:director rsc:franklin_j._schaffner .
 
 <http://philip-broehl.org/resource/paris,_texas> a sch:Movie ;
     rdfs:label "Paris, Texas"@en ;
-    sch:datePublished "1984-01-01"^^xsd:gYear ;
-    sch:director rsc:wim_wenders ;
     = <http://dbpedia.org/resource/Paris,_Texas_(film)>,
-        <http://www.wikidata.org/entity/Q160946> .
+        <http://www.wikidata.org/entity/Q160946> ;
+    sch:datePublished "1984-01-01"^^xsd:gYear ;
+    sch:director rsc:wim_wenders .
 
 rsc:paths_of_glory a sch:Movie ;
     rdfs:label "Paths of Glory"@en ;
-    sch:datePublished "1957-01-01"^^xsd:gYear ;
-    sch:director rsc:stanley_kubrick ;
     = <http://dbpedia.org/resource/Paths_of_Glory>,
-        <http://www.wikidata.org/entity/Q747936> .
+        <http://www.wikidata.org/entity/Q747936> ;
+    sch:datePublished "1957-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
 rsc:patton a sch:Movie ;
     rdfs:label "Patton"@en ;
-    sch:datePublished "1970-01-01"^^xsd:gYear ;
-    sch:director rsc:franklin_j._schaffner ;
     = <http://dbpedia.org/resource/Patton_(film)>,
-        <http://www.wikidata.org/entity/Q217220> .
+        <http://www.wikidata.org/entity/Q217220> ;
+    sch:datePublished "1970-01-01"^^xsd:gYear ;
+    sch:director rsc:franklin_j._schaffner .
 
 rsc:pink_floyd:_the_wall a sch:Movie ;
     rdfs:label "Pink Floyd: The Wall"@en ;
@@ -867,150 +867,150 @@ rsc:pink_floyd:_the_wall a sch:Movie ;
 
 rsc:pirates_of_the_caribbean:_the_curse_of_the_black_pearl a sch:Movie ;
     rdfs:label "Pirates of the Caribbean: The Curse of the Black Pearl"@en ;
-    sch:datePublished "2003-01-01"^^xsd:gYear ;
-    sch:director rsc:gore_verbinski ;
     = <http://dbpedia.org/resource/Pirates_of_the_Caribbean:_The_Curse_of_the_Black_Pearl>,
-        <http://www.wikidata.org/entity/Q46717> .
+        <http://www.wikidata.org/entity/Q46717> ;
+    sch:datePublished "2003-01-01"^^xsd:gYear ;
+    sch:director rsc:gore_verbinski .
 
 rsc:platoon a sch:Movie ;
     rdfs:label "Platoon"@en ;
-    sch:datePublished "1986-01-01"^^xsd:gYear ;
-    sch:director rsc:oliver_stone ;
     = <http://dbpedia.org/resource/Last_Platoon>,
-        <http://www.wikidata.org/entity/Q17007823> .
+        <http://www.wikidata.org/entity/Q210233> ;
+    sch:datePublished "1986-01-01"^^xsd:gYear ;
+    sch:director rsc:oliver_stone .
 
 rsc:prisoners a sch:Movie ;
     rdfs:label "Prisoners"@en ;
-    sch:datePublished "2013-01-01"^^xsd:gYear ;
-    sch:director rsc:denis_villeneuve ;
     = <http://dbpedia.org/resource/Heaven's_Prisoners>,
-        <http://www.wikidata.org/entity/Q20649477> .
+        <http://www.wikidata.org/entity/Q21646882> ;
+    sch:datePublished "2013-01-01"^^xsd:gYear ;
+    sch:director rsc:denis_villeneuve .
 
 rsc:psycho a sch:Movie ;
     rdfs:label "Psycho"@en ;
+    = <http://dbpedia.org/resource/Psycho_III>,
+        <http://www.wikidata.org/entity/Q1635514> ;
     sch:datePublished "1960-01-01"^^xsd:gYear ;
-    sch:director rsc:alfred_hitchcock ;
-    = <http://dbpedia.org/resource/Psycho_Cop>,
-        <http://www.wikidata.org/entity/Q19880546> .
+    sch:director rsc:alfred_hitchcock .
 
 rsc:pulp_fiction a sch:Movie ;
     rdfs:label "Pulp Fiction"@en ;
-    sch:datePublished "1994-01-01"^^xsd:gYear ;
-    sch:director rsc:quentin_tarantino ;
     = <http://dbpedia.org/resource/Pulp_Fiction>,
-        <http://www.wikidata.org/entity/Q104123> .
+        <http://www.wikidata.org/entity/Q104123> ;
+    sch:datePublished "1994-01-01"^^xsd:gYear ;
+    sch:director rsc:quentin_tarantino .
 
 rsc:raging_bull a sch:Movie ;
     rdfs:label "Raging Bull"@en ;
-    sch:datePublished "1980-01-01"^^xsd:gYear ;
-    sch:director rsc:martin_scorsese ;
     = <http://dbpedia.org/resource/Raging_Bull>,
-        <http://www.wikidata.org/entity/Q220780> .
+        <http://www.wikidata.org/entity/Q220780> ;
+    sch:datePublished "1980-01-01"^^xsd:gYear ;
+    sch:director rsc:martin_scorsese .
 
 rsc:raiders_of_the_lost_ark a sch:Movie ;
     rdfs:label "Raiders of the Lost Ark"@en ;
-    sch:datePublished "1981-01-01"^^xsd:gYear ;
-    sch:director rsc:steven_spielberg ;
     = <http://dbpedia.org/resource/Raiders_of_the_Lost_Ark>,
-        <http://www.wikidata.org/entity/Q174284> .
+        <http://www.wikidata.org/entity/Q174284> ;
+    sch:datePublished "1981-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
 rsc:rain_man a sch:Movie ;
     rdfs:label "Rain Man"@en ;
-    sch:datePublished "1988-01-01"^^xsd:gYear ;
-    sch:director rsc:barry_levinson ;
     = <http://dbpedia.org/resource/Rain_Man>,
-        <http://www.wikidata.org/entity/Q188845> .
+        <http://www.wikidata.org/entity/Q188845> ;
+    sch:datePublished "1988-01-01"^^xsd:gYear ;
+    sch:director rsc:barry_levinson .
 
 rsc:rear_window a sch:Movie ;
     rdfs:label "Rear Window"@en ;
-    sch:datePublished "1954-01-01"^^xsd:gYear ;
-    sch:director rsc:alfred_hitchcock ;
     = <http://dbpedia.org/resource/Rear_Window>,
-        <http://www.wikidata.org/entity/Q579068> .
+        <http://www.wikidata.org/entity/Q34414> ;
+    sch:datePublished "1954-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
 rsc:rebecca a sch:Movie ;
     rdfs:label "Rebecca"@en ;
-    sch:datePublished "1940-01-01"^^xsd:gYear ;
-    sch:director rsc:alfred_hitchcock ;
     = <http://dbpedia.org/resource/Run_Rebecca,_Run>,
-        <http://www.wikidata.org/entity/Q3234196> .
+        <http://www.wikidata.org/entity/Q3234196> ;
+    sch:datePublished "1940-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
 rsc:requiem_for_a_dream a sch:Movie ;
     rdfs:label "Requiem for a Dream"@en ;
-    sch:datePublished "2000-01-01"^^xsd:gYear ;
-    sch:director rsc:darren_aronofsky ;
     = <http://dbpedia.org/resource/Requiem_for_a_Dream>,
-        <http://www.wikidata.org/entity/Q487181> .
+        <http://www.wikidata.org/entity/Q487181> ;
+    sch:datePublished "2000-01-01"^^xsd:gYear ;
+    sch:director rsc:darren_aronofsky .
 
 rsc:reservoir_dogs a sch:Movie ;
     rdfs:label "Reservoir Dogs"@en ;
-    sch:datePublished "1992-01-01"^^xsd:gYear ;
-    sch:director rsc:quentin_tarantino ;
     = <http://dbpedia.org/resource/Reservoir_Dogs>,
-        <http://www.wikidata.org/entity/Q72962> .
+        <http://www.wikidata.org/entity/Q72962> ;
+    sch:datePublished "1992-01-01"^^xsd:gYear ;
+    sch:director rsc:quentin_tarantino .
 
 rsc:rio_bravo a sch:Movie ;
     rdfs:label "Rio Bravo"@en ;
-    sch:datePublished "1959-01-01"^^xsd:gYear ;
-    sch:director rsc:howard_hawks ;
     = <http://dbpedia.org/resource/Rio_Bravo_(film)>,
-        <http://www.wikidata.org/entity/Q1008351> .
+        <http://www.wikidata.org/entity/Q1008351> ;
+    sch:datePublished "1959-01-01"^^xsd:gYear ;
+    sch:director rsc:howard_hawks .
 
 rsc:rocky a sch:Movie ;
     rdfs:label "Rocky"@en ;
-    sch:datePublished "1976-01-01"^^xsd:gYear ;
-    sch:director rsc:john_g._avildsen ;
     = <http://dbpedia.org/resource/Rocky>,
-        <http://www.wikidata.org/entity/Q7355919> .
+        <http://www.wikidata.org/entity/Q18170349> ;
+    sch:datePublished "1976-01-01"^^xsd:gYear ;
+    sch:director rsc:john_g._avildsen .
 
 rsc:roman_holiday a sch:Movie ;
     rdfs:label "Roman Holiday"@en ;
-    sch:datePublished "1953-01-01"^^xsd:gYear ;
-    sch:director rsc:william_wyler ;
     = <http://dbpedia.org/resource/Roman_Holiday>,
-        <http://www.wikidata.org/entity/Q201293> .
+        <http://www.wikidata.org/entity/Q201293> ;
+    sch:datePublished "1953-01-01"^^xsd:gYear ;
+    sch:director rsc:william_wyler .
 
 rsc:room a sch:Movie ;
     rdfs:label "Room"@en ;
-    sch:datePublished "2015-01-01"^^xsd:gYear ;
-    sch:director rsc:lenny_abrahamson ;
     = <http://dbpedia.org/resource/Room_6>,
-        <http://www.wikidata.org/entity/Q7444171> .
+        <http://www.wikidata.org/entity/Q743292> ;
+    sch:datePublished "2015-01-01"^^xsd:gYear ;
+    sch:director rsc:lenny_abrahamson .
 
 rsc:rope a sch:Movie ;
     rdfs:label "Rope"@en ;
-    sch:datePublished "1948-01-01"^^xsd:gYear ;
-    sch:director rsc:alfred_hitchcock ;
     = <http://dbpedia.org/resource/Roped>,
-        <http://www.wikidata.org/entity/Q21528138> .
+        <http://www.wikidata.org/entity/Q7366710> ;
+    sch:datePublished "1948-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
 rsc:rush a sch:Movie ;
     rdfs:label "Rush"@en ;
-    sch:datePublished "2013-01-01"^^xsd:gYear ;
-    sch:director rsc:ron_howard ;
     = <http://dbpedia.org/resource/BumRush>,
-        <http://www.wikidata.org/entity/Q3823805> .
+        <http://www.wikidata.org/entity/Q7761876> ;
+    sch:datePublished "2013-01-01"^^xsd:gYear ;
+    sch:director rsc:ron_howard .
 
 rsc:saving_private_ryan a sch:Movie ;
     rdfs:label "Saving Private Ryan"@en ;
-    sch:datePublished "1998-01-01"^^xsd:gYear ;
-    sch:director rsc:steven_spielberg ;
     = <http://dbpedia.org/resource/Saving_Private_Ryan>,
-        <http://www.wikidata.org/entity/Q165817> .
+        <http://www.wikidata.org/entity/Q165817> ;
+    sch:datePublished "1998-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
 rsc:scarface a sch:Movie ;
     rdfs:label "Scarface"@en ;
-    sch:datePublished "1983-01-01"^^xsd:gYear ;
-    sch:director rsc:brian_de_palma ;
     = <http://dbpedia.org/resource/Mister_Scarface>,
-        <http://www.wikidata.org/entity/Q47075> .
+        <http://www.wikidata.org/entity/Q3791100> ;
+    sch:datePublished "1983-01-01"^^xsd:gYear ;
+    sch:director rsc:brian_de_palma .
 
 <http://philip-broehl.org/resource/schindler's_list> a sch:Movie ;
     rdfs:label "Schindler's List"@en ;
-    sch:datePublished "1993-01-01"^^xsd:gYear ;
-    sch:director rsc:steven_spielberg ;
     = <http://dbpedia.org/resource/Schindler's_List>,
-        <http://www.wikidata.org/entity/Q483941> .
+        <http://www.wikidata.org/entity/Q483941> ;
+    sch:datePublished "1993-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
 rsc:se7en a sch:Movie ;
     rdfs:label "Se7en"@en ;
@@ -1019,104 +1019,104 @@ rsc:se7en a sch:Movie ;
 
 rsc:short_term_12 a sch:Movie ;
     rdfs:label "Short Term 12"@en ;
-    sch:datePublished "2013-01-01"^^xsd:gYear ;
-    sch:director rsc:destin_daniel_cretton ;
     = <http://dbpedia.org/resource/Short_Term_12>,
-        <http://www.wikidata.org/entity/Q14623727> .
+        <http://www.wikidata.org/entity/Q14623727> ;
+    sch:datePublished "2013-01-01"^^xsd:gYear ;
+    sch:director rsc:destin_daniel_cretton .
 
 rsc:shutter_island a sch:Movie ;
     rdfs:label "Shutter Island"@en ;
-    sch:datePublished "2010-01-01"^^xsd:gYear ;
-    sch:director rsc:martin_scorsese ;
     = <http://dbpedia.org/resource/Shutter_Island_(film)>,
-        <http://www.wikidata.org/entity/Q210364> .
+        <http://www.wikidata.org/entity/Q210364> ;
+    sch:datePublished "2010-01-01"^^xsd:gYear ;
+    sch:director rsc:martin_scorsese .
 
 rsc:sin_city a sch:Movie ;
     rdfs:label "Sin City"@en ;
+    = <http://dbpedia.org/resource/Sin_City_(film)>,
+        <http://www.wikidata.org/entity/Q2275467> ;
     sch:datePublished "2005-01-01"^^xsd:gYear ;
     sch:director rsc:frank_miller,
         rsc:quentin_tarantino,
-        rsc:robert_rodriguez ;
-    = <http://dbpedia.org/resource/Sin_City_(film)>,
-        <http://www.wikidata.org/entity/Q192115> .
+        rsc:robert_rodriguez .
 
 <http://philip-broehl.org/resource/singin'_in_the_rain> a sch:Movie ;
     rdfs:label "Singin' in the Rain"@en ;
+    = <http://www.wikidata.org/entity/Q309153> ;
     sch:datePublished "1952-01-01"^^xsd:gYear ;
     sch:director rsc:gene_kelly,
-        rsc:stanley_donen ;
-    = <http://www.wikidata.org/entity/Q309153> .
+        rsc:stanley_donen .
 
 rsc:sleuth a sch:Movie ;
     rdfs:label "Sleuth"@en ;
-    sch:datePublished "1972-01-01"^^xsd:gYear ;
-    sch:director rsc:joseph_l._mankiewicz ;
     = <http://dbpedia.org/resource/Super-Sleuth>,
-        <http://www.wikidata.org/entity/Q1419980> .
+        <http://www.wikidata.org/entity/Q209012> ;
+    sch:datePublished "1972-01-01"^^xsd:gYear ;
+    sch:director rsc:joseph_l._mankiewicz .
 
 rsc:sling_blade a sch:Movie ;
     rdfs:label "Sling Blade"@en ;
-    sch:datePublished "1996-01-01"^^xsd:gYear ;
-    sch:director rsc:billy_bob_thornton ;
     = <http://dbpedia.org/resource/Sling_Blade>,
-        <http://www.wikidata.org/entity/Q2264347> .
+        <http://www.wikidata.org/entity/Q7559391> ;
+    sch:datePublished "1996-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_bob_thornton .
 
 rsc:slumdog_millionaire a sch:Movie ;
     rdfs:label "Slumdog Millionaire"@en ;
+    = <http://dbpedia.org/resource/Slumdog_Millionaire>,
+        <http://www.wikidata.org/entity/Q4659595> ;
     sch:datePublished "2008-01-01"^^xsd:gYear ;
     sch:director rsc:danny_boyle,
-        rsc:loveleen_tandan ;
-    = <http://dbpedia.org/resource/Slumdog_Millionaire>,
-        <http://www.wikidata.org/entity/Q125076> .
+        rsc:loveleen_tandan .
 
 rsc:snatch a sch:Movie ;
     rdfs:label "Snatch"@en ;
-    sch:datePublished "2000-01-01"^^xsd:gYear ;
-    sch:director rsc:guy_ritchie ;
     = <http://dbpedia.org/resource/Snatch_(film)>,
-        <http://www.wikidata.org/entity/Q3707836> .
+        <http://www.wikidata.org/entity/Q335160> ;
+    sch:datePublished "2000-01-01"^^xsd:gYear ;
+    sch:director rsc:guy_ritchie .
 
 rsc:some_like_it_hot a sch:Movie ;
     rdfs:label "Some Like It Hot"@en ;
-    sch:datePublished "1959-01-01"^^xsd:gYear ;
-    sch:director rsc:billy_wilder ;
     = <http://dbpedia.org/resource/Some_Like_It_Hot>,
-        <http://www.wikidata.org/entity/Q3283341> .
+        <http://www.wikidata.org/entity/Q3283341> ;
+    sch:datePublished "1959-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
 rsc:song_of_the_sea a sch:Movie ;
     rdfs:label "Song of the Sea"@en ;
-    sch:datePublished "2014-01-01"^^xsd:gYear ;
-    sch:director rsc:tomm_moore ;
     = <http://dbpedia.org/resource/The_Song_of_the_Sea_Shell>,
-        <http://www.wikidata.org/entity/Q17125101> .
+        <http://www.wikidata.org/entity/Q17125101> ;
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:tomm_moore .
 
 rsc:spider-man:_homecoming a sch:Movie ;
     rdfs:label "Spider-Man: Homecoming"@en ;
-    sch:datePublished "2017-01-01"^^xsd:gYear ;
-    sch:director rsc:jon_watts ;
     = <http://dbpedia.org/resource/Spider-Man:_Homecoming>,
-        <http://www.wikidata.org/entity/Q23010088> .
+        <http://www.wikidata.org/entity/Q23010088> ;
+    sch:datePublished "2017-01-01"^^xsd:gYear ;
+    sch:director rsc:jon_watts .
 
 rsc:spotlight a sch:Movie ;
     rdfs:label "Spotlight"@en ;
-    sch:datePublished "2015-01-01"^^xsd:gYear ;
-    sch:director rsc:tom_mccarthy ;
     = <http://dbpedia.org/resource/Spotlight_(film)>,
-        <http://www.wikidata.org/entity/Q17062554> .
+        <http://www.wikidata.org/entity/Q6675664> ;
+    sch:datePublished "2015-01-01"^^xsd:gYear ;
+    sch:director rsc:tom_mccarthy .
 
 rsc:stalag_17 a sch:Movie ;
     rdfs:label "Stalag 17"@en ;
-    sch:datePublished "1953-01-01"^^xsd:gYear ;
-    sch:director rsc:billy_wilder ;
     = <http://dbpedia.org/resource/Stalag_17>,
-        <http://www.wikidata.org/entity/Q1356753> .
+        <http://www.wikidata.org/entity/Q1356753> ;
+    sch:datePublished "1953-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
 rsc:stand_by_me a sch:Movie ;
     rdfs:label "Stand by Me"@en ;
-    sch:datePublished "1986-01-01"^^xsd:gYear ;
-    sch:director rsc:rob_reiner ;
     = <http://dbpedia.org/resource/Stand_by_Me_(film)>,
-        <http://www.wikidata.org/entity/Q15293047> .
+        <http://www.wikidata.org/entity/Q15293047> ;
+    sch:datePublished "1986-01-01"^^xsd:gYear ;
+    sch:director rsc:rob_reiner .
 
 rsc:star_wars:_episode_iv_-_a_new_hope a sch:Movie ;
     rdfs:label "Star Wars: Episode IV - A New Hope"@en ;
@@ -1135,59 +1135,59 @@ rsc:star_wars:_episode_vi_-_return_of_the_jedi a sch:Movie ;
 
 rsc:star_wars:_the_force_awakens a sch:Movie ;
     rdfs:label "Star Wars: The Force Awakens"@en ;
-    sch:datePublished "2015-01-01"^^xsd:gYear ;
-    sch:director rsc:j.j._abrams ;
     = <http://dbpedia.org/resource/Star_Wars:_The_Force_Awakens>,
-        <http://www.wikidata.org/entity/Q6074> .
+        <http://www.wikidata.org/entity/Q6074> ;
+    sch:datePublished "2015-01-01"^^xsd:gYear ;
+    sch:director rsc:j.j._abrams .
 
 rsc:strangers_on_a_train a sch:Movie ;
     rdfs:label "Strangers on a Train"@en ;
-    sch:datePublished "1951-01-01"^^xsd:gYear ;
-    sch:director rsc:alfred_hitchcock ;
     = <http://dbpedia.org/resource/Strangers_on_a_Train_(film)>,
-        <http://www.wikidata.org/entity/Q499639> .
+        <http://www.wikidata.org/entity/Q499639> ;
+    sch:datePublished "1951-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
 rsc:sunset_boulevard a sch:Movie ;
     rdfs:label "Sunset Boulevard"@en ;
-    sch:datePublished "1950-01-01"^^xsd:gYear ;
-    sch:director rsc:billy_wilder ;
     = <http://dbpedia.org/resource/Sunset_Boulevard_(film)>,
-        <http://www.wikidata.org/entity/Q193570> .
+        <http://www.wikidata.org/entity/Q193570> ;
+    sch:datePublished "1950-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
 rsc:taxi_driver a sch:Movie ;
     rdfs:label "Taxi Driver"@en ;
-    sch:datePublished "1976-01-01"^^xsd:gYear ;
-    sch:director rsc:martin_scorsese ;
     = <http://dbpedia.org/resource/Taxi_Driver>,
-        <http://www.wikidata.org/entity/Q1345807> .
+        <http://www.wikidata.org/entity/Q18388163> ;
+    sch:datePublished "1976-01-01"^^xsd:gYear ;
+    sch:director rsc:martin_scorsese .
 
 rsc:terminator_2:_judgment_day a sch:Movie ;
     rdfs:label "Terminator 2: Judgment Day"@en ;
-    sch:datePublished "1991-01-01"^^xsd:gYear ;
-    sch:director rsc:james_cameron ;
     = <http://dbpedia.org/resource/Terminator_2:_Judgment_Day>,
-        <http://www.wikidata.org/entity/Q170564> .
+        <http://www.wikidata.org/entity/Q170564> ;
+    sch:datePublished "1991-01-01"^^xsd:gYear ;
+    sch:director rsc:james_cameron .
 
 rsc:the_apartment a sch:Movie ;
     rdfs:label "The Apartment"@en ;
-    sch:datePublished "1960-01-01"^^xsd:gYear ;
-    sch:director rsc:billy_wilder ;
     = <http://dbpedia.org/resource/The_Apartment>,
-        <http://www.wikidata.org/entity/Q2409001> .
+        <http://www.wikidata.org/entity/Q270510> ;
+    sch:datePublished "1960-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
 rsc:the_avengers a sch:Movie ;
     rdfs:label "The Avengers"@en ;
-    sch:datePublished "2012-01-01"^^xsd:gYear ;
-    sch:director rsc:joss_whedon ;
     = <http://dbpedia.org/resource/The_Avengers_(1998_film)>,
-        <http://www.wikidata.org/entity/Q3985737> .
+        <http://www.wikidata.org/entity/Q182218> ;
+    sch:datePublished "2012-01-01"^^xsd:gYear ;
+    sch:director rsc:joss_whedon .
 
 rsc:the_best_years_of_our_lives a sch:Movie ;
     rdfs:label "The Best Years of Our Lives"@en ;
-    sch:datePublished "1946-01-01"^^xsd:gYear ;
-    sch:director rsc:william_wyler ;
     = <http://dbpedia.org/resource/The_Best_Years_of_Our_Lives>,
-        <http://www.wikidata.org/entity/Q645094> .
+        <http://www.wikidata.org/entity/Q645094> ;
+    sch:datePublished "1946-01-01"^^xsd:gYear ;
+    sch:director rsc:william_wyler .
 
 rsc:the_big_lebowski a sch:Movie ;
     rdfs:label "The Big Lebowski"@en ;
@@ -1197,81 +1197,81 @@ rsc:the_big_lebowski a sch:Movie ;
 
 rsc:the_big_sleep a sch:Movie ;
     rdfs:label "The Big Sleep"@en ;
+    = <http://dbpedia.org/resource/The_Big_Sleep_(1946_film)>,
+        <http://www.wikidata.org/entity/Q2610883> ;
     sch:datePublished "1946-01-01"^^xsd:gYear ;
-    sch:director rsc:howard_hawks ;
-    = <http://dbpedia.org/resource/The_Big_Sleep_(1978_film)>,
-        <http://www.wikidata.org/entity/Q1137931> .
+    sch:director rsc:howard_hawks .
 
 rsc:the_bourne_ultimatum a sch:Movie ;
     rdfs:label "The Bourne Ultimatum"@en ;
-    sch:datePublished "2007-01-01"^^xsd:gYear ;
-    sch:director rsc:paul_greengrass ;
     = <http://dbpedia.org/resource/The_Bourne_Ultimatum_(film)>,
-        <http://www.wikidata.org/entity/Q107226> .
+        <http://www.wikidata.org/entity/Q107226> ;
+    sch:datePublished "2007-01-01"^^xsd:gYear ;
+    sch:director rsc:paul_greengrass .
 
 rsc:the_bridge_on_the_river_kwai a sch:Movie ;
     rdfs:label "The Bridge on the River Kwai"@en ;
-    sch:datePublished "1957-01-01"^^xsd:gYear ;
-    sch:director rsc:david_lean ;
     = <http://dbpedia.org/resource/The_Bridge_on_the_River_Kwai>,
-        <http://www.wikidata.org/entity/Q188718> .
+        <http://www.wikidata.org/entity/Q188718> ;
+    sch:datePublished "1957-01-01"^^xsd:gYear ;
+    sch:director rsc:david_lean .
 
 rsc:the_dark_knight a sch:Movie ;
     rdfs:label "The Dark Knight"@en ;
-    sch:datePublished "2008-01-01"^^xsd:gYear ;
-    sch:director rsc:christopher_nolan ;
     = <http://dbpedia.org/resource/The_Dark_Knight_Rises>,
-        <http://www.wikidata.org/entity/Q189330> .
+        <http://www.wikidata.org/entity/Q189330> ;
+    sch:datePublished "2008-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
 rsc:the_dark_knight_rises a sch:Movie ;
     rdfs:label "The Dark Knight Rises"@en ;
-    sch:datePublished "2012-01-01"^^xsd:gYear ;
-    sch:director rsc:christopher_nolan ;
     = <http://dbpedia.org/resource/The_Dark_Knight_Rises>,
-        <http://www.wikidata.org/entity/Q189330> .
+        <http://www.wikidata.org/entity/Q189330> ;
+    sch:datePublished "2012-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
 rsc:the_deer_hunter a sch:Movie ;
     rdfs:label "The Deer Hunter"@en ;
-    sch:datePublished "1978-01-01"^^xsd:gYear ;
-    sch:director rsc:michael_cimino ;
     = <http://dbpedia.org/resource/The_Deer_Hunter>,
-        <http://www.wikidata.org/entity/Q201674> .
+        <http://www.wikidata.org/entity/Q201674> ;
+    sch:datePublished "1978-01-01"^^xsd:gYear ;
+    sch:director rsc:michael_cimino .
 
 rsc:the_departed a sch:Movie ;
     rdfs:label "The Departed"@en ;
-    sch:datePublished "2006-01-01"^^xsd:gYear ;
-    sch:director rsc:martin_scorsese ;
     = <http://dbpedia.org/resource/The_Departed>,
-        <http://www.wikidata.org/entity/Q172975> .
+        <http://www.wikidata.org/entity/Q172975> ;
+    sch:datePublished "2006-01-01"^^xsd:gYear ;
+    sch:director rsc:martin_scorsese .
 
 rsc:the_elephant_man a sch:Movie ;
     rdfs:label "The Elephant Man"@en ;
-    sch:datePublished "1980-01-01"^^xsd:gYear ;
-    sch:director rsc:david_lynch ;
     = <http://dbpedia.org/resource/The_Elephant_Man_(film)>,
-        <http://www.wikidata.org/entity/Q12117452> .
+        <http://www.wikidata.org/entity/Q272860> ;
+    sch:datePublished "1980-01-01"^^xsd:gYear ;
+    sch:director rsc:david_lynch .
 
 rsc:the_exorcist a sch:Movie ;
     rdfs:label "The Exorcist"@en ;
-    sch:datePublished "1973-01-01"^^xsd:gYear ;
-    sch:director rsc:william_friedkin ;
     = <http://dbpedia.org/resource/The_Exorcist_III>,
-        <http://www.wikidata.org/entity/Q274167> .
+        <http://www.wikidata.org/entity/Q274167> ;
+    sch:datePublished "1973-01-01"^^xsd:gYear ;
+    sch:director rsc:william_friedkin .
 
 rsc:the_general a sch:Movie ;
     rdfs:label "The General"@en ;
+    = <http://dbpedia.org/resource/The_General_Line>,
+        <http://www.wikidata.org/entity/Q1193842> ;
     sch:datePublished "1926-01-01"^^xsd:gYear ;
     sch:director rsc:buster_keaton,
-        rsc:clyde_bruckman ;
-    = <http://dbpedia.org/resource/The_General_Line>,
-        <http://www.wikidata.org/entity/Q1193842> .
+        rsc:clyde_bruckman .
 
 rsc:the_godfather a sch:Movie ;
     rdfs:label "The Godfather"@en ;
-    sch:datePublished "1972-01-01"^^xsd:gYear ;
-    sch:director rsc:francis_ford_coppola ;
     = <http://dbpedia.org/resource/The_Godfather>,
-        <http://www.wikidata.org/entity/Q184768> .
+        <http://www.wikidata.org/entity/Q202326> ;
+    sch:datePublished "1972-01-01"^^xsd:gYear ;
+    sch:director rsc:francis_ford_coppola .
 
 rsc:the_godfather:_part_ii a sch:Movie ;
     rdfs:label "The Godfather: Part II"@en ;
@@ -1280,172 +1280,172 @@ rsc:the_godfather:_part_ii a sch:Movie ;
 
 rsc:the_gold_rush a sch:Movie ;
     rdfs:label "The Gold Rush"@en ;
-    sch:datePublished "1925-01-01"^^xsd:gYear ;
-    sch:director rsc:charles_chaplin ;
     = <http://dbpedia.org/resource/The_Gold_Rush>,
-        <http://www.wikidata.org/entity/Q214723> .
+        <http://www.wikidata.org/entity/Q214723> ;
+    sch:datePublished "1925-01-01"^^xsd:gYear ;
+    sch:director rsc:charles_chaplin .
 
 rsc:the_graduate a sch:Movie ;
     rdfs:label "The Graduate"@en ;
-    sch:datePublished "1967-01-01"^^xsd:gYear ;
-    sch:director rsc:mike_nichols ;
     = <http://dbpedia.org/resource/The_Graduate>,
-        <http://www.wikidata.org/entity/Q3791392> .
+        <http://www.wikidata.org/entity/Q217627> ;
+    sch:datePublished "1967-01-01"^^xsd:gYear ;
+    sch:director rsc:mike_nichols .
 
 rsc:the_grand_budapest_hotel a sch:Movie ;
     rdfs:label "The Grand Budapest Hotel"@en ;
-    sch:datePublished "2014-01-01"^^xsd:gYear ;
-    sch:director rsc:wes_anderson ;
     = <http://dbpedia.org/resource/The_Grand_Budapest_Hotel>,
-        <http://www.wikidata.org/entity/Q3521099> .
+        <http://www.wikidata.org/entity/Q3521099> ;
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:wes_anderson .
 
 rsc:the_grapes_of_wrath a sch:Movie ;
     rdfs:label "The Grapes of Wrath"@en ;
-    sch:datePublished "1940-01-01"^^xsd:gYear ;
-    sch:director rsc:john_ford ;
     = <http://dbpedia.org/resource/The_Grapes_of_Wrath_(film)>,
-        <http://www.wikidata.org/entity/Q676039> .
+        <http://www.wikidata.org/entity/Q676039> ;
+    sch:datePublished "1940-01-01"^^xsd:gYear ;
+    sch:director rsc:john_ford .
 
 rsc:the_great_dictator a sch:Movie ;
     rdfs:label "The Great Dictator"@en ;
-    sch:datePublished "1940-01-01"^^xsd:gYear ;
-    sch:director rsc:charles_chaplin ;
     = <http://dbpedia.org/resource/The_Great_Dictator>,
-        <http://www.wikidata.org/entity/Q109116> .
+        <http://www.wikidata.org/entity/Q109116> ;
+    sch:datePublished "1940-01-01"^^xsd:gYear ;
+    sch:director rsc:charles_chaplin .
 
 rsc:the_great_escape a sch:Movie ;
     rdfs:label "The Great Escape"@en ;
-    sch:datePublished "1963-01-01"^^xsd:gYear ;
-    sch:director rsc:john_sturges ;
     = <http://dbpedia.org/resource/The_Great_Escape_(film)>,
-        <http://www.wikidata.org/entity/Q661911> .
+        <http://www.wikidata.org/entity/Q661911> ;
+    sch:datePublished "1963-01-01"^^xsd:gYear ;
+    sch:director rsc:john_sturges .
 
 rsc:the_green_mile a sch:Movie ;
     rdfs:label "The Green Mile"@en ;
-    sch:datePublished "1999-01-01"^^xsd:gYear ;
-    sch:director rsc:frank_darabont ;
     = <http://dbpedia.org/resource/The_Green_Mile_(film)>,
-        <http://www.wikidata.org/entity/Q208263> .
+        <http://www.wikidata.org/entity/Q208263> ;
+    sch:datePublished "1999-01-01"^^xsd:gYear ;
+    sch:director rsc:frank_darabont .
 
 rsc:the_help a sch:Movie ;
     rdfs:label "The Help"@en ;
-    sch:datePublished "2011-01-01"^^xsd:gYear ;
-    sch:director rsc:tate_taylor ;
     = <http://dbpedia.org/resource/The_Help_(film)>,
-        <http://www.wikidata.org/entity/Q204374> .
+        <http://www.wikidata.org/entity/Q204374> ;
+    sch:datePublished "2011-01-01"^^xsd:gYear ;
+    sch:director rsc:tate_taylor .
 
 rsc:the_hustler a sch:Movie ;
     rdfs:label "The Hustler"@en ;
-    sch:datePublished "1961-01-01"^^xsd:gYear ;
-    sch:director rsc:robert_rossen ;
     = <http://dbpedia.org/resource/The_Hustler_(film)>,
-        <http://www.wikidata.org/entity/Q1130084> .
+        <http://www.wikidata.org/entity/Q1130084> ;
+    sch:datePublished "1961-01-01"^^xsd:gYear ;
+    sch:director rsc:robert_rossen .
 
 rsc:the_imitation_game a sch:Movie ;
     rdfs:label "The Imitation Game"@en ;
-    sch:datePublished "2014-01-01"^^xsd:gYear ;
-    sch:director rsc:morten_tyldum ;
     = <http://dbpedia.org/resource/The_Imitation_Game>,
-        <http://www.wikidata.org/entity/Q14918344> .
+        <http://www.wikidata.org/entity/Q14918344> ;
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:morten_tyldum .
 
 rsc:the_kid a sch:Movie ;
     rdfs:label "The Kid"@en ;
-    sch:datePublished "1921-01-01"^^xsd:gYear ;
-    sch:director rsc:charles_chaplin ;
     = <http://dbpedia.org/resource/The_Kid_&_I>,
-        <http://www.wikidata.org/entity/Q12125353> .
+        <http://www.wikidata.org/entity/Q374172> ;
+    sch:datePublished "1921-01-01"^^xsd:gYear ;
+    sch:director rsc:charles_chaplin .
 
 rsc:the_killing a sch:Movie ;
     rdfs:label "The Killing"@en ;
-    sch:datePublished "1956-01-01"^^xsd:gYear ;
-    sch:director rsc:stanley_kubrick ;
     = <http://dbpedia.org/resource/The_Killing_Room>,
-        <http://www.wikidata.org/entity/Q494582> .
+        <http://www.wikidata.org/entity/Q7302091> ;
+    sch:datePublished "1956-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
 <http://philip-broehl.org/resource/the_king's_speech> a sch:Movie ;
     rdfs:label "The King's Speech"@en ;
-    sch:datePublished "2010-01-01"^^xsd:gYear ;
-    sch:director rsc:tom_hooper ;
     = <http://dbpedia.org/resource/The_King's_Speech>,
-        <http://www.wikidata.org/entity/Q160060> .
+        <http://www.wikidata.org/entity/Q160060> ;
+    sch:datePublished "2010-01-01"^^xsd:gYear ;
+    sch:director rsc:tom_hooper .
 
 rsc:the_last_picture_show a sch:Movie ;
     rdfs:label "The Last Picture Show"@en ;
-    sch:datePublished "1971-01-01"^^xsd:gYear ;
-    sch:director rsc:peter_bogdanovich ;
     = <http://dbpedia.org/resource/The_Last_Picture_Show>,
-        <http://www.wikidata.org/entity/Q1218959> .
+        <http://www.wikidata.org/entity/Q1218959> ;
+    sch:datePublished "1971-01-01"^^xsd:gYear ;
+    sch:director rsc:peter_bogdanovich .
 
 rsc:the_legend_of_1900 a sch:Movie ;
     rdfs:label "The Legend of 1900"@en ;
-    sch:datePublished "1998-01-01"^^xsd:gYear ;
-    sch:director rsc:giuseppe_tornatore ;
     = <http://dbpedia.org/resource/The_Legend_of_1900>,
-        <http://www.wikidata.org/entity/Q1146711> .
+        <http://www.wikidata.org/entity/Q1146711> ;
+    sch:datePublished "1998-01-01"^^xsd:gYear ;
+    sch:director rsc:giuseppe_tornatore .
 
 rsc:the_lion_king a sch:Movie ;
     rdfs:label "The Lion King"@en ;
+    = <http://dbpedia.org/resource/The_Lion_King>,
+        <http://www.wikidata.org/entity/Q191803> ;
     sch:datePublished "1994-01-01"^^xsd:gYear ;
     sch:director rsc:rob_minkoff,
-        rsc:roger_allers ;
-    = <http://dbpedia.org/resource/The_Lion_King>,
-        <http://www.wikidata.org/entity/Q223217> .
+        rsc:roger_allers .
 
 rsc:the_lord_of_the_rings:_the_fellowship_of_the_ring a sch:Movie ;
     rdfs:label "The Lord of the Rings: The Fellowship of the Ring"@en ;
-    sch:datePublished "2001-01-01"^^xsd:gYear ;
-    sch:director rsc:peter_jackson ;
     = <http://dbpedia.org/resource/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring>,
-        <http://www.wikidata.org/entity/Q127367> .
+        <http://www.wikidata.org/entity/Q127367> ;
+    sch:datePublished "2001-01-01"^^xsd:gYear ;
+    sch:director rsc:peter_jackson .
 
 rsc:the_lord_of_the_rings:_the_return_of_the_king a sch:Movie ;
     rdfs:label "The Lord of the Rings: The Return of the King"@en ;
-    sch:datePublished "2003-01-01"^^xsd:gYear ;
-    sch:director rsc:peter_jackson ;
     = <http://dbpedia.org/resource/The_Lord_of_the_Rings:_The_Return_of_the_King>,
-        <http://www.wikidata.org/entity/Q131074> .
+        <http://www.wikidata.org/entity/Q131074> ;
+    sch:datePublished "2003-01-01"^^xsd:gYear ;
+    sch:director rsc:peter_jackson .
 
 rsc:the_lord_of_the_rings:_the_two_towers a sch:Movie ;
     rdfs:label "The Lord of the Rings: The Two Towers"@en ;
-    sch:datePublished "2002-01-01"^^xsd:gYear ;
-    sch:director rsc:peter_jackson ;
     = <http://dbpedia.org/resource/The_Lord_of_the_Rings:_The_Two_Towers>,
-        <http://www.wikidata.org/entity/Q164963> .
+        <http://www.wikidata.org/entity/Q164963> ;
+    sch:datePublished "2002-01-01"^^xsd:gYear ;
+    sch:director rsc:peter_jackson .
 
 rsc:the_lost_weekend a sch:Movie ;
     rdfs:label "The Lost Weekend"@en ;
-    sch:datePublished "1945-01-01"^^xsd:gYear ;
-    sch:director rsc:billy_wilder ;
     = <http://dbpedia.org/resource/The_Lost_Weekend_(film)>,
-        <http://www.wikidata.org/entity/Q237134> .
+        <http://www.wikidata.org/entity/Q237134> ;
+    sch:datePublished "1945-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
 rsc:the_maltese_falcon a sch:Movie ;
     rdfs:label "The Maltese Falcon"@en ;
-    sch:datePublished "1941-01-01"^^xsd:gYear ;
-    sch:director rsc:john_huston ;
     = <http://dbpedia.org/resource/The_Maltese_Falcon_(1941_film)>,
-        <http://www.wikidata.org/entity/Q74315> .
+        <http://www.wikidata.org/entity/Q221462> ;
+    sch:datePublished "1941-01-01"^^xsd:gYear ;
+    sch:director rsc:john_huston .
 
 rsc:the_man_who_shot_liberty_valance a sch:Movie ;
     rdfs:label "The Man Who Shot Liberty Valance"@en ;
-    sch:datePublished "1962-01-01"^^xsd:gYear ;
-    sch:director rsc:john_ford ;
     = <http://dbpedia.org/resource/The_Man_Who_Shot_Liberty_Valance>,
-        <http://www.wikidata.org/entity/Q555687> .
+        <http://www.wikidata.org/entity/Q555687> ;
+    sch:datePublished "1962-01-01"^^xsd:gYear ;
+    sch:director rsc:john_ford .
 
 rsc:the_manchurian_candidate a sch:Movie ;
     rdfs:label "The Manchurian Candidate"@en ;
-    sch:datePublished "1962-01-01"^^xsd:gYear ;
-    sch:director rsc:john_frankenheimer ;
     = <http://dbpedia.org/resource/The_Manchurian_Candidate_(2004_film)>,
-        <http://www.wikidata.org/entity/Q521387> .
+        <http://www.wikidata.org/entity/Q521387> ;
+    sch:datePublished "1962-01-01"^^xsd:gYear ;
+    sch:director rsc:john_frankenheimer .
 
 rsc:the_martian a sch:Movie ;
     rdfs:label "The Martian"@en ;
-    sch:datePublished "2015-01-01"^^xsd:gYear ;
-    sch:director rsc:ridley_scott ;
     = <http://dbpedia.org/resource/The_Martian_(film)>,
-        <http://www.wikidata.org/entity/Q18547944> .
+        <http://www.wikidata.org/entity/Q18547944> ;
+    sch:datePublished "2015-01-01"^^xsd:gYear ;
+    sch:director rsc:ridley_scott .
 
 rsc:the_matrix a sch:Movie ;
     rdfs:label "The Matrix"@en ;
@@ -1455,210 +1455,210 @@ rsc:the_matrix a sch:Movie ;
 
 rsc:the_message a sch:Movie ;
     rdfs:label "The Message"@en ;
-    sch:datePublished "1976-01-01"^^xsd:gYear ;
-    sch:director rsc:moustapha_akkad ;
     = <http://dbpedia.org/resource/The_Message_of_Death>,
-        <http://www.wikidata.org/entity/Q25999879> .
+        <http://www.wikidata.org/entity/Q1042247> ;
+    sch:datePublished "1976-01-01"^^xsd:gYear ;
+    sch:director rsc:moustapha_akkad .
 
 rsc:the_night_of_the_hunter a sch:Movie ;
     rdfs:label "The Night of the Hunter"@en ;
-    sch:datePublished "1955-01-01"^^xsd:gYear ;
-    sch:director rsc:charles_laughton ;
     = <http://dbpedia.org/resource/The_Night_of_the_Hunter_(film)>,
-        <http://www.wikidata.org/entity/Q1132629> .
+        <http://www.wikidata.org/entity/Q1132629> ;
+    sch:datePublished "1955-01-01"^^xsd:gYear ;
+    sch:director rsc:charles_laughton .
 
 rsc:the_nightmare_before_christmas a sch:Movie ;
     rdfs:label "The Nightmare Before Christmas"@en ;
-    sch:datePublished "1993-01-01"^^xsd:gYear ;
-    sch:director rsc:henry_selick ;
     = <http://dbpedia.org/resource/The_Nightmare_Before_Christmas>,
-        <http://www.wikidata.org/entity/Q322328> .
+        <http://www.wikidata.org/entity/Q322328> ;
+    sch:datePublished "1993-01-01"^^xsd:gYear ;
+    sch:director rsc:henry_selick .
 
 rsc:the_philadelphia_story a sch:Movie ;
     rdfs:label "The Philadelphia Story"@en ;
-    sch:datePublished "1940-01-01"^^xsd:gYear ;
-    sch:director rsc:george_cukor ;
     = <http://dbpedia.org/resource/The_Philadelphia_Story_(film)>,
-        <http://www.wikidata.org/entity/Q498822> .
+        <http://www.wikidata.org/entity/Q498822> ;
+    sch:datePublished "1940-01-01"^^xsd:gYear ;
+    sch:director rsc:george_cukor .
 
 rsc:the_pianist a sch:Movie ;
     rdfs:label "The Pianist"@en ;
-    sch:datePublished "2002-01-01"^^xsd:gYear ;
-    sch:director rsc:roman_polanski ;
     = <http://dbpedia.org/resource/The_Pianist_(2002_film)>,
-        <http://www.wikidata.org/entity/Q3522228> .
+        <http://www.wikidata.org/entity/Q150804> ;
+    sch:datePublished "2002-01-01"^^xsd:gYear ;
+    sch:director rsc:roman_polanski .
 
 rsc:the_prestige a sch:Movie ;
     rdfs:label "The Prestige"@en ;
-    sch:datePublished "2006-01-01"^^xsd:gYear ;
-    sch:director rsc:christopher_nolan ;
     = <http://dbpedia.org/resource/The_Prestige_(film)>,
-        <http://www.wikidata.org/entity/Q46551> .
+        <http://www.wikidata.org/entity/Q46551> ;
+    sch:datePublished "2006-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
 rsc:the_princess_bride a sch:Movie ;
     rdfs:label "The Princess Bride"@en ;
-    sch:datePublished "1987-01-01"^^xsd:gYear ;
-    sch:director rsc:rob_reiner ;
     = <http://dbpedia.org/resource/The_Princess_Bride_(film)>,
-        <http://www.wikidata.org/entity/Q506418> .
+        <http://www.wikidata.org/entity/Q506418> ;
+    sch:datePublished "1987-01-01"^^xsd:gYear ;
+    sch:director rsc:rob_reiner .
 
 rsc:the_revenant a sch:Movie ;
     rdfs:label "The Revenant"@en ;
-    sch:datePublished "2015-01-01"^^xsd:gYear ;
-    sch:director <http://philip-broehl.org/resource/alejandro_gonzã¡lez_iã±ã¡rritu> ;
     = <http://dbpedia.org/resource/The_Revenant_(2015_film)>,
-        <http://www.wikidata.org/entity/Q18002795> .
+        <http://www.wikidata.org/entity/Q18002795> ;
+    sch:datePublished "2015-01-01"^^xsd:gYear ;
+    sch:director <http://philip-broehl.org/resource/alejandro_gonzã¡lez_iã±ã¡rritu> .
 
 rsc:the_shawshank_redemption a sch:Movie ;
     rdfs:label "The Shawshank Redemption"@en ;
-    sch:datePublished "1994-01-01"^^xsd:gYear ;
-    sch:director rsc:frank_darabont ;
     = <http://dbpedia.org/resource/The_Shawshank_Redemption>,
-        <http://www.wikidata.org/entity/Q172241> .
+        <http://www.wikidata.org/entity/Q172241> ;
+    sch:datePublished "1994-01-01"^^xsd:gYear ;
+    sch:director rsc:frank_darabont .
 
 rsc:the_shining a sch:Movie ;
     rdfs:label "The Shining"@en ;
-    sch:datePublished "1980-01-01"^^xsd:gYear ;
-    sch:director rsc:stanley_kubrick ;
     = <http://dbpedia.org/resource/The_Shining_Arc>,
-        <http://www.wikidata.org/entity/Q186341> .
+        <http://www.wikidata.org/entity/Q7763824> ;
+    sch:datePublished "1980-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
 rsc:the_silence_of_the_lambs a sch:Movie ;
     rdfs:label "The Silence of the Lambs"@en ;
-    sch:datePublished "1991-01-01"^^xsd:gYear ;
-    sch:director rsc:jonathan_demme ;
     = <http://dbpedia.org/resource/The_Silence_of_the_Lambs_(film)>,
-        <http://www.wikidata.org/entity/Q133654> .
+        <http://www.wikidata.org/entity/Q133654> ;
+    sch:datePublished "1991-01-01"^^xsd:gYear ;
+    sch:director rsc:jonathan_demme .
 
 rsc:the_sixth_sense a sch:Movie ;
     rdfs:label "The Sixth Sense"@en ;
-    sch:datePublished "1999-01-01"^^xsd:gYear ;
-    sch:director rsc:m._night_shyamalan ;
     = <http://dbpedia.org/resource/The_Sixth_Sense>,
-        <http://www.wikidata.org/entity/Q183063> .
+        <http://www.wikidata.org/entity/Q183063> ;
+    sch:datePublished "1999-01-01"^^xsd:gYear ;
+    sch:director rsc:m._night_shyamalan .
 
 rsc:the_sting a sch:Movie ;
     rdfs:label "The Sting"@en ;
-    sch:datePublished "1973-01-01"^^xsd:gYear ;
-    sch:director rsc:george_roy_hill ;
     = <http://dbpedia.org/resource/The_Sting>,
-        <http://www.wikidata.org/entity/Q1402643> .
+        <http://www.wikidata.org/entity/Q1604697> ;
+    sch:datePublished "1973-01-01"^^xsd:gYear ;
+    sch:director rsc:george_roy_hill .
 
 rsc:the_straight_story a sch:Movie ;
     rdfs:label "The Straight Story"@en ;
-    sch:datePublished "1999-01-01"^^xsd:gYear ;
-    sch:director rsc:david_lynch ;
     = <http://dbpedia.org/resource/The_Straight_Story>,
-        <http://www.wikidata.org/entity/Q1139454> .
+        <http://www.wikidata.org/entity/Q1139454> ;
+    sch:datePublished "1999-01-01"^^xsd:gYear ;
+    sch:director rsc:david_lynch .
 
 rsc:the_terminator a sch:Movie ;
     rdfs:label "The Terminator"@en ;
-    sch:datePublished "1984-01-01"^^xsd:gYear ;
-    sch:director rsc:james_cameron ;
     = <http://dbpedia.org/resource/The_Terminator>,
-        <http://www.wikidata.org/entity/Q162255> .
+        <http://www.wikidata.org/entity/Q162255> ;
+    sch:datePublished "1984-01-01"^^xsd:gYear ;
+    sch:director rsc:james_cameron .
 
 rsc:the_thing a sch:Movie ;
     rdfs:label "The Thing"@en ;
-    sch:datePublished "1982-01-01"^^xsd:gYear ;
-    sch:director rsc:john_carpenter ;
     = <http://dbpedia.org/resource/The_Thing_Below>,
-        <http://www.wikidata.org/entity/Q3953523> .
+        <http://www.wikidata.org/entity/Q945593> ;
+    sch:datePublished "1982-01-01"^^xsd:gYear ;
+    sch:director rsc:john_carpenter .
 
 rsc:the_third_man a sch:Movie ;
     rdfs:label "The Third Man"@en ;
-    sch:datePublished "1949-01-01"^^xsd:gYear ;
-    sch:director rsc:carol_reed ;
     = <http://dbpedia.org/resource/The_Third_Man>,
-        <http://www.wikidata.org/entity/Q271830> .
+        <http://www.wikidata.org/entity/Q271830> ;
+    sch:datePublished "1949-01-01"^^xsd:gYear ;
+    sch:director rsc:carol_reed .
 
 rsc:the_treasure_of_the_sierra_madre a sch:Movie ;
     rdfs:label "The Treasure of the Sierra Madre"@en ;
-    sch:datePublished "1948-01-01"^^xsd:gYear ;
-    sch:director rsc:john_huston ;
     = <http://dbpedia.org/resource/The_Treasure_of_the_Sierra_Madre_(film)>,
-        <http://www.wikidata.org/entity/Q251559> .
+        <http://www.wikidata.org/entity/Q251559> ;
+    sch:datePublished "1948-01-01"^^xsd:gYear ;
+    sch:director rsc:john_huston .
 
 rsc:the_truman_show a sch:Movie ;
     rdfs:label "The Truman Show"@en ;
-    sch:datePublished "1998-01-01"^^xsd:gYear ;
-    sch:director rsc:peter_weir ;
     = <http://dbpedia.org/resource/The_Truman_Show>,
-        <http://www.wikidata.org/entity/Q214801> .
+        <http://www.wikidata.org/entity/Q214801> ;
+    sch:datePublished "1998-01-01"^^xsd:gYear ;
+    sch:director rsc:peter_weir .
 
 rsc:the_usual_suspects a sch:Movie ;
     rdfs:label "The Usual Suspects"@en ;
-    sch:datePublished "1995-01-01"^^xsd:gYear ;
-    sch:director rsc:bryan_singer ;
     = <http://dbpedia.org/resource/The_Usual_Suspects>,
-        <http://www.wikidata.org/entity/Q132351> .
+        <http://www.wikidata.org/entity/Q132351> ;
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:bryan_singer .
 
 rsc:the_wild_bunch a sch:Movie ;
     rdfs:label "The Wild Bunch"@en ;
-    sch:datePublished "1969-01-01"^^xsd:gYear ;
-    sch:director rsc:sam_peckinpah ;
     = <http://dbpedia.org/resource/The_Wild_Bunch>,
-        <http://www.wikidata.org/entity/Q994481> .
+        <http://www.wikidata.org/entity/Q994481> ;
+    sch:datePublished "1969-01-01"^^xsd:gYear ;
+    sch:director rsc:sam_peckinpah .
 
 rsc:the_wizard_of_oz a sch:Movie ;
     rdfs:label "The Wizard of Oz"@en ;
+    = <http://dbpedia.org/resource/The_Wizard_of_Oz_(1933_film)>,
+        <http://www.wikidata.org/entity/Q193695> ;
     sch:datePublished "1939-01-01"^^xsd:gYear ;
     sch:director rsc:george_cukor,
         rsc:king_vidor,
         rsc:mervyn_leroy,
         rsc:norman_taurog,
-        rsc:victor_fleming ;
-    = <http://dbpedia.org/resource/The_Wizard_of_Oz_(1925_film)>,
-        <http://www.wikidata.org/entity/Q7775380> .
+        rsc:victor_fleming .
 
 rsc:the_wolf_of_wall_street a sch:Movie ;
     rdfs:label "The Wolf of Wall Street"@en ;
+    = <http://dbpedia.org/resource/The_Wolf_of_Wall_Street_(2013_film)>,
+        <http://www.wikidata.org/entity/Q15231297> ;
     sch:datePublished "2013-01-01"^^xsd:gYear ;
-    sch:director rsc:martin_scorsese ;
-    = <http://dbpedia.org/resource/The_Wolf_of_Wall_Street_(1929_film)>,
-        <http://www.wikidata.org/entity/Q15231297> .
+    sch:director rsc:martin_scorsese .
 
 rsc:there_will_be_blood a sch:Movie ;
     rdfs:label "There Will Be Blood"@en ;
-    sch:datePublished "2007-01-01"^^xsd:gYear ;
-    sch:director rsc:paul_thomas_anderson ;
     = <http://dbpedia.org/resource/There_Will_Be_Blood>,
-        <http://www.wikidata.org/entity/Q244315> .
+        <http://www.wikidata.org/entity/Q244315> ;
+    sch:datePublished "2007-01-01"^^xsd:gYear ;
+    sch:director rsc:paul_thomas_anderson .
 
 rsc:to_kill_a_mockingbird a sch:Movie ;
     rdfs:label "To Kill a Mockingbird"@en ;
-    sch:datePublished "1962-01-01"^^xsd:gYear ;
-    sch:director rsc:robert_mulligan ;
     = <http://dbpedia.org/resource/To_Kill_a_Mockingbird_(film)>,
-        <http://www.wikidata.org/entity/Q177922> .
+        <http://www.wikidata.org/entity/Q177922> ;
+    sch:datePublished "1962-01-01"^^xsd:gYear ;
+    sch:director rsc:robert_mulligan .
 
 rsc:touch_of_evil a sch:Movie ;
     rdfs:label "Touch of Evil"@en ;
-    sch:datePublished "1958-01-01"^^xsd:gYear ;
-    sch:director rsc:orson_welles ;
     = <http://dbpedia.org/resource/Touch_of_Evil>,
-        <http://www.wikidata.org/entity/Q778161> .
+        <http://www.wikidata.org/entity/Q778161> ;
+    sch:datePublished "1958-01-01"^^xsd:gYear ;
+    sch:director rsc:orson_welles .
 
 rsc:toy_story a sch:Movie ;
     rdfs:label "Toy Story"@en ;
-    sch:datePublished "1995-01-01"^^xsd:gYear ;
-    sch:director rsc:john_lasseter ;
     = <http://dbpedia.org/resource/Toy_Story>,
-        <http://www.wikidata.org/entity/Q171048> .
+        <http://www.wikidata.org/entity/Q18517638> ;
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:john_lasseter .
 
 rsc:toy_story_3 a sch:Movie ;
     rdfs:label "Toy Story 3"@en ;
-    sch:datePublished "2010-01-01"^^xsd:gYear ;
-    sch:director rsc:lee_unkrich ;
     = <http://dbpedia.org/resource/Toy_Story_3>,
-        <http://www.wikidata.org/entity/Q187278> .
+        <http://www.wikidata.org/entity/Q187278> ;
+    sch:datePublished "2010-01-01"^^xsd:gYear ;
+    sch:director rsc:lee_unkrich .
 
 rsc:trainspotting a sch:Movie ;
     rdfs:label "Trainspotting"@en ;
-    sch:datePublished "1996-01-01"^^xsd:gYear ;
-    sch:director rsc:danny_boyle ;
     = <http://dbpedia.org/resource/Trainspotting_(film)>,
-        <http://www.wikidata.org/entity/Q109135> .
+        <http://www.wikidata.org/entity/Q109135> ;
+    sch:datePublished "1996-01-01"^^xsd:gYear ;
+    sch:director rsc:danny_boyle .
 
 rsc:twelve_monkeys a sch:Movie ;
     rdfs:label "Twelve Monkeys"@en ;
@@ -1667,32 +1667,32 @@ rsc:twelve_monkeys a sch:Movie ;
 
 rsc:unforgiven a sch:Movie ;
     rdfs:label "Unforgiven"@en ;
-    sch:datePublished "1992-01-01"^^xsd:gYear ;
-    sch:director rsc:clint_eastwood ;
     = <http://dbpedia.org/resource/Unforgiven>,
-        <http://www.wikidata.org/entity/Q7771463> .
+        <http://www.wikidata.org/entity/Q7771463> ;
+    sch:datePublished "1992-01-01"^^xsd:gYear ;
+    sch:director rsc:clint_eastwood .
 
 rsc:up a sch:Movie ;
     rdfs:label "Up"@en ;
+    = <http://dbpedia.org/resource/Uppu>,
+        <http://www.wikidata.org/entity/Q4968381> ;
     sch:datePublished "2009-01-01"^^xsd:gYear ;
     sch:director rsc:bob_peterson,
-        rsc:pete_docter ;
-    = <http://dbpedia.org/resource/Uppu>,
-        <http://www.wikidata.org/entity/Q6655226> .
+        rsc:pete_docter .
 
 rsc:v_for_vendetta a sch:Movie ;
     rdfs:label "V for Vendetta"@en ;
-    sch:datePublished "2005-01-01"^^xsd:gYear ;
-    sch:director rsc:james_mcteigue ;
     = <http://dbpedia.org/resource/V_for_Vendetta_(film)>,
-        <http://www.wikidata.org/entity/Q5890> .
+        <http://www.wikidata.org/entity/Q5890> ;
+    sch:datePublished "2005-01-01"^^xsd:gYear ;
+    sch:director rsc:james_mcteigue .
 
 rsc:vertigo a sch:Movie ;
     rdfs:label "Vertigo"@en ;
-    sch:datePublished "1958-01-01"^^xsd:gYear ;
-    sch:director rsc:alfred_hitchcock ;
     = <http://dbpedia.org/resource/Vertigo_(film)>,
-        <http://www.wikidata.org/entity/Q26448893> .
+        <http://www.wikidata.org/entity/Q26448893> ;
+    sch:datePublished "1958-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
 rsc:wallâ·e a sch:Movie ;
     rdfs:label "WALLÂ·E"@en ;
@@ -1701,54 +1701,54 @@ rsc:wallâ·e a sch:Movie ;
 
 rsc:warrior a sch:Movie ;
     rdfs:label "Warrior"@en ;
+    = <http://dbpedia.org/resource/Warriors_Two>,
+        <http://www.wikidata.org/entity/Q3233113> ;
     sch:datePublished "2011-01-01"^^xsd:gYear ;
-    sch:director <http://philip-broehl.org/resource/gavin_o'connor> ;
-    = <http://dbpedia.org/resource/Iron_Warrior>,
-        <http://www.wikidata.org/entity/Q1621906> .
+    sch:director <http://philip-broehl.org/resource/gavin_o'connor> .
 
 <http://philip-broehl.org/resource/what_ever_happened_to_baby_jane?> a sch:Movie ;
     rdfs:label "What Ever Happened to Baby Jane?"@en ;
-    sch:datePublished "1962-01-01"^^xsd:gYear ;
-    sch:director rsc:robert_aldrich ;
     = <http://dbpedia.org/resource/What_Ever_Happened_to_Baby_Jane%3F_(1962_film)>,
-        <http://www.wikidata.org/entity/Q26644> .
+        <http://www.wikidata.org/entity/Q26644> ;
+    sch:datePublished "1962-01-01"^^xsd:gYear ;
+    sch:director rsc:robert_aldrich .
 
 rsc:whiplash a sch:Movie ;
     rdfs:label "Whiplash"@en ;
-    sch:datePublished "2014-01-01"^^xsd:gYear ;
-    sch:director rsc:damien_chazelle ;
     = <http://dbpedia.org/resource/Whiplash_(2014_film)>,
-        <http://www.wikidata.org/entity/Q7993706> .
+        <http://www.wikidata.org/entity/Q7993706> ;
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:damien_chazelle .
 
 <http://philip-broehl.org/resource/who's_afraid_of_virginia_woolf?> a sch:Movie ;
     rdfs:label "Who's Afraid of Virginia Woolf?"@en ;
-    sch:datePublished "1966-01-01"^^xsd:gYear ;
-    sch:director rsc:mike_nichols ;
     = <http://dbpedia.org/resource/Who's_Afraid_of_Virginia_Woolf%3F_(film)>,
-        <http://www.wikidata.org/entity/Q325643> .
+        <http://www.wikidata.org/entity/Q325643> ;
+    sch:datePublished "1966-01-01"^^xsd:gYear ;
+    sch:director rsc:mike_nichols .
 
 rsc:witness_for_the_prosecution a sch:Movie ;
     rdfs:label "Witness for the Prosecution"@en ;
-    sch:datePublished "1957-01-01"^^xsd:gYear ;
-    sch:director rsc:billy_wilder ;
     = <http://dbpedia.org/resource/Witness_for_the_Prosecution_(1957_film)>,
-        <http://www.wikidata.org/entity/Q196977> .
+        <http://www.wikidata.org/entity/Q196977> ;
+    sch:datePublished "1957-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
 rsc:young_frankenstein a sch:Movie ;
     rdfs:label "Young Frankenstein"@en ;
-    sch:datePublished "1974-01-01"^^xsd:gYear ;
-    sch:director rsc:mel_brooks ;
     = <http://dbpedia.org/resource/Young_Frankenstein>,
-        <http://www.wikidata.org/entity/Q651923> .
+        <http://www.wikidata.org/entity/Q651923> ;
+    sch:datePublished "1974-01-01"^^xsd:gYear ;
+    sch:director rsc:mel_brooks .
 
 rsc:zootopia a sch:Movie ;
     rdfs:label "Zootopia"@en ;
+    = <http://dbpedia.org/resource/Zootopia>,
+        <http://www.wikidata.org/entity/Q15270647> ;
     sch:datePublished "2016-01-01"^^xsd:gYear ;
     sch:director rsc:byron_howard,
         rsc:jared_bush,
-        rsc:rich_moore ;
-    = <http://dbpedia.org/resource/Zootopia>,
-        <http://www.wikidata.org/entity/Q15270647> .
+        rsc:rich_moore .
 
 rsc:adam_elliot a sch:Person ;
     foaf:name "Adam Elliot"@en .
