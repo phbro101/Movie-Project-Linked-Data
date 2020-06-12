@@ -1,1787 +1,1786 @@
-@prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rsc: <http://philip-broehl.org/resource/> .
-@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix sch: <http://www.schema.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-rsc:12_angry_men a dbo:Film ;
+rsc:12_angry_men a sch:Movie ;
     rdfs:label "12 Angry Men"@en ;
-    dbo:director rsc:sidney_lumet ;
-    wdt:P577 "1957-01-01"^^xsd:gYear .
+    sch:datePublished "1957-01-01"^^xsd:gYear ;
+    sch:director rsc:sidney_lumet .
 
-rsc:12_years_a_slave a dbo:Film ;
+rsc:12_years_a_slave a sch:Movie ;
     rdfs:label "12 Years a Slave"@en ;
-    dbo:director rsc:steve_mcqueen ;
-    wdt:P577 "2013-01-01"^^xsd:gYear .
+    sch:datePublished "2013-01-01"^^xsd:gYear ;
+    sch:director rsc:steve_mcqueen .
 
-rsc:2001:_a_space_odyssey a dbo:Film ;
+rsc:2001:_a_space_odyssey a sch:Movie ;
     rdfs:label "2001: A Space Odyssey"@en ;
-    dbo:director rsc:stanley_kubrick ;
-    wdt:P577 "1968-01-01"^^xsd:gYear .
+    sch:datePublished "1968-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
-rsc:a_beautiful_mind a dbo:Film ;
+rsc:a_beautiful_mind a sch:Movie ;
     rdfs:label "A Beautiful Mind"@en ;
-    dbo:director rsc:ron_howard ;
-    wdt:P577 "2001-01-01"^^xsd:gYear .
+    sch:datePublished "2001-01-01"^^xsd:gYear ;
+    sch:director rsc:ron_howard .
 
-rsc:a_christmas_story a dbo:Film ;
+rsc:a_christmas_story a sch:Movie ;
     rdfs:label "A Christmas Story"@en ;
-    dbo:director rsc:bob_clark ;
-    wdt:P577 "1983-01-01"^^xsd:gYear .
+    sch:datePublished "1983-01-01"^^xsd:gYear ;
+    sch:director rsc:bob_clark .
 
-rsc:a_clockwork_orange a dbo:Film ;
+rsc:a_clockwork_orange a sch:Movie ;
     rdfs:label "A Clockwork Orange"@en ;
-    dbo:director rsc:stanley_kubrick ;
-    wdt:P577 "1971-01-01"^^xsd:gYear .
+    sch:datePublished "1971-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
-rsc:a_night_at_the_opera a dbo:Film ;
+rsc:a_night_at_the_opera a sch:Movie ;
     rdfs:label "A Night at the Opera"@en ;
-    dbo:director rsc:edmund_goulding,
-        rsc:sam_wood ;
-    wdt:P577 "1935-01-01"^^xsd:gYear .
+    sch:datePublished "1935-01-01"^^xsd:gYear ;
+    sch:director rsc:edmund_goulding,
+        rsc:sam_wood .
 
-rsc:a_streetcar_named_desire a dbo:Film ;
+rsc:a_streetcar_named_desire a sch:Movie ;
     rdfs:label "A Streetcar Named Desire"@en ;
-    dbo:director rsc:elia_kazan ;
-    wdt:P577 "1951-01-01"^^xsd:gYear .
+    sch:datePublished "1951-01-01"^^xsd:gYear ;
+    sch:director rsc:elia_kazan .
 
-rsc:aladdin a dbo:Film ;
+rsc:aladdin a sch:Movie ;
     rdfs:label "Aladdin"@en ;
-    dbo:director rsc:john_musker,
-        rsc:ron_clements ;
-    wdt:P577 "1992-01-01"^^xsd:gYear .
+    sch:datePublished "1992-01-01"^^xsd:gYear ;
+    sch:director rsc:john_musker,
+        rsc:ron_clements .
 
-rsc:alien a dbo:Film ;
+rsc:alien a sch:Movie ;
     rdfs:label "Alien"@en ;
-    dbo:director rsc:ridley_scott ;
-    wdt:P577 "1979-01-01"^^xsd:gYear .
+    sch:datePublished "1979-01-01"^^xsd:gYear ;
+    sch:director rsc:ridley_scott .
 
-rsc:aliens a dbo:Film ;
+rsc:aliens a sch:Movie ;
     rdfs:label "Aliens"@en ;
-    dbo:director rsc:james_cameron ;
-    wdt:P577 "1986-01-01"^^xsd:gYear .
+    sch:datePublished "1986-01-01"^^xsd:gYear ;
+    sch:director rsc:james_cameron .
 
-rsc:all_about_eve a dbo:Film ;
+rsc:all_about_eve a sch:Movie ;
     rdfs:label "All About Eve"@en ;
-    dbo:director rsc:joseph_l._mankiewicz ;
-    wdt:P577 "1950-01-01"^^xsd:gYear .
+    sch:datePublished "1950-01-01"^^xsd:gYear ;
+    sch:director rsc:joseph_l._mankiewicz .
 
-rsc:all_quiet_on_the_western_front a dbo:Film ;
+rsc:all_quiet_on_the_western_front a sch:Movie ;
     rdfs:label "All Quiet on the Western Front"@en ;
-    dbo:director rsc:lewis_milestone ;
-    wdt:P577 "1930-01-01"^^xsd:gYear .
+    sch:datePublished "1930-01-01"^^xsd:gYear ;
+    sch:director rsc:lewis_milestone .
 
-rsc:amadeus a dbo:Film ;
+rsc:amadeus a sch:Movie ;
     rdfs:label "Amadeus"@en ;
-    dbo:director rsc:milos_forman ;
-    wdt:P577 "1984-01-01"^^xsd:gYear .
+    sch:datePublished "1984-01-01"^^xsd:gYear ;
+    sch:director rsc:milos_forman .
 
-rsc:american_beauty a dbo:Film ;
+rsc:american_beauty a sch:Movie ;
     rdfs:label "American Beauty"@en ;
-    dbo:director rsc:sam_mendes ;
-    wdt:P577 "1999-01-01"^^xsd:gYear .
+    sch:datePublished "1999-01-01"^^xsd:gYear ;
+    sch:director rsc:sam_mendes .
 
-rsc:american_history_x a dbo:Film ;
+rsc:american_history_x a sch:Movie ;
     rdfs:label "American History X"@en ;
-    dbo:director rsc:tony_kaye ;
-    wdt:P577 "1998-01-01"^^xsd:gYear .
+    sch:datePublished "1998-01-01"^^xsd:gYear ;
+    sch:director rsc:tony_kaye .
 
-rsc:anatomy_of_a_murder a dbo:Film ;
+rsc:anatomy_of_a_murder a sch:Movie ;
     rdfs:label "Anatomy of a Murder"@en ;
-    dbo:director rsc:otto_preminger ;
-    wdt:P577 "1959-01-01"^^xsd:gYear .
+    sch:datePublished "1959-01-01"^^xsd:gYear ;
+    sch:director rsc:otto_preminger .
 
-rsc:annie_hall a dbo:Film ;
+rsc:annie_hall a sch:Movie ;
     rdfs:label "Annie Hall"@en ;
-    dbo:director rsc:woody_allen ;
-    wdt:P577 "1977-01-01"^^xsd:gYear .
+    sch:datePublished "1977-01-01"^^xsd:gYear ;
+    sch:director rsc:woody_allen .
 
-rsc:apocalypse_now a dbo:Film ;
+rsc:apocalypse_now a sch:Movie ;
     rdfs:label "Apocalypse Now"@en ;
-    dbo:director rsc:francis_ford_coppola ;
-    wdt:P577 "1979-01-01"^^xsd:gYear .
+    sch:datePublished "1979-01-01"^^xsd:gYear ;
+    sch:director rsc:francis_ford_coppola .
 
-rsc:arsenic_and_old_lace a dbo:Film ;
+rsc:arsenic_and_old_lace a sch:Movie ;
     rdfs:label "Arsenic and Old Lace"@en ;
-    dbo:director rsc:frank_capra ;
-    wdt:P577 "1944-01-01"^^xsd:gYear .
+    sch:datePublished "1944-01-01"^^xsd:gYear ;
+    sch:director rsc:frank_capra .
 
-rsc:baby_driver a dbo:Film ;
+rsc:baby_driver a sch:Movie ;
     rdfs:label "Baby Driver"@en ;
-    dbo:director rsc:edgar_wright ;
-    wdt:P577 "2017-01-01"^^xsd:gYear .
+    sch:datePublished "2017-01-01"^^xsd:gYear ;
+    sch:director rsc:edgar_wright .
 
-rsc:back_to_the_future a dbo:Film ;
+rsc:back_to_the_future a sch:Movie ;
     rdfs:label "Back to the Future"@en ;
-    dbo:director rsc:robert_zemeckis ;
-    wdt:P577 "1985-01-01"^^xsd:gYear .
+    sch:datePublished "1985-01-01"^^xsd:gYear ;
+    sch:director rsc:robert_zemeckis .
 
-rsc:barry_lyndon a dbo:Film ;
+rsc:barry_lyndon a sch:Movie ;
     rdfs:label "Barry Lyndon"@en ;
-    dbo:director rsc:stanley_kubrick ;
-    wdt:P577 "1975-01-01"^^xsd:gYear .
+    sch:datePublished "1975-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
-rsc:batman_begins a dbo:Film ;
+rsc:batman_begins a sch:Movie ;
     rdfs:label "Batman Begins"@en ;
-    dbo:director rsc:christopher_nolan ;
-    wdt:P577 "2005-01-01"^^xsd:gYear .
+    sch:datePublished "2005-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
-rsc:beauty_and_the_beast a dbo:Film ;
+rsc:beauty_and_the_beast a sch:Movie ;
     rdfs:label "Beauty and the Beast"@en ;
-    dbo:director rsc:gary_trousdale,
-        rsc:kirk_wise ;
-    wdt:P577 "1991-01-01"^^xsd:gYear .
+    sch:datePublished "1991-01-01"^^xsd:gYear ;
+    sch:director rsc:gary_trousdale,
+        rsc:kirk_wise .
 
-rsc:before_sunrise a dbo:Film ;
+rsc:before_sunrise a sch:Movie ;
     rdfs:label "Before Sunrise"@en ;
-    dbo:director rsc:richard_linklater ;
-    wdt:P577 "1995-01-01"^^xsd:gYear .
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:richard_linklater .
 
-rsc:before_sunset a dbo:Film ;
+rsc:before_sunset a sch:Movie ;
     rdfs:label "Before Sunset"@en ;
-    dbo:director rsc:richard_linklater ;
-    wdt:P577 "2004-01-01"^^xsd:gYear .
+    sch:datePublished "2004-01-01"^^xsd:gYear ;
+    sch:director rsc:richard_linklater .
 
-rsc:ben-hur a dbo:Film ;
+rsc:ben-hur a sch:Movie ;
     rdfs:label "Ben-Hur"@en ;
-    dbo:director rsc:william_wyler ;
-    wdt:P577 "1959-01-01"^^xsd:gYear .
+    sch:datePublished "1959-01-01"^^xsd:gYear ;
+    sch:director rsc:william_wyler .
 
-rsc:big_fish a dbo:Film ;
+rsc:big_fish a sch:Movie ;
     rdfs:label "Big Fish"@en ;
-    dbo:director rsc:tim_burton ;
-    wdt:P577 "2003-01-01"^^xsd:gYear .
+    sch:datePublished "2003-01-01"^^xsd:gYear ;
+    sch:director rsc:tim_burton .
 
-rsc:blade_runner a dbo:Film ;
+rsc:blade_runner a sch:Movie ;
     rdfs:label "Blade Runner"@en ;
-    dbo:director rsc:ridley_scott ;
-    wdt:P577 "1982-01-01"^^xsd:gYear .
+    sch:datePublished "1982-01-01"^^xsd:gYear ;
+    sch:director rsc:ridley_scott .
 
-rsc:blood_diamond a dbo:Film ;
+rsc:blood_diamond a sch:Movie ;
     rdfs:label "Blood Diamond"@en ;
-    dbo:director rsc:edward_zwick ;
-    wdt:P577 "2006-01-01"^^xsd:gYear .
+    sch:datePublished "2006-01-01"^^xsd:gYear ;
+    sch:director rsc:edward_zwick .
 
-rsc:braveheart a dbo:Film ;
+rsc:braveheart a sch:Movie ;
     rdfs:label "Braveheart"@en ;
-    dbo:director rsc:mel_gibson ;
-    wdt:P577 "1995-01-01"^^xsd:gYear .
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:mel_gibson .
 
-rsc:brief_encounter a dbo:Film ;
+rsc:brief_encounter a sch:Movie ;
     rdfs:label "Brief Encounter"@en ;
-    dbo:director rsc:david_lean ;
-    wdt:P577 "1945-01-01"^^xsd:gYear .
+    sch:datePublished "1945-01-01"^^xsd:gYear ;
+    sch:director rsc:david_lean .
 
-rsc:butch_cassidy_and_the_sundance_kid a dbo:Film ;
+rsc:butch_cassidy_and_the_sundance_kid a sch:Movie ;
     rdfs:label "Butch Cassidy and the Sundance Kid"@en ;
-    dbo:director rsc:george_roy_hill ;
-    wdt:P577 "1969-01-01"^^xsd:gYear .
+    sch:datePublished "1969-01-01"^^xsd:gYear ;
+    sch:director rsc:george_roy_hill .
 
-rsc:casablanca a dbo:Film ;
+rsc:casablanca a sch:Movie ;
     rdfs:label "Casablanca"@en ;
-    dbo:director rsc:michael_curtiz ;
-    wdt:P577 "1942-01-01"^^xsd:gYear .
+    sch:datePublished "1942-01-01"^^xsd:gYear ;
+    sch:director rsc:michael_curtiz .
 
-rsc:casino a dbo:Film ;
+rsc:casino a sch:Movie ;
     rdfs:label "Casino"@en ;
-    dbo:director rsc:martin_scorsese ;
-    wdt:P577 "1995-01-01"^^xsd:gYear .
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:martin_scorsese .
 
-rsc:cat_on_a_hot_tin_roof a dbo:Film ;
+rsc:cat_on_a_hot_tin_roof a sch:Movie ;
     rdfs:label "Cat on a Hot Tin Roof"@en ;
-    dbo:director rsc:richard_brooks ;
-    wdt:P577 "1958-01-01"^^xsd:gYear .
+    sch:datePublished "1958-01-01"^^xsd:gYear ;
+    sch:director rsc:richard_brooks .
 
-rsc:catch_me_if_you_can a dbo:Film ;
+rsc:catch_me_if_you_can a sch:Movie ;
     rdfs:label "Catch Me If You Can"@en ;
-    dbo:director rsc:steven_spielberg ;
-    wdt:P577 "2002-01-01"^^xsd:gYear .
+    sch:datePublished "2002-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
-rsc:chinatown a dbo:Film ;
+rsc:chinatown a sch:Movie ;
     rdfs:label "Chinatown"@en ;
-    dbo:director rsc:roman_polanski ;
-    wdt:P577 "1974-01-01"^^xsd:gYear .
+    sch:datePublished "1974-01-01"^^xsd:gYear ;
+    sch:director rsc:roman_polanski .
 
-rsc:citizen_kane a dbo:Film ;
+rsc:citizen_kane a sch:Movie ;
     rdfs:label "Citizen Kane"@en ;
-    dbo:director rsc:orson_welles ;
-    wdt:P577 "1941-01-01"^^xsd:gYear .
+    sch:datePublished "1941-01-01"^^xsd:gYear ;
+    sch:director rsc:orson_welles .
 
-rsc:city_lights a dbo:Film ;
+rsc:city_lights a sch:Movie ;
     rdfs:label "City Lights"@en ;
-    dbo:director rsc:charles_chaplin ;
-    wdt:P577 "1931-01-01"^^xsd:gYear .
+    sch:datePublished "1931-01-01"^^xsd:gYear ;
+    sch:director rsc:charles_chaplin .
 
-rsc:cool_hand_luke a dbo:Film ;
+rsc:cool_hand_luke a sch:Movie ;
     rdfs:label "Cool Hand Luke"@en ;
-    dbo:director rsc:stuart_rosenberg ;
-    wdt:P577 "1967-01-01"^^xsd:gYear .
+    sch:datePublished "1967-01-01"^^xsd:gYear ;
+    sch:director rsc:stuart_rosenberg .
 
-rsc:dead_poets_society a dbo:Film ;
+rsc:dead_poets_society a sch:Movie ;
     rdfs:label "Dead Poets Society"@en ;
-    dbo:director rsc:peter_weir ;
-    wdt:P577 "1989-01-01"^^xsd:gYear .
+    sch:datePublished "1989-01-01"^^xsd:gYear ;
+    sch:director rsc:peter_weir .
 
-rsc:deadpool a dbo:Film ;
+rsc:deadpool a sch:Movie ;
     rdfs:label "Deadpool"@en ;
-    dbo:director rsc:tim_miller ;
-    wdt:P577 "2016-01-01"^^xsd:gYear .
+    sch:datePublished "2016-01-01"^^xsd:gYear ;
+    sch:director rsc:tim_miller .
 
-rsc:dial_m_for_murder a dbo:Film ;
+rsc:dial_m_for_murder a sch:Movie ;
     rdfs:label "Dial M for Murder"@en ;
-    dbo:director rsc:alfred_hitchcock ;
-    wdt:P577 "1954-01-01"^^xsd:gYear .
+    sch:datePublished "1954-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
-rsc:die_hard a dbo:Film ;
+rsc:die_hard a sch:Movie ;
     rdfs:label "Die Hard"@en ;
-    dbo:director rsc:john_mctiernan ;
-    wdt:P577 "1988-01-01"^^xsd:gYear .
+    sch:datePublished "1988-01-01"^^xsd:gYear ;
+    sch:director rsc:john_mctiernan .
 
-rsc:django_unchained a dbo:Film ;
+rsc:django_unchained a sch:Movie ;
     rdfs:label "Django Unchained"@en ;
-    dbo:director rsc:quentin_tarantino ;
-    wdt:P577 "2012-01-01"^^xsd:gYear .
+    sch:datePublished "2012-01-01"^^xsd:gYear ;
+    sch:director rsc:quentin_tarantino .
 
-rsc:dog_day_afternoon a dbo:Film ;
+rsc:dog_day_afternoon a sch:Movie ;
     rdfs:label "Dog Day Afternoon"@en ;
-    dbo:director rsc:sidney_lumet ;
-    wdt:P577 "1975-01-01"^^xsd:gYear .
+    sch:datePublished "1975-01-01"^^xsd:gYear ;
+    sch:director rsc:sidney_lumet .
 
-rsc:dogville a dbo:Film ;
+rsc:dogville a sch:Movie ;
     rdfs:label "Dogville"@en ;
-    dbo:director rsc:lars_von_trier ;
-    wdt:P577 "2003-01-01"^^xsd:gYear .
+    sch:datePublished "2003-01-01"^^xsd:gYear ;
+    sch:director rsc:lars_von_trier .
 
-rsc:donnie_darko a dbo:Film ;
+rsc:donnie_darko a sch:Movie ;
     rdfs:label "Donnie Darko"@en ;
-    dbo:director rsc:richard_kelly ;
-    wdt:P577 "2001-01-01"^^xsd:gYear .
+    sch:datePublished "2001-01-01"^^xsd:gYear ;
+    sch:director rsc:richard_kelly .
 
-rsc:double_indemnity a dbo:Film ;
+rsc:double_indemnity a sch:Movie ;
     rdfs:label "Double Indemnity"@en ;
-    dbo:director rsc:billy_wilder ;
-    wdt:P577 "1944-01-01"^^xsd:gYear .
+    sch:datePublished "1944-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
-rsc:dr._strangelove_or:_how_i_learned_to_stop_worrying_and_love_the_bomb a dbo:Film ;
+rsc:dr._strangelove_or:_how_i_learned_to_stop_worrying_and_love_the_bomb a sch:Movie ;
     rdfs:label "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"@en ;
-    dbo:director rsc:stanley_kubrick ;
-    wdt:P577 "1964-01-01"^^xsd:gYear .
+    sch:datePublished "1964-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
-rsc:eternal_sunshine_of_the_spotless_mind a dbo:Film ;
+rsc:eternal_sunshine_of_the_spotless_mind a sch:Movie ;
     rdfs:label "Eternal Sunshine of the Spotless Mind"@en ;
-    dbo:director rsc:michel_gondry ;
-    wdt:P577 "2004-01-01"^^xsd:gYear .
+    sch:datePublished "2004-01-01"^^xsd:gYear ;
+    sch:director rsc:michel_gondry .
 
-rsc:fargo a dbo:Film ;
+rsc:fargo a sch:Movie ;
     rdfs:label "Fargo"@en ;
-    dbo:director rsc:ethan_coen,
-        rsc:joel_coen ;
-    wdt:P577 "1996-01-01"^^xsd:gYear .
+    sch:datePublished "1996-01-01"^^xsd:gYear ;
+    sch:director rsc:ethan_coen,
+        rsc:joel_coen .
 
-rsc:fight_club a dbo:Film ;
+rsc:fight_club a sch:Movie ;
     rdfs:label "Fight Club"@en ;
-    dbo:director rsc:david_fincher ;
-    wdt:P577 "1999-01-01"^^xsd:gYear .
+    sch:datePublished "1999-01-01"^^xsd:gYear ;
+    sch:director rsc:david_fincher .
 
-rsc:finding_nemo a dbo:Film ;
+rsc:finding_nemo a sch:Movie ;
     rdfs:label "Finding Nemo"@en ;
-    dbo:director rsc:andrew_stanton,
-        rsc:lee_unkrich ;
-    wdt:P577 "2003-01-01"^^xsd:gYear .
+    sch:datePublished "2003-01-01"^^xsd:gYear ;
+    sch:director rsc:andrew_stanton,
+        rsc:lee_unkrich .
 
-rsc:forrest_gump a dbo:Film ;
+rsc:forrest_gump a sch:Movie ;
     rdfs:label "Forrest Gump"@en ;
-    dbo:director rsc:robert_zemeckis ;
-    wdt:P577 "1994-01-01"^^xsd:gYear .
+    sch:datePublished "1994-01-01"^^xsd:gYear ;
+    sch:director rsc:robert_zemeckis .
 
-rsc:full_metal_jacket a dbo:Film ;
+rsc:full_metal_jacket a sch:Movie ;
     rdfs:label "Full Metal Jacket"@en ;
-    dbo:director rsc:stanley_kubrick ;
-    wdt:P577 "1987-01-01"^^xsd:gYear .
+    sch:datePublished "1987-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
-rsc:gandhi a dbo:Film ;
+rsc:gandhi a sch:Movie ;
     rdfs:label "Gandhi"@en ;
-    dbo:director rsc:richard_attenborough ;
-    wdt:P577 "1982-01-01"^^xsd:gYear .
+    sch:datePublished "1982-01-01"^^xsd:gYear ;
+    sch:director rsc:richard_attenborough .
 
-rsc:gladiator a dbo:Film ;
+rsc:gladiator a sch:Movie ;
     rdfs:label "Gladiator"@en ;
-    dbo:director rsc:ridley_scott ;
-    wdt:P577 "2000-01-01"^^xsd:gYear .
+    sch:datePublished "2000-01-01"^^xsd:gYear ;
+    sch:director rsc:ridley_scott .
 
-rsc:gone_girl a dbo:Film ;
+rsc:gone_girl a sch:Movie ;
     rdfs:label "Gone Girl"@en ;
-    dbo:director rsc:david_fincher ;
-    wdt:P577 "2014-01-01"^^xsd:gYear .
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:david_fincher .
 
-rsc:gone_with_the_wind a dbo:Film ;
+rsc:gone_with_the_wind a sch:Movie ;
     rdfs:label "Gone with the Wind"@en ;
-    dbo:director rsc:george_cukor,
+    sch:datePublished "1939-01-01"^^xsd:gYear ;
+    sch:director rsc:george_cukor,
         rsc:sam_wood,
-        rsc:victor_fleming ;
-    wdt:P577 "1939-01-01"^^xsd:gYear .
+        rsc:victor_fleming .
 
-rsc:good_will_hunting a dbo:Film ;
+rsc:good_will_hunting a sch:Movie ;
     rdfs:label "Good Will Hunting"@en ;
-    dbo:director rsc:gus_van_sant ;
-    wdt:P577 "1997-01-01"^^xsd:gYear .
+    sch:datePublished "1997-01-01"^^xsd:gYear ;
+    sch:director rsc:gus_van_sant .
 
-rsc:goodfellas a dbo:Film ;
+rsc:goodfellas a sch:Movie ;
     rdfs:label "Goodfellas"@en ;
-    dbo:director rsc:martin_scorsese ;
-    wdt:P577 "1990-01-01"^^xsd:gYear .
+    sch:datePublished "1990-01-01"^^xsd:gYear ;
+    sch:director rsc:martin_scorsese .
 
-rsc:gran_torino a dbo:Film ;
+rsc:gran_torino a sch:Movie ;
     rdfs:label "Gran Torino"@en ;
-    dbo:director rsc:clint_eastwood ;
-    wdt:P577 "2008-01-01"^^xsd:gYear .
+    sch:datePublished "2008-01-01"^^xsd:gYear ;
+    sch:director rsc:clint_eastwood .
 
-rsc:groundhog_day a dbo:Film ;
+rsc:groundhog_day a sch:Movie ;
     rdfs:label "Groundhog Day"@en ;
-    dbo:director rsc:harold_ramis ;
-    wdt:P577 "1993-01-01"^^xsd:gYear .
+    sch:datePublished "1993-01-01"^^xsd:gYear ;
+    sch:director rsc:harold_ramis .
 
-rsc:guardians_of_the_galaxy a dbo:Film ;
+rsc:guardians_of_the_galaxy a sch:Movie ;
     rdfs:label "Guardians of the Galaxy"@en ;
-    dbo:director rsc:james_gunn ;
-    wdt:P577 "2014-01-01"^^xsd:gYear .
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:james_gunn .
 
-rsc:guardians_of_the_galaxy_vol._2 a dbo:Film ;
+rsc:guardians_of_the_galaxy_vol._2 a sch:Movie ;
     rdfs:label "Guardians of the Galaxy Vol. 2"@en ;
-    dbo:director rsc:james_gunn ;
-    wdt:P577 "2017-01-01"^^xsd:gYear .
+    sch:datePublished "2017-01-01"^^xsd:gYear ;
+    sch:director rsc:james_gunn .
 
-<http://philip-broehl.org/resource/hachi:_a_dog's_tale> a dbo:Film ;
+<http://philip-broehl.org/resource/hachi:_a_dog's_tale> a sch:Movie ;
     rdfs:label "Hachi: A Dog's Tale"@en ;
-    dbo:director <http://philip-broehl.org/resource/lasse_hallstrã¶m> ;
-    wdt:P577 "2009-01-01"^^xsd:gYear .
+    sch:datePublished "2009-01-01"^^xsd:gYear ;
+    sch:director <http://philip-broehl.org/resource/lasse_hallstrã¶m> .
 
-rsc:hacksaw_ridge a dbo:Film ;
+rsc:hacksaw_ridge a sch:Movie ;
     rdfs:label "Hacksaw Ridge"@en ;
-    dbo:director rsc:mel_gibson ;
-    wdt:P577 "2016-01-01"^^xsd:gYear .
+    sch:datePublished "2016-01-01"^^xsd:gYear ;
+    sch:director rsc:mel_gibson .
 
-rsc:harry_potter_and_the_deathly_hallows:_part_2 a dbo:Film ;
+rsc:harry_potter_and_the_deathly_hallows:_part_2 a sch:Movie ;
     rdfs:label "Harry Potter and the Deathly Hallows: Part 2"@en ;
-    dbo:director rsc:david_yates ;
-    wdt:P577 "2011-01-01"^^xsd:gYear .
+    sch:datePublished "2011-01-01"^^xsd:gYear ;
+    sch:director rsc:david_yates .
 
-rsc:harvey a dbo:Film ;
+rsc:harvey a sch:Movie ;
     rdfs:label "Harvey"@en ;
-    dbo:director rsc:henry_koster ;
-    wdt:P577 "1950-01-01"^^xsd:gYear .
+    sch:datePublished "1950-01-01"^^xsd:gYear ;
+    sch:director rsc:henry_koster .
 
-rsc:heat a dbo:Film ;
+rsc:heat a sch:Movie ;
     rdfs:label "Heat"@en ;
-    dbo:director rsc:michael_mann ;
-    wdt:P577 "1995-01-01"^^xsd:gYear .
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:michael_mann .
 
-rsc:high_noon a dbo:Film ;
+rsc:high_noon a sch:Movie ;
     rdfs:label "High Noon"@en ;
-    dbo:director rsc:fred_zinnemann ;
-    wdt:P577 "1952-01-01"^^xsd:gYear .
+    sch:datePublished "1952-01-01"^^xsd:gYear ;
+    sch:director rsc:fred_zinnemann .
 
-rsc:his_girl_friday a dbo:Film ;
+rsc:his_girl_friday a sch:Movie ;
     rdfs:label "His Girl Friday"@en ;
-    dbo:director rsc:howard_hawks ;
-    wdt:P577 "1940-01-01"^^xsd:gYear .
+    sch:datePublished "1940-01-01"^^xsd:gYear ;
+    sch:director rsc:howard_hawks .
 
-rsc:hotel_rwanda a dbo:Film ;
+rsc:hotel_rwanda a sch:Movie ;
     rdfs:label "Hotel Rwanda"@en ;
-    dbo:director rsc:terry_george ;
-    wdt:P577 "2004-01-01"^^xsd:gYear .
+    sch:datePublished "2004-01-01"^^xsd:gYear ;
+    sch:director rsc:terry_george .
 
-rsc:how_to_train_your_dragon a dbo:Film ;
+rsc:how_to_train_your_dragon a sch:Movie ;
     rdfs:label "How to Train Your Dragon"@en ;
-    dbo:director rsc:chris_sanders,
-        rsc:dean_deblois ;
-    wdt:P577 "2010-01-01"^^xsd:gYear .
+    sch:datePublished "2010-01-01"^^xsd:gYear ;
+    sch:director rsc:chris_sanders,
+        rsc:dean_deblois .
 
-rsc:in_the_name_of_the_father a dbo:Film ;
+rsc:in_the_name_of_the_father a sch:Movie ;
     rdfs:label "In the Name of the Father"@en ;
-    dbo:director rsc:jim_sheridan ;
-    wdt:P577 "1993-01-01"^^xsd:gYear .
+    sch:datePublished "1993-01-01"^^xsd:gYear ;
+    sch:director rsc:jim_sheridan .
 
-rsc:inception a dbo:Film ;
+rsc:inception a sch:Movie ;
     rdfs:label "Inception"@en ;
-    dbo:director rsc:christopher_nolan ;
-    wdt:P577 "2010-01-01"^^xsd:gYear .
+    sch:datePublished "2010-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
-rsc:indiana_jones_and_the_last_crusade a dbo:Film ;
+rsc:indiana_jones_and_the_last_crusade a sch:Movie ;
     rdfs:label "Indiana Jones and the Last Crusade"@en ;
-    dbo:director rsc:steven_spielberg ;
-    wdt:P577 "1989-01-01"^^xsd:gYear .
+    sch:datePublished "1989-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
-rsc:inglourious_basterds a dbo:Film ;
+rsc:inglourious_basterds a sch:Movie ;
     rdfs:label "Inglourious Basterds"@en ;
-    dbo:director rsc:eli_roth,
-        rsc:quentin_tarantino ;
-    wdt:P577 "2009-01-01"^^xsd:gYear .
+    sch:datePublished "2009-01-01"^^xsd:gYear ;
+    sch:director rsc:eli_roth,
+        rsc:quentin_tarantino .
 
-rsc:inside_out a dbo:Film ;
+rsc:inside_out a sch:Movie ;
     rdfs:label "Inside Out"@en ;
-    dbo:director rsc:pete_docter,
-        rsc:ronnie_del_carmen ;
-    wdt:P577 "2015-01-01"^^xsd:gYear .
+    sch:datePublished "2015-01-01"^^xsd:gYear ;
+    sch:director rsc:pete_docter,
+        rsc:ronnie_del_carmen .
 
-rsc:interstellar a dbo:Film ;
+rsc:interstellar a sch:Movie ;
     rdfs:label "Interstellar"@en ;
-    dbo:director rsc:christopher_nolan ;
-    wdt:P577 "2014-01-01"^^xsd:gYear .
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
-rsc:into_the_wild a dbo:Film ;
+rsc:into_the_wild a sch:Movie ;
     rdfs:label "Into the Wild"@en ;
-    dbo:director rsc:sean_penn ;
-    wdt:P577 "2007-01-01"^^xsd:gYear .
+    sch:datePublished "2007-01-01"^^xsd:gYear ;
+    sch:director rsc:sean_penn .
 
-<http://philip-broehl.org/resource/it's_a_wonderful_life> a dbo:Film ;
+<http://philip-broehl.org/resource/it's_a_wonderful_life> a sch:Movie ;
     rdfs:label "It's a Wonderful Life"@en ;
-    dbo:director rsc:frank_capra ;
-    wdt:P577 "1946-01-01"^^xsd:gYear .
+    sch:datePublished "1946-01-01"^^xsd:gYear ;
+    sch:director rsc:frank_capra .
 
-rsc:it_happened_one_night a dbo:Film ;
+rsc:it_happened_one_night a sch:Movie ;
     rdfs:label "It Happened One Night"@en ;
-    dbo:director rsc:frank_capra ;
-    wdt:P577 "1934-01-01"^^xsd:gYear .
+    sch:datePublished "1934-01-01"^^xsd:gYear ;
+    sch:director rsc:frank_capra .
 
-rsc:jaws a dbo:Film ;
+rsc:jaws a sch:Movie ;
     rdfs:label "Jaws"@en ;
-    dbo:director rsc:steven_spielberg ;
-    wdt:P577 "1975-01-01"^^xsd:gYear .
+    sch:datePublished "1975-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
-rsc:jfk a dbo:Film ;
+rsc:jfk a sch:Movie ;
     rdfs:label "JFK"@en ;
-    dbo:director rsc:oliver_stone ;
-    wdt:P577 "1991-01-01"^^xsd:gYear .
+    sch:datePublished "1991-01-01"^^xsd:gYear ;
+    sch:director rsc:oliver_stone .
 
-rsc:judgment_at_nuremberg a dbo:Film ;
+rsc:judgment_at_nuremberg a sch:Movie ;
     rdfs:label "Judgment at Nuremberg"@en ;
-    dbo:director rsc:stanley_kramer ;
-    wdt:P577 "1961-01-01"^^xsd:gYear .
+    sch:datePublished "1961-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kramer .
 
-rsc:jurassic_park a dbo:Film ;
+rsc:jurassic_park a sch:Movie ;
     rdfs:label "Jurassic Park"@en ;
-    dbo:director rsc:steven_spielberg ;
-    wdt:P577 "1993-01-01"^^xsd:gYear .
+    sch:datePublished "1993-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
-rsc:kill_bill:_vol._1 a dbo:Film ;
+rsc:kill_bill:_vol._1 a sch:Movie ;
     rdfs:label "Kill Bill: Vol. 1"@en ;
-    dbo:director rsc:quentin_tarantino ;
-    wdt:P577 "2003-01-01"^^xsd:gYear .
+    sch:datePublished "2003-01-01"^^xsd:gYear ;
+    sch:director rsc:quentin_tarantino .
 
-rsc:kind_hearts_and_coronets a dbo:Film ;
+rsc:kind_hearts_and_coronets a sch:Movie ;
     rdfs:label "Kind Hearts and Coronets"@en ;
-    dbo:director rsc:robert_hamer ;
-    wdt:P577 "1949-01-01"^^xsd:gYear .
+    sch:datePublished "1949-01-01"^^xsd:gYear ;
+    sch:director rsc:robert_hamer .
 
-rsc:l.a._confidential a dbo:Film ;
+rsc:l.a._confidential a sch:Movie ;
     rdfs:label "L.A. Confidential"@en ;
-    dbo:director rsc:curtis_hanson ;
-    wdt:P577 "1997-01-01"^^xsd:gYear .
+    sch:datePublished "1997-01-01"^^xsd:gYear ;
+    sch:director rsc:curtis_hanson .
 
-rsc:la_la_land a dbo:Film ;
+rsc:la_la_land a sch:Movie ;
     rdfs:label "La La Land"@en ;
-    dbo:director rsc:damien_chazelle ;
-    wdt:P577 "2016-01-01"^^xsd:gYear .
+    sch:datePublished "2016-01-01"^^xsd:gYear ;
+    sch:director rsc:damien_chazelle .
 
-rsc:laura a dbo:Film ;
+rsc:laura a sch:Movie ;
     rdfs:label "Laura"@en ;
-    dbo:director rsc:otto_preminger ;
-    wdt:P577 "1944-01-01"^^xsd:gYear .
+    sch:datePublished "1944-01-01"^^xsd:gYear ;
+    sch:director rsc:otto_preminger .
 
-rsc:lawrence_of_arabia a dbo:Film ;
+rsc:lawrence_of_arabia a sch:Movie ;
     rdfs:label "Lawrence of Arabia"@en ;
-    dbo:director rsc:david_lean ;
-    wdt:P577 "1962-01-01"^^xsd:gYear .
+    sch:datePublished "1962-01-01"^^xsd:gYear ;
+    sch:director rsc:david_lean .
 
-rsc:life_of_brian a dbo:Film ;
+rsc:life_of_brian a sch:Movie ;
     rdfs:label "Life of Brian"@en ;
-    dbo:director rsc:terry_jones ;
-    wdt:P577 "1979-01-01"^^xsd:gYear .
+    sch:datePublished "1979-01-01"^^xsd:gYear ;
+    sch:director rsc:terry_jones .
 
-rsc:lion a dbo:Film ;
+rsc:lion a sch:Movie ;
     rdfs:label "Lion"@en ;
-    dbo:director rsc:garth_davis ;
-    wdt:P577 "2016-01-01"^^xsd:gYear .
+    sch:datePublished "2016-01-01"^^xsd:gYear ;
+    sch:director rsc:garth_davis .
 
-<http://philip-broehl.org/resource/lock,_stock_and_two_smoking_barrels> a dbo:Film ;
+<http://philip-broehl.org/resource/lock,_stock_and_two_smoking_barrels> a sch:Movie ;
     rdfs:label "Lock, Stock and Two Smoking Barrels"@en ;
-    dbo:director rsc:guy_ritchie ;
-    wdt:P577 "1998-01-01"^^xsd:gYear .
+    sch:datePublished "1998-01-01"^^xsd:gYear ;
+    sch:director rsc:guy_ritchie .
 
-rsc:logan a dbo:Film ;
+rsc:logan a sch:Movie ;
     rdfs:label "Logan"@en ;
-    dbo:director rsc:james_mangold ;
-    wdt:P577 "2017-01-01"^^xsd:gYear .
+    sch:datePublished "2017-01-01"^^xsd:gYear ;
+    sch:director rsc:james_mangold .
 
-<http://philip-broehl.org/resource/lã©on:_the_professional> a dbo:Film ;
+<http://philip-broehl.org/resource/lã©on:_the_professional> a sch:Movie ;
     rdfs:label "LÃ©on: The Professional"@en ;
-    dbo:director rsc:luc_besson ;
-    wdt:P577 "1994-01-01"^^xsd:gYear .
+    sch:datePublished "1994-01-01"^^xsd:gYear ;
+    sch:director rsc:luc_besson .
 
-rsc:mad_max:_fury_road a dbo:Film ;
+rsc:mad_max:_fury_road a sch:Movie ;
     rdfs:label "Mad Max: Fury Road"@en ;
-    dbo:director rsc:george_miller ;
-    wdt:P577 "2015-01-01"^^xsd:gYear .
+    sch:datePublished "2015-01-01"^^xsd:gYear ;
+    sch:director rsc:george_miller .
 
-rsc:magnolia a dbo:Film ;
+rsc:magnolia a sch:Movie ;
     rdfs:label "Magnolia"@en ;
-    dbo:director rsc:paul_thomas_anderson ;
-    wdt:P577 "1999-01-01"^^xsd:gYear .
+    sch:datePublished "1999-01-01"^^xsd:gYear ;
+    sch:director rsc:paul_thomas_anderson .
 
-rsc:mary_and_max a dbo:Film ;
+rsc:mary_and_max a sch:Movie ;
     rdfs:label "Mary and Max"@en ;
-    dbo:director rsc:adam_elliot ;
-    wdt:P577 "2009-01-01"^^xsd:gYear .
+    sch:datePublished "2009-01-01"^^xsd:gYear ;
+    sch:director rsc:adam_elliot .
 
-rsc:memento a dbo:Film ;
+rsc:memento a sch:Movie ;
     rdfs:label "Memento"@en ;
-    dbo:director rsc:christopher_nolan ;
-    wdt:P577 "2000-01-01"^^xsd:gYear .
+    sch:datePublished "2000-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
-rsc:million_dollar_baby a dbo:Film ;
+rsc:million_dollar_baby a sch:Movie ;
     rdfs:label "Million Dollar Baby"@en ;
-    dbo:director rsc:clint_eastwood ;
-    wdt:P577 "2004-01-01"^^xsd:gYear .
+    sch:datePublished "2004-01-01"^^xsd:gYear ;
+    sch:director rsc:clint_eastwood .
 
-rsc:modern_times a dbo:Film ;
+rsc:modern_times a sch:Movie ;
     rdfs:label "Modern Times"@en ;
-    dbo:director rsc:charles_chaplin ;
-    wdt:P577 "1936-01-01"^^xsd:gYear .
+    sch:datePublished "1936-01-01"^^xsd:gYear ;
+    sch:director rsc:charles_chaplin .
 
-<http://philip-broehl.org/resource/monsters,_inc.> a dbo:Film ;
+<http://philip-broehl.org/resource/monsters,_inc.> a sch:Movie ;
     rdfs:label "Monsters, Inc."@en ;
-    dbo:director rsc:david_silverman,
+    sch:datePublished "2001-01-01"^^xsd:gYear ;
+    sch:director rsc:david_silverman,
         rsc:lee_unkrich,
-        rsc:pete_docter ;
-    wdt:P577 "2001-01-01"^^xsd:gYear .
+        rsc:pete_docter .
 
-rsc:monty_python_and_the_holy_grail a dbo:Film ;
+rsc:monty_python_and_the_holy_grail a sch:Movie ;
     rdfs:label "Monty Python and the Holy Grail"@en ;
-    dbo:director rsc:terry_gilliam,
-        rsc:terry_jones ;
-    wdt:P577 "1975-01-01"^^xsd:gYear .
+    sch:datePublished "1975-01-01"^^xsd:gYear ;
+    sch:director rsc:terry_gilliam,
+        rsc:terry_jones .
 
-rsc:mr._smith_goes_to_washington a dbo:Film ;
+rsc:mr._smith_goes_to_washington a sch:Movie ;
     rdfs:label "Mr. Smith Goes to Washington"@en ;
-    dbo:director rsc:frank_capra ;
-    wdt:P577 "1939-01-01"^^xsd:gYear .
+    sch:datePublished "1939-01-01"^^xsd:gYear ;
+    sch:director rsc:frank_capra .
 
-rsc:network a dbo:Film ;
+rsc:network a sch:Movie ;
     rdfs:label "Network"@en ;
-    dbo:director rsc:sidney_lumet ;
-    wdt:P577 "1976-01-01"^^xsd:gYear .
+    sch:datePublished "1976-01-01"^^xsd:gYear ;
+    sch:director rsc:sidney_lumet .
 
-rsc:no_country_for_old_men a dbo:Film ;
+rsc:no_country_for_old_men a sch:Movie ;
     rdfs:label "No Country for Old Men"@en ;
-    dbo:director rsc:ethan_coen,
-        rsc:joel_coen ;
-    wdt:P577 "2007-01-01"^^xsd:gYear .
+    sch:datePublished "2007-01-01"^^xsd:gYear ;
+    sch:director rsc:ethan_coen,
+        rsc:joel_coen .
 
-rsc:north_by_northwest a dbo:Film ;
+rsc:north_by_northwest a sch:Movie ;
     rdfs:label "North by Northwest"@en ;
-    dbo:director rsc:alfred_hitchcock ;
-    wdt:P577 "1959-01-01"^^xsd:gYear .
+    sch:datePublished "1959-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
-rsc:notorious a dbo:Film ;
+rsc:notorious a sch:Movie ;
     rdfs:label "Notorious"@en ;
-    dbo:director rsc:alfred_hitchcock ;
-    wdt:P577 "1946-01-01"^^xsd:gYear .
+    sch:datePublished "1946-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
-rsc:on_the_waterfront a dbo:Film ;
+rsc:on_the_waterfront a sch:Movie ;
     rdfs:label "On the Waterfront"@en ;
-    dbo:director rsc:elia_kazan ;
-    wdt:P577 "1954-01-01"^^xsd:gYear .
+    sch:datePublished "1954-01-01"^^xsd:gYear ;
+    sch:director rsc:elia_kazan .
 
-rsc:once_upon_a_time_in_america a dbo:Film ;
+rsc:once_upon_a_time_in_america a sch:Movie ;
     rdfs:label "Once Upon a Time in America"@en ;
-    dbo:director rsc:sergio_leone ;
-    wdt:P577 "1984-01-01"^^xsd:gYear .
+    sch:datePublished "1984-01-01"^^xsd:gYear ;
+    sch:director rsc:sergio_leone .
 
-<http://philip-broehl.org/resource/one_flew_over_the_cuckoo's_nest> a dbo:Film ;
+<http://philip-broehl.org/resource/one_flew_over_the_cuckoo's_nest> a sch:Movie ;
     rdfs:label "One Flew Over the Cuckoo's Nest"@en ;
-    dbo:director rsc:milos_forman ;
-    wdt:P577 "1975-01-01"^^xsd:gYear .
+    sch:datePublished "1975-01-01"^^xsd:gYear ;
+    sch:director rsc:milos_forman .
 
-rsc:out_of_the_past a dbo:Film ;
+rsc:out_of_the_past a sch:Movie ;
     rdfs:label "Out of the Past"@en ;
-    dbo:director rsc:jacques_tourneur ;
-    wdt:P577 "1947-01-01"^^xsd:gYear .
+    sch:datePublished "1947-01-01"^^xsd:gYear ;
+    sch:director rsc:jacques_tourneur .
 
-rsc:papillon a dbo:Film ;
+rsc:papillon a sch:Movie ;
     rdfs:label "Papillon"@en ;
-    dbo:director rsc:franklin_j._schaffner ;
-    wdt:P577 "1973-01-01"^^xsd:gYear .
+    sch:datePublished "1973-01-01"^^xsd:gYear ;
+    sch:director rsc:franklin_j._schaffner .
 
-<http://philip-broehl.org/resource/paris,_texas> a dbo:Film ;
+<http://philip-broehl.org/resource/paris,_texas> a sch:Movie ;
     rdfs:label "Paris, Texas"@en ;
-    dbo:director rsc:wim_wenders ;
-    wdt:P577 "1984-01-01"^^xsd:gYear .
+    sch:datePublished "1984-01-01"^^xsd:gYear ;
+    sch:director rsc:wim_wenders .
 
-rsc:paths_of_glory a dbo:Film ;
+rsc:paths_of_glory a sch:Movie ;
     rdfs:label "Paths of Glory"@en ;
-    dbo:director rsc:stanley_kubrick ;
-    wdt:P577 "1957-01-01"^^xsd:gYear .
+    sch:datePublished "1957-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
-rsc:patton a dbo:Film ;
+rsc:patton a sch:Movie ;
     rdfs:label "Patton"@en ;
-    dbo:director rsc:franklin_j._schaffner ;
-    wdt:P577 "1970-01-01"^^xsd:gYear .
+    sch:datePublished "1970-01-01"^^xsd:gYear ;
+    sch:director rsc:franklin_j._schaffner .
 
-rsc:pink_floyd:_the_wall a dbo:Film ;
+rsc:pink_floyd:_the_wall a sch:Movie ;
     rdfs:label "Pink Floyd: The Wall"@en ;
-    dbo:director rsc:alan_parker ;
-    wdt:P577 "1982-01-01"^^xsd:gYear .
+    sch:datePublished "1982-01-01"^^xsd:gYear ;
+    sch:director rsc:alan_parker .
 
-rsc:pirates_of_the_caribbean:_the_curse_of_the_black_pearl a dbo:Film ;
+rsc:pirates_of_the_caribbean:_the_curse_of_the_black_pearl a sch:Movie ;
     rdfs:label "Pirates of the Caribbean: The Curse of the Black Pearl"@en ;
-    dbo:director rsc:gore_verbinski ;
-    wdt:P577 "2003-01-01"^^xsd:gYear .
+    sch:datePublished "2003-01-01"^^xsd:gYear ;
+    sch:director rsc:gore_verbinski .
 
-rsc:platoon a dbo:Film ;
+rsc:platoon a sch:Movie ;
     rdfs:label "Platoon"@en ;
-    dbo:director rsc:oliver_stone ;
-    wdt:P577 "1986-01-01"^^xsd:gYear .
+    sch:datePublished "1986-01-01"^^xsd:gYear ;
+    sch:director rsc:oliver_stone .
 
-rsc:prisoners a dbo:Film ;
+rsc:prisoners a sch:Movie ;
     rdfs:label "Prisoners"@en ;
-    dbo:director rsc:denis_villeneuve ;
-    wdt:P577 "2013-01-01"^^xsd:gYear .
+    sch:datePublished "2013-01-01"^^xsd:gYear ;
+    sch:director rsc:denis_villeneuve .
 
-rsc:psycho a dbo:Film ;
+rsc:psycho a sch:Movie ;
     rdfs:label "Psycho"@en ;
-    dbo:director rsc:alfred_hitchcock ;
-    wdt:P577 "1960-01-01"^^xsd:gYear .
+    sch:datePublished "1960-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
-rsc:pulp_fiction a dbo:Film ;
+rsc:pulp_fiction a sch:Movie ;
     rdfs:label "Pulp Fiction"@en ;
-    dbo:director rsc:quentin_tarantino ;
-    wdt:P577 "1994-01-01"^^xsd:gYear .
+    sch:datePublished "1994-01-01"^^xsd:gYear ;
+    sch:director rsc:quentin_tarantino .
 
-rsc:raging_bull a dbo:Film ;
+rsc:raging_bull a sch:Movie ;
     rdfs:label "Raging Bull"@en ;
-    dbo:director rsc:martin_scorsese ;
-    wdt:P577 "1980-01-01"^^xsd:gYear .
+    sch:datePublished "1980-01-01"^^xsd:gYear ;
+    sch:director rsc:martin_scorsese .
 
-rsc:raiders_of_the_lost_ark a dbo:Film ;
+rsc:raiders_of_the_lost_ark a sch:Movie ;
     rdfs:label "Raiders of the Lost Ark"@en ;
-    dbo:director rsc:steven_spielberg ;
-    wdt:P577 "1981-01-01"^^xsd:gYear .
+    sch:datePublished "1981-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
-rsc:rain_man a dbo:Film ;
+rsc:rain_man a sch:Movie ;
     rdfs:label "Rain Man"@en ;
-    dbo:director rsc:barry_levinson ;
-    wdt:P577 "1988-01-01"^^xsd:gYear .
+    sch:datePublished "1988-01-01"^^xsd:gYear ;
+    sch:director rsc:barry_levinson .
 
-rsc:rear_window a dbo:Film ;
+rsc:rear_window a sch:Movie ;
     rdfs:label "Rear Window"@en ;
-    dbo:director rsc:alfred_hitchcock ;
-    wdt:P577 "1954-01-01"^^xsd:gYear .
+    sch:datePublished "1954-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
-rsc:rebecca a dbo:Film ;
+rsc:rebecca a sch:Movie ;
     rdfs:label "Rebecca"@en ;
-    dbo:director rsc:alfred_hitchcock ;
-    wdt:P577 "1940-01-01"^^xsd:gYear .
+    sch:datePublished "1940-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
-rsc:requiem_for_a_dream a dbo:Film ;
+rsc:requiem_for_a_dream a sch:Movie ;
     rdfs:label "Requiem for a Dream"@en ;
-    dbo:director rsc:darren_aronofsky ;
-    wdt:P577 "2000-01-01"^^xsd:gYear .
+    sch:datePublished "2000-01-01"^^xsd:gYear ;
+    sch:director rsc:darren_aronofsky .
 
-rsc:reservoir_dogs a dbo:Film ;
+rsc:reservoir_dogs a sch:Movie ;
     rdfs:label "Reservoir Dogs"@en ;
-    dbo:director rsc:quentin_tarantino ;
-    wdt:P577 "1992-01-01"^^xsd:gYear .
+    sch:datePublished "1992-01-01"^^xsd:gYear ;
+    sch:director rsc:quentin_tarantino .
 
-rsc:rio_bravo a dbo:Film ;
+rsc:rio_bravo a sch:Movie ;
     rdfs:label "Rio Bravo"@en ;
-    dbo:director rsc:howard_hawks ;
-    wdt:P577 "1959-01-01"^^xsd:gYear .
+    sch:datePublished "1959-01-01"^^xsd:gYear ;
+    sch:director rsc:howard_hawks .
 
-rsc:rocky a dbo:Film ;
+rsc:rocky a sch:Movie ;
     rdfs:label "Rocky"@en ;
-    dbo:director rsc:john_g._avildsen ;
-    wdt:P577 "1976-01-01"^^xsd:gYear .
+    sch:datePublished "1976-01-01"^^xsd:gYear ;
+    sch:director rsc:john_g._avildsen .
 
-rsc:roman_holiday a dbo:Film ;
+rsc:roman_holiday a sch:Movie ;
     rdfs:label "Roman Holiday"@en ;
-    dbo:director rsc:william_wyler ;
-    wdt:P577 "1953-01-01"^^xsd:gYear .
+    sch:datePublished "1953-01-01"^^xsd:gYear ;
+    sch:director rsc:william_wyler .
 
-rsc:room a dbo:Film ;
+rsc:room a sch:Movie ;
     rdfs:label "Room"@en ;
-    dbo:director rsc:lenny_abrahamson ;
-    wdt:P577 "2015-01-01"^^xsd:gYear .
+    sch:datePublished "2015-01-01"^^xsd:gYear ;
+    sch:director rsc:lenny_abrahamson .
 
-rsc:rope a dbo:Film ;
+rsc:rope a sch:Movie ;
     rdfs:label "Rope"@en ;
-    dbo:director rsc:alfred_hitchcock ;
-    wdt:P577 "1948-01-01"^^xsd:gYear .
+    sch:datePublished "1948-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
-rsc:rush a dbo:Film ;
+rsc:rush a sch:Movie ;
     rdfs:label "Rush"@en ;
-    dbo:director rsc:ron_howard ;
-    wdt:P577 "2013-01-01"^^xsd:gYear .
+    sch:datePublished "2013-01-01"^^xsd:gYear ;
+    sch:director rsc:ron_howard .
 
-rsc:saving_private_ryan a dbo:Film ;
+rsc:saving_private_ryan a sch:Movie ;
     rdfs:label "Saving Private Ryan"@en ;
-    dbo:director rsc:steven_spielberg ;
-    wdt:P577 "1998-01-01"^^xsd:gYear .
+    sch:datePublished "1998-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
-rsc:scarface a dbo:Film ;
+rsc:scarface a sch:Movie ;
     rdfs:label "Scarface"@en ;
-    dbo:director rsc:brian_de_palma ;
-    wdt:P577 "1983-01-01"^^xsd:gYear .
+    sch:datePublished "1983-01-01"^^xsd:gYear ;
+    sch:director rsc:brian_de_palma .
 
-<http://philip-broehl.org/resource/schindler's_list> a dbo:Film ;
+<http://philip-broehl.org/resource/schindler's_list> a sch:Movie ;
     rdfs:label "Schindler's List"@en ;
-    dbo:director rsc:steven_spielberg ;
-    wdt:P577 "1993-01-01"^^xsd:gYear .
+    sch:datePublished "1993-01-01"^^xsd:gYear ;
+    sch:director rsc:steven_spielberg .
 
-rsc:se7en a dbo:Film ;
+rsc:se7en a sch:Movie ;
     rdfs:label "Se7en"@en ;
-    dbo:director rsc:david_fincher ;
-    wdt:P577 "1995-01-01"^^xsd:gYear .
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:david_fincher .
 
-rsc:short_term_12 a dbo:Film ;
+rsc:short_term_12 a sch:Movie ;
     rdfs:label "Short Term 12"@en ;
-    dbo:director rsc:destin_daniel_cretton ;
-    wdt:P577 "2013-01-01"^^xsd:gYear .
+    sch:datePublished "2013-01-01"^^xsd:gYear ;
+    sch:director rsc:destin_daniel_cretton .
 
-rsc:shutter_island a dbo:Film ;
+rsc:shutter_island a sch:Movie ;
     rdfs:label "Shutter Island"@en ;
-    dbo:director rsc:martin_scorsese ;
-    wdt:P577 "2010-01-01"^^xsd:gYear .
+    sch:datePublished "2010-01-01"^^xsd:gYear ;
+    sch:director rsc:martin_scorsese .
 
-rsc:sin_city a dbo:Film ;
+rsc:sin_city a sch:Movie ;
     rdfs:label "Sin City"@en ;
-    dbo:director rsc:frank_miller,
+    sch:datePublished "2005-01-01"^^xsd:gYear ;
+    sch:director rsc:frank_miller,
         rsc:quentin_tarantino,
-        rsc:robert_rodriguez ;
-    wdt:P577 "2005-01-01"^^xsd:gYear .
+        rsc:robert_rodriguez .
 
-<http://philip-broehl.org/resource/singin'_in_the_rain> a dbo:Film ;
+<http://philip-broehl.org/resource/singin'_in_the_rain> a sch:Movie ;
     rdfs:label "Singin' in the Rain"@en ;
-    dbo:director rsc:gene_kelly,
-        rsc:stanley_donen ;
-    wdt:P577 "1952-01-01"^^xsd:gYear .
+    sch:datePublished "1952-01-01"^^xsd:gYear ;
+    sch:director rsc:gene_kelly,
+        rsc:stanley_donen .
 
-rsc:sleuth a dbo:Film ;
+rsc:sleuth a sch:Movie ;
     rdfs:label "Sleuth"@en ;
-    dbo:director rsc:joseph_l._mankiewicz ;
-    wdt:P577 "1972-01-01"^^xsd:gYear .
+    sch:datePublished "1972-01-01"^^xsd:gYear ;
+    sch:director rsc:joseph_l._mankiewicz .
 
-rsc:sling_blade a dbo:Film ;
+rsc:sling_blade a sch:Movie ;
     rdfs:label "Sling Blade"@en ;
-    dbo:director rsc:billy_bob_thornton ;
-    wdt:P577 "1996-01-01"^^xsd:gYear .
+    sch:datePublished "1996-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_bob_thornton .
 
-rsc:slumdog_millionaire a dbo:Film ;
+rsc:slumdog_millionaire a sch:Movie ;
     rdfs:label "Slumdog Millionaire"@en ;
-    dbo:director rsc:danny_boyle,
-        rsc:loveleen_tandan ;
-    wdt:P577 "2008-01-01"^^xsd:gYear .
+    sch:datePublished "2008-01-01"^^xsd:gYear ;
+    sch:director rsc:danny_boyle,
+        rsc:loveleen_tandan .
 
-rsc:snatch a dbo:Film ;
+rsc:snatch a sch:Movie ;
     rdfs:label "Snatch"@en ;
-    dbo:director rsc:guy_ritchie ;
-    wdt:P577 "2000-01-01"^^xsd:gYear .
+    sch:datePublished "2000-01-01"^^xsd:gYear ;
+    sch:director rsc:guy_ritchie .
 
-rsc:some_like_it_hot a dbo:Film ;
+rsc:some_like_it_hot a sch:Movie ;
     rdfs:label "Some Like It Hot"@en ;
-    dbo:director rsc:billy_wilder ;
-    wdt:P577 "1959-01-01"^^xsd:gYear .
+    sch:datePublished "1959-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
-rsc:song_of_the_sea a dbo:Film ;
+rsc:song_of_the_sea a sch:Movie ;
     rdfs:label "Song of the Sea"@en ;
-    dbo:director rsc:tomm_moore ;
-    wdt:P577 "2014-01-01"^^xsd:gYear .
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:tomm_moore .
 
-rsc:spider-man:_homecoming a dbo:Film ;
+rsc:spider-man:_homecoming a sch:Movie ;
     rdfs:label "Spider-Man: Homecoming"@en ;
-    dbo:director rsc:jon_watts ;
-    wdt:P577 "2017-01-01"^^xsd:gYear .
+    sch:datePublished "2017-01-01"^^xsd:gYear ;
+    sch:director rsc:jon_watts .
 
-rsc:spotlight a dbo:Film ;
+rsc:spotlight a sch:Movie ;
     rdfs:label "Spotlight"@en ;
-    dbo:director rsc:tom_mccarthy ;
-    wdt:P577 "2015-01-01"^^xsd:gYear .
+    sch:datePublished "2015-01-01"^^xsd:gYear ;
+    sch:director rsc:tom_mccarthy .
 
-rsc:stalag_17 a dbo:Film ;
+rsc:stalag_17 a sch:Movie ;
     rdfs:label "Stalag 17"@en ;
-    dbo:director rsc:billy_wilder ;
-    wdt:P577 "1953-01-01"^^xsd:gYear .
+    sch:datePublished "1953-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
-rsc:stand_by_me a dbo:Film ;
+rsc:stand_by_me a sch:Movie ;
     rdfs:label "Stand by Me"@en ;
-    dbo:director rsc:rob_reiner ;
-    wdt:P577 "1986-01-01"^^xsd:gYear .
+    sch:datePublished "1986-01-01"^^xsd:gYear ;
+    sch:director rsc:rob_reiner .
 
-rsc:star_wars:_episode_iv_-_a_new_hope a dbo:Film ;
+rsc:star_wars:_episode_iv_-_a_new_hope a sch:Movie ;
     rdfs:label "Star Wars: Episode IV - A New Hope"@en ;
-    dbo:director rsc:george_lucas ;
-    wdt:P577 "1977-01-01"^^xsd:gYear .
+    sch:datePublished "1977-01-01"^^xsd:gYear ;
+    sch:director rsc:george_lucas .
 
-rsc:star_wars:_episode_v_-_the_empire_strikes_back a dbo:Film ;
+rsc:star_wars:_episode_v_-_the_empire_strikes_back a sch:Movie ;
     rdfs:label "Star Wars: Episode V - The Empire Strikes Back"@en ;
-    dbo:director rsc:irvin_kershner ;
-    wdt:P577 "1980-01-01"^^xsd:gYear .
+    sch:datePublished "1980-01-01"^^xsd:gYear ;
+    sch:director rsc:irvin_kershner .
 
-rsc:star_wars:_episode_vi_-_return_of_the_jedi a dbo:Film ;
+rsc:star_wars:_episode_vi_-_return_of_the_jedi a sch:Movie ;
     rdfs:label "Star Wars: Episode VI - Return of the Jedi"@en ;
-    dbo:director rsc:richard_marquand ;
-    wdt:P577 "1983-01-01"^^xsd:gYear .
+    sch:datePublished "1983-01-01"^^xsd:gYear ;
+    sch:director rsc:richard_marquand .
 
-rsc:star_wars:_the_force_awakens a dbo:Film ;
+rsc:star_wars:_the_force_awakens a sch:Movie ;
     rdfs:label "Star Wars: The Force Awakens"@en ;
-    dbo:director rsc:j.j._abrams ;
-    wdt:P577 "2015-01-01"^^xsd:gYear .
+    sch:datePublished "2015-01-01"^^xsd:gYear ;
+    sch:director rsc:j.j._abrams .
 
-rsc:strangers_on_a_train a dbo:Film ;
+rsc:strangers_on_a_train a sch:Movie ;
     rdfs:label "Strangers on a Train"@en ;
-    dbo:director rsc:alfred_hitchcock ;
-    wdt:P577 "1951-01-01"^^xsd:gYear .
+    sch:datePublished "1951-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
-rsc:sunset_boulevard a dbo:Film ;
+rsc:sunset_boulevard a sch:Movie ;
     rdfs:label "Sunset Boulevard"@en ;
-    dbo:director rsc:billy_wilder ;
-    wdt:P577 "1950-01-01"^^xsd:gYear .
+    sch:datePublished "1950-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
-rsc:taxi_driver a dbo:Film ;
+rsc:taxi_driver a sch:Movie ;
     rdfs:label "Taxi Driver"@en ;
-    dbo:director rsc:martin_scorsese ;
-    wdt:P577 "1976-01-01"^^xsd:gYear .
+    sch:datePublished "1976-01-01"^^xsd:gYear ;
+    sch:director rsc:martin_scorsese .
 
-rsc:terminator_2:_judgment_day a dbo:Film ;
+rsc:terminator_2:_judgment_day a sch:Movie ;
     rdfs:label "Terminator 2: Judgment Day"@en ;
-    dbo:director rsc:james_cameron ;
-    wdt:P577 "1991-01-01"^^xsd:gYear .
+    sch:datePublished "1991-01-01"^^xsd:gYear ;
+    sch:director rsc:james_cameron .
 
-rsc:the_apartment a dbo:Film ;
+rsc:the_apartment a sch:Movie ;
     rdfs:label "The Apartment"@en ;
-    dbo:director rsc:billy_wilder ;
-    wdt:P577 "1960-01-01"^^xsd:gYear .
+    sch:datePublished "1960-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
-rsc:the_avengers a dbo:Film ;
+rsc:the_avengers a sch:Movie ;
     rdfs:label "The Avengers"@en ;
-    dbo:director rsc:joss_whedon ;
-    wdt:P577 "2012-01-01"^^xsd:gYear .
+    sch:datePublished "2012-01-01"^^xsd:gYear ;
+    sch:director rsc:joss_whedon .
 
-rsc:the_best_years_of_our_lives a dbo:Film ;
+rsc:the_best_years_of_our_lives a sch:Movie ;
     rdfs:label "The Best Years of Our Lives"@en ;
-    dbo:director rsc:william_wyler ;
-    wdt:P577 "1946-01-01"^^xsd:gYear .
+    sch:datePublished "1946-01-01"^^xsd:gYear ;
+    sch:director rsc:william_wyler .
 
-rsc:the_big_lebowski a dbo:Film ;
+rsc:the_big_lebowski a sch:Movie ;
     rdfs:label "The Big Lebowski"@en ;
-    dbo:director rsc:ethan_coen,
-        rsc:joel_coen ;
-    wdt:P577 "1998-01-01"^^xsd:gYear .
+    sch:datePublished "1998-01-01"^^xsd:gYear ;
+    sch:director rsc:ethan_coen,
+        rsc:joel_coen .
 
-rsc:the_big_sleep a dbo:Film ;
+rsc:the_big_sleep a sch:Movie ;
     rdfs:label "The Big Sleep"@en ;
-    dbo:director rsc:howard_hawks ;
-    wdt:P577 "1946-01-01"^^xsd:gYear .
+    sch:datePublished "1946-01-01"^^xsd:gYear ;
+    sch:director rsc:howard_hawks .
 
-rsc:the_bourne_ultimatum a dbo:Film ;
+rsc:the_bourne_ultimatum a sch:Movie ;
     rdfs:label "The Bourne Ultimatum"@en ;
-    dbo:director rsc:paul_greengrass ;
-    wdt:P577 "2007-01-01"^^xsd:gYear .
+    sch:datePublished "2007-01-01"^^xsd:gYear ;
+    sch:director rsc:paul_greengrass .
 
-rsc:the_bridge_on_the_river_kwai a dbo:Film ;
+rsc:the_bridge_on_the_river_kwai a sch:Movie ;
     rdfs:label "The Bridge on the River Kwai"@en ;
-    dbo:director rsc:david_lean ;
-    wdt:P577 "1957-01-01"^^xsd:gYear .
+    sch:datePublished "1957-01-01"^^xsd:gYear ;
+    sch:director rsc:david_lean .
 
-rsc:the_dark_knight a dbo:Film ;
+rsc:the_dark_knight a sch:Movie ;
     rdfs:label "The Dark Knight"@en ;
-    dbo:director rsc:christopher_nolan ;
-    wdt:P577 "2008-01-01"^^xsd:gYear .
+    sch:datePublished "2008-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
-rsc:the_dark_knight_rises a dbo:Film ;
+rsc:the_dark_knight_rises a sch:Movie ;
     rdfs:label "The Dark Knight Rises"@en ;
-    dbo:director rsc:christopher_nolan ;
-    wdt:P577 "2012-01-01"^^xsd:gYear .
+    sch:datePublished "2012-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
-rsc:the_deer_hunter a dbo:Film ;
+rsc:the_deer_hunter a sch:Movie ;
     rdfs:label "The Deer Hunter"@en ;
-    dbo:director rsc:michael_cimino ;
-    wdt:P577 "1978-01-01"^^xsd:gYear .
+    sch:datePublished "1978-01-01"^^xsd:gYear ;
+    sch:director rsc:michael_cimino .
 
-rsc:the_departed a dbo:Film ;
+rsc:the_departed a sch:Movie ;
     rdfs:label "The Departed"@en ;
-    dbo:director rsc:martin_scorsese ;
-    wdt:P577 "2006-01-01"^^xsd:gYear .
+    sch:datePublished "2006-01-01"^^xsd:gYear ;
+    sch:director rsc:martin_scorsese .
 
-rsc:the_elephant_man a dbo:Film ;
+rsc:the_elephant_man a sch:Movie ;
     rdfs:label "The Elephant Man"@en ;
-    dbo:director rsc:david_lynch ;
-    wdt:P577 "1980-01-01"^^xsd:gYear .
+    sch:datePublished "1980-01-01"^^xsd:gYear ;
+    sch:director rsc:david_lynch .
 
-rsc:the_exorcist a dbo:Film ;
+rsc:the_exorcist a sch:Movie ;
     rdfs:label "The Exorcist"@en ;
-    dbo:director rsc:william_friedkin ;
-    wdt:P577 "1973-01-01"^^xsd:gYear .
+    sch:datePublished "1973-01-01"^^xsd:gYear ;
+    sch:director rsc:william_friedkin .
 
-rsc:the_general a dbo:Film ;
+rsc:the_general a sch:Movie ;
     rdfs:label "The General"@en ;
-    dbo:director rsc:buster_keaton,
-        rsc:clyde_bruckman ;
-    wdt:P577 "1926-01-01"^^xsd:gYear .
+    sch:datePublished "1926-01-01"^^xsd:gYear ;
+    sch:director rsc:buster_keaton,
+        rsc:clyde_bruckman .
 
-rsc:the_godfather a dbo:Film ;
+rsc:the_godfather a sch:Movie ;
     rdfs:label "The Godfather"@en ;
-    dbo:director rsc:francis_ford_coppola ;
-    wdt:P577 "1972-01-01"^^xsd:gYear .
+    sch:datePublished "1972-01-01"^^xsd:gYear ;
+    sch:director rsc:francis_ford_coppola .
 
-rsc:the_godfather:_part_ii a dbo:Film ;
+rsc:the_godfather:_part_ii a sch:Movie ;
     rdfs:label "The Godfather: Part II"@en ;
-    dbo:director rsc:francis_ford_coppola ;
-    wdt:P577 "1974-01-01"^^xsd:gYear .
+    sch:datePublished "1974-01-01"^^xsd:gYear ;
+    sch:director rsc:francis_ford_coppola .
 
-rsc:the_gold_rush a dbo:Film ;
+rsc:the_gold_rush a sch:Movie ;
     rdfs:label "The Gold Rush"@en ;
-    dbo:director rsc:charles_chaplin ;
-    wdt:P577 "1925-01-01"^^xsd:gYear .
+    sch:datePublished "1925-01-01"^^xsd:gYear ;
+    sch:director rsc:charles_chaplin .
 
-rsc:the_graduate a dbo:Film ;
+rsc:the_graduate a sch:Movie ;
     rdfs:label "The Graduate"@en ;
-    dbo:director rsc:mike_nichols ;
-    wdt:P577 "1967-01-01"^^xsd:gYear .
+    sch:datePublished "1967-01-01"^^xsd:gYear ;
+    sch:director rsc:mike_nichols .
 
-rsc:the_grand_budapest_hotel a dbo:Film ;
+rsc:the_grand_budapest_hotel a sch:Movie ;
     rdfs:label "The Grand Budapest Hotel"@en ;
-    dbo:director rsc:wes_anderson ;
-    wdt:P577 "2014-01-01"^^xsd:gYear .
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:wes_anderson .
 
-rsc:the_grapes_of_wrath a dbo:Film ;
+rsc:the_grapes_of_wrath a sch:Movie ;
     rdfs:label "The Grapes of Wrath"@en ;
-    dbo:director rsc:john_ford ;
-    wdt:P577 "1940-01-01"^^xsd:gYear .
+    sch:datePublished "1940-01-01"^^xsd:gYear ;
+    sch:director rsc:john_ford .
 
-rsc:the_great_dictator a dbo:Film ;
+rsc:the_great_dictator a sch:Movie ;
     rdfs:label "The Great Dictator"@en ;
-    dbo:director rsc:charles_chaplin ;
-    wdt:P577 "1940-01-01"^^xsd:gYear .
+    sch:datePublished "1940-01-01"^^xsd:gYear ;
+    sch:director rsc:charles_chaplin .
 
-rsc:the_great_escape a dbo:Film ;
+rsc:the_great_escape a sch:Movie ;
     rdfs:label "The Great Escape"@en ;
-    dbo:director rsc:john_sturges ;
-    wdt:P577 "1963-01-01"^^xsd:gYear .
+    sch:datePublished "1963-01-01"^^xsd:gYear ;
+    sch:director rsc:john_sturges .
 
-rsc:the_green_mile a dbo:Film ;
+rsc:the_green_mile a sch:Movie ;
     rdfs:label "The Green Mile"@en ;
-    dbo:director rsc:frank_darabont ;
-    wdt:P577 "1999-01-01"^^xsd:gYear .
+    sch:datePublished "1999-01-01"^^xsd:gYear ;
+    sch:director rsc:frank_darabont .
 
-rsc:the_help a dbo:Film ;
+rsc:the_help a sch:Movie ;
     rdfs:label "The Help"@en ;
-    dbo:director rsc:tate_taylor ;
-    wdt:P577 "2011-01-01"^^xsd:gYear .
+    sch:datePublished "2011-01-01"^^xsd:gYear ;
+    sch:director rsc:tate_taylor .
 
-rsc:the_hustler a dbo:Film ;
+rsc:the_hustler a sch:Movie ;
     rdfs:label "The Hustler"@en ;
-    dbo:director rsc:robert_rossen ;
-    wdt:P577 "1961-01-01"^^xsd:gYear .
+    sch:datePublished "1961-01-01"^^xsd:gYear ;
+    sch:director rsc:robert_rossen .
 
-rsc:the_imitation_game a dbo:Film ;
+rsc:the_imitation_game a sch:Movie ;
     rdfs:label "The Imitation Game"@en ;
-    dbo:director rsc:morten_tyldum ;
-    wdt:P577 "2014-01-01"^^xsd:gYear .
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:morten_tyldum .
 
-rsc:the_kid a dbo:Film ;
+rsc:the_kid a sch:Movie ;
     rdfs:label "The Kid"@en ;
-    dbo:director rsc:charles_chaplin ;
-    wdt:P577 "1921-01-01"^^xsd:gYear .
+    sch:datePublished "1921-01-01"^^xsd:gYear ;
+    sch:director rsc:charles_chaplin .
 
-rsc:the_killing a dbo:Film ;
+rsc:the_killing a sch:Movie ;
     rdfs:label "The Killing"@en ;
-    dbo:director rsc:stanley_kubrick ;
-    wdt:P577 "1956-01-01"^^xsd:gYear .
+    sch:datePublished "1956-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
-<http://philip-broehl.org/resource/the_king's_speech> a dbo:Film ;
+<http://philip-broehl.org/resource/the_king's_speech> a sch:Movie ;
     rdfs:label "The King's Speech"@en ;
-    dbo:director rsc:tom_hooper ;
-    wdt:P577 "2010-01-01"^^xsd:gYear .
+    sch:datePublished "2010-01-01"^^xsd:gYear ;
+    sch:director rsc:tom_hooper .
 
-rsc:the_last_picture_show a dbo:Film ;
+rsc:the_last_picture_show a sch:Movie ;
     rdfs:label "The Last Picture Show"@en ;
-    dbo:director rsc:peter_bogdanovich ;
-    wdt:P577 "1971-01-01"^^xsd:gYear .
+    sch:datePublished "1971-01-01"^^xsd:gYear ;
+    sch:director rsc:peter_bogdanovich .
 
-rsc:the_legend_of_1900 a dbo:Film ;
+rsc:the_legend_of_1900 a sch:Movie ;
     rdfs:label "The Legend of 1900"@en ;
-    dbo:director rsc:giuseppe_tornatore ;
-    wdt:P577 "1998-01-01"^^xsd:gYear .
+    sch:datePublished "1998-01-01"^^xsd:gYear ;
+    sch:director rsc:giuseppe_tornatore .
 
-rsc:the_lion_king a dbo:Film ;
+rsc:the_lion_king a sch:Movie ;
     rdfs:label "The Lion King"@en ;
-    dbo:director rsc:rob_minkoff,
-        rsc:roger_allers ;
-    wdt:P577 "1994-01-01"^^xsd:gYear .
+    sch:datePublished "1994-01-01"^^xsd:gYear ;
+    sch:director rsc:rob_minkoff,
+        rsc:roger_allers .
 
-rsc:the_lord_of_the_rings:_the_fellowship_of_the_ring a dbo:Film ;
+rsc:the_lord_of_the_rings:_the_fellowship_of_the_ring a sch:Movie ;
     rdfs:label "The Lord of the Rings: The Fellowship of the Ring"@en ;
-    dbo:director rsc:peter_jackson ;
-    wdt:P577 "2001-01-01"^^xsd:gYear .
+    sch:datePublished "2001-01-01"^^xsd:gYear ;
+    sch:director rsc:peter_jackson .
 
-rsc:the_lord_of_the_rings:_the_return_of_the_king a dbo:Film ;
+rsc:the_lord_of_the_rings:_the_return_of_the_king a sch:Movie ;
     rdfs:label "The Lord of the Rings: The Return of the King"@en ;
-    dbo:director rsc:peter_jackson ;
-    wdt:P577 "2003-01-01"^^xsd:gYear .
+    sch:datePublished "2003-01-01"^^xsd:gYear ;
+    sch:director rsc:peter_jackson .
 
-rsc:the_lord_of_the_rings:_the_two_towers a dbo:Film ;
+rsc:the_lord_of_the_rings:_the_two_towers a sch:Movie ;
     rdfs:label "The Lord of the Rings: The Two Towers"@en ;
-    dbo:director rsc:peter_jackson ;
-    wdt:P577 "2002-01-01"^^xsd:gYear .
+    sch:datePublished "2002-01-01"^^xsd:gYear ;
+    sch:director rsc:peter_jackson .
 
-rsc:the_lost_weekend a dbo:Film ;
+rsc:the_lost_weekend a sch:Movie ;
     rdfs:label "The Lost Weekend"@en ;
-    dbo:director rsc:billy_wilder ;
-    wdt:P577 "1945-01-01"^^xsd:gYear .
+    sch:datePublished "1945-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
-rsc:the_maltese_falcon a dbo:Film ;
+rsc:the_maltese_falcon a sch:Movie ;
     rdfs:label "The Maltese Falcon"@en ;
-    dbo:director rsc:john_huston ;
-    wdt:P577 "1941-01-01"^^xsd:gYear .
+    sch:datePublished "1941-01-01"^^xsd:gYear ;
+    sch:director rsc:john_huston .
 
-rsc:the_man_who_shot_liberty_valance a dbo:Film ;
+rsc:the_man_who_shot_liberty_valance a sch:Movie ;
     rdfs:label "The Man Who Shot Liberty Valance"@en ;
-    dbo:director rsc:john_ford ;
-    wdt:P577 "1962-01-01"^^xsd:gYear .
+    sch:datePublished "1962-01-01"^^xsd:gYear ;
+    sch:director rsc:john_ford .
 
-rsc:the_manchurian_candidate a dbo:Film ;
+rsc:the_manchurian_candidate a sch:Movie ;
     rdfs:label "The Manchurian Candidate"@en ;
-    dbo:director rsc:john_frankenheimer ;
-    wdt:P577 "1962-01-01"^^xsd:gYear .
+    sch:datePublished "1962-01-01"^^xsd:gYear ;
+    sch:director rsc:john_frankenheimer .
 
-rsc:the_martian a dbo:Film ;
+rsc:the_martian a sch:Movie ;
     rdfs:label "The Martian"@en ;
-    dbo:director rsc:ridley_scott ;
-    wdt:P577 "2015-01-01"^^xsd:gYear .
+    sch:datePublished "2015-01-01"^^xsd:gYear ;
+    sch:director rsc:ridley_scott .
 
-rsc:the_matrix a dbo:Film ;
+rsc:the_matrix a sch:Movie ;
     rdfs:label "The Matrix"@en ;
-    dbo:director rsc:lana_wachowski,
-        rsc:lilly_wachowski ;
-    wdt:P577 "1999-01-01"^^xsd:gYear .
+    sch:datePublished "1999-01-01"^^xsd:gYear ;
+    sch:director rsc:lana_wachowski,
+        rsc:lilly_wachowski .
 
-rsc:the_message a dbo:Film ;
+rsc:the_message a sch:Movie ;
     rdfs:label "The Message"@en ;
-    dbo:director rsc:moustapha_akkad ;
-    wdt:P577 "1976-01-01"^^xsd:gYear .
+    sch:datePublished "1976-01-01"^^xsd:gYear ;
+    sch:director rsc:moustapha_akkad .
 
-rsc:the_night_of_the_hunter a dbo:Film ;
+rsc:the_night_of_the_hunter a sch:Movie ;
     rdfs:label "The Night of the Hunter"@en ;
-    dbo:director rsc:charles_laughton ;
-    wdt:P577 "1955-01-01"^^xsd:gYear .
+    sch:datePublished "1955-01-01"^^xsd:gYear ;
+    sch:director rsc:charles_laughton .
 
-rsc:the_nightmare_before_christmas a dbo:Film ;
+rsc:the_nightmare_before_christmas a sch:Movie ;
     rdfs:label "The Nightmare Before Christmas"@en ;
-    dbo:director rsc:henry_selick ;
-    wdt:P577 "1993-01-01"^^xsd:gYear .
+    sch:datePublished "1993-01-01"^^xsd:gYear ;
+    sch:director rsc:henry_selick .
 
-rsc:the_philadelphia_story a dbo:Film ;
+rsc:the_philadelphia_story a sch:Movie ;
     rdfs:label "The Philadelphia Story"@en ;
-    dbo:director rsc:george_cukor ;
-    wdt:P577 "1940-01-01"^^xsd:gYear .
+    sch:datePublished "1940-01-01"^^xsd:gYear ;
+    sch:director rsc:george_cukor .
 
-rsc:the_pianist a dbo:Film ;
+rsc:the_pianist a sch:Movie ;
     rdfs:label "The Pianist"@en ;
-    dbo:director rsc:roman_polanski ;
-    wdt:P577 "2002-01-01"^^xsd:gYear .
+    sch:datePublished "2002-01-01"^^xsd:gYear ;
+    sch:director rsc:roman_polanski .
 
-rsc:the_prestige a dbo:Film ;
+rsc:the_prestige a sch:Movie ;
     rdfs:label "The Prestige"@en ;
-    dbo:director rsc:christopher_nolan ;
-    wdt:P577 "2006-01-01"^^xsd:gYear .
+    sch:datePublished "2006-01-01"^^xsd:gYear ;
+    sch:director rsc:christopher_nolan .
 
-rsc:the_princess_bride a dbo:Film ;
+rsc:the_princess_bride a sch:Movie ;
     rdfs:label "The Princess Bride"@en ;
-    dbo:director rsc:rob_reiner ;
-    wdt:P577 "1987-01-01"^^xsd:gYear .
+    sch:datePublished "1987-01-01"^^xsd:gYear ;
+    sch:director rsc:rob_reiner .
 
-rsc:the_revenant a dbo:Film ;
+rsc:the_revenant a sch:Movie ;
     rdfs:label "The Revenant"@en ;
-    dbo:director <http://philip-broehl.org/resource/alejandro_gonzã¡lez_iã±ã¡rritu> ;
-    wdt:P577 "2015-01-01"^^xsd:gYear .
+    sch:datePublished "2015-01-01"^^xsd:gYear ;
+    sch:director <http://philip-broehl.org/resource/alejandro_gonzã¡lez_iã±ã¡rritu> .
 
-rsc:the_shawshank_redemption a dbo:Film ;
+rsc:the_shawshank_redemption a sch:Movie ;
     rdfs:label "The Shawshank Redemption"@en ;
-    dbo:director rsc:frank_darabont ;
-    wdt:P577 "1994-01-01"^^xsd:gYear .
+    sch:datePublished "1994-01-01"^^xsd:gYear ;
+    sch:director rsc:frank_darabont .
 
-rsc:the_shining a dbo:Film ;
+rsc:the_shining a sch:Movie ;
     rdfs:label "The Shining"@en ;
-    dbo:director rsc:stanley_kubrick ;
-    wdt:P577 "1980-01-01"^^xsd:gYear .
+    sch:datePublished "1980-01-01"^^xsd:gYear ;
+    sch:director rsc:stanley_kubrick .
 
-rsc:the_silence_of_the_lambs a dbo:Film ;
+rsc:the_silence_of_the_lambs a sch:Movie ;
     rdfs:label "The Silence of the Lambs"@en ;
-    dbo:director rsc:jonathan_demme ;
-    wdt:P577 "1991-01-01"^^xsd:gYear .
+    sch:datePublished "1991-01-01"^^xsd:gYear ;
+    sch:director rsc:jonathan_demme .
 
-rsc:the_sixth_sense a dbo:Film ;
+rsc:the_sixth_sense a sch:Movie ;
     rdfs:label "The Sixth Sense"@en ;
-    dbo:director rsc:m._night_shyamalan ;
-    wdt:P577 "1999-01-01"^^xsd:gYear .
+    sch:datePublished "1999-01-01"^^xsd:gYear ;
+    sch:director rsc:m._night_shyamalan .
 
-rsc:the_sting a dbo:Film ;
+rsc:the_sting a sch:Movie ;
     rdfs:label "The Sting"@en ;
-    dbo:director rsc:george_roy_hill ;
-    wdt:P577 "1973-01-01"^^xsd:gYear .
+    sch:datePublished "1973-01-01"^^xsd:gYear ;
+    sch:director rsc:george_roy_hill .
 
-rsc:the_straight_story a dbo:Film ;
+rsc:the_straight_story a sch:Movie ;
     rdfs:label "The Straight Story"@en ;
-    dbo:director rsc:david_lynch ;
-    wdt:P577 "1999-01-01"^^xsd:gYear .
+    sch:datePublished "1999-01-01"^^xsd:gYear ;
+    sch:director rsc:david_lynch .
 
-rsc:the_terminator a dbo:Film ;
+rsc:the_terminator a sch:Movie ;
     rdfs:label "The Terminator"@en ;
-    dbo:director rsc:james_cameron ;
-    wdt:P577 "1984-01-01"^^xsd:gYear .
+    sch:datePublished "1984-01-01"^^xsd:gYear ;
+    sch:director rsc:james_cameron .
 
-rsc:the_thing a dbo:Film ;
+rsc:the_thing a sch:Movie ;
     rdfs:label "The Thing"@en ;
-    dbo:director rsc:john_carpenter ;
-    wdt:P577 "1982-01-01"^^xsd:gYear .
+    sch:datePublished "1982-01-01"^^xsd:gYear ;
+    sch:director rsc:john_carpenter .
 
-rsc:the_third_man a dbo:Film ;
+rsc:the_third_man a sch:Movie ;
     rdfs:label "The Third Man"@en ;
-    dbo:director rsc:carol_reed ;
-    wdt:P577 "1949-01-01"^^xsd:gYear .
+    sch:datePublished "1949-01-01"^^xsd:gYear ;
+    sch:director rsc:carol_reed .
 
-rsc:the_treasure_of_the_sierra_madre a dbo:Film ;
+rsc:the_treasure_of_the_sierra_madre a sch:Movie ;
     rdfs:label "The Treasure of the Sierra Madre"@en ;
-    dbo:director rsc:john_huston ;
-    wdt:P577 "1948-01-01"^^xsd:gYear .
+    sch:datePublished "1948-01-01"^^xsd:gYear ;
+    sch:director rsc:john_huston .
 
-rsc:the_truman_show a dbo:Film ;
+rsc:the_truman_show a sch:Movie ;
     rdfs:label "The Truman Show"@en ;
-    dbo:director rsc:peter_weir ;
-    wdt:P577 "1998-01-01"^^xsd:gYear .
+    sch:datePublished "1998-01-01"^^xsd:gYear ;
+    sch:director rsc:peter_weir .
 
-rsc:the_usual_suspects a dbo:Film ;
+rsc:the_usual_suspects a sch:Movie ;
     rdfs:label "The Usual Suspects"@en ;
-    dbo:director rsc:bryan_singer ;
-    wdt:P577 "1995-01-01"^^xsd:gYear .
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:bryan_singer .
 
-rsc:the_wild_bunch a dbo:Film ;
+rsc:the_wild_bunch a sch:Movie ;
     rdfs:label "The Wild Bunch"@en ;
-    dbo:director rsc:sam_peckinpah ;
-    wdt:P577 "1969-01-01"^^xsd:gYear .
+    sch:datePublished "1969-01-01"^^xsd:gYear ;
+    sch:director rsc:sam_peckinpah .
 
-rsc:the_wizard_of_oz a dbo:Film ;
+rsc:the_wizard_of_oz a sch:Movie ;
     rdfs:label "The Wizard of Oz"@en ;
-    dbo:director rsc:george_cukor,
+    sch:datePublished "1939-01-01"^^xsd:gYear ;
+    sch:director rsc:george_cukor,
         rsc:king_vidor,
         rsc:mervyn_leroy,
         rsc:norman_taurog,
-        rsc:victor_fleming ;
-    wdt:P577 "1939-01-01"^^xsd:gYear .
+        rsc:victor_fleming .
 
-rsc:the_wolf_of_wall_street a dbo:Film ;
+rsc:the_wolf_of_wall_street a sch:Movie ;
     rdfs:label "The Wolf of Wall Street"@en ;
-    dbo:director rsc:martin_scorsese ;
-    wdt:P577 "2013-01-01"^^xsd:gYear .
+    sch:datePublished "2013-01-01"^^xsd:gYear ;
+    sch:director rsc:martin_scorsese .
 
-rsc:there_will_be_blood a dbo:Film ;
+rsc:there_will_be_blood a sch:Movie ;
     rdfs:label "There Will Be Blood"@en ;
-    dbo:director rsc:paul_thomas_anderson ;
-    wdt:P577 "2007-01-01"^^xsd:gYear .
+    sch:datePublished "2007-01-01"^^xsd:gYear ;
+    sch:director rsc:paul_thomas_anderson .
 
-rsc:to_kill_a_mockingbird a dbo:Film ;
+rsc:to_kill_a_mockingbird a sch:Movie ;
     rdfs:label "To Kill a Mockingbird"@en ;
-    dbo:director rsc:robert_mulligan ;
-    wdt:P577 "1962-01-01"^^xsd:gYear .
+    sch:datePublished "1962-01-01"^^xsd:gYear ;
+    sch:director rsc:robert_mulligan .
 
-rsc:touch_of_evil a dbo:Film ;
+rsc:touch_of_evil a sch:Movie ;
     rdfs:label "Touch of Evil"@en ;
-    dbo:director rsc:orson_welles ;
-    wdt:P577 "1958-01-01"^^xsd:gYear .
+    sch:datePublished "1958-01-01"^^xsd:gYear ;
+    sch:director rsc:orson_welles .
 
-rsc:toy_story a dbo:Film ;
+rsc:toy_story a sch:Movie ;
     rdfs:label "Toy Story"@en ;
-    dbo:director rsc:john_lasseter ;
-    wdt:P577 "1995-01-01"^^xsd:gYear .
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:john_lasseter .
 
-rsc:toy_story_3 a dbo:Film ;
+rsc:toy_story_3 a sch:Movie ;
     rdfs:label "Toy Story 3"@en ;
-    dbo:director rsc:lee_unkrich ;
-    wdt:P577 "2010-01-01"^^xsd:gYear .
+    sch:datePublished "2010-01-01"^^xsd:gYear ;
+    sch:director rsc:lee_unkrich .
 
-rsc:trainspotting a dbo:Film ;
+rsc:trainspotting a sch:Movie ;
     rdfs:label "Trainspotting"@en ;
-    dbo:director rsc:danny_boyle ;
-    wdt:P577 "1996-01-01"^^xsd:gYear .
+    sch:datePublished "1996-01-01"^^xsd:gYear ;
+    sch:director rsc:danny_boyle .
 
-rsc:twelve_monkeys a dbo:Film ;
+rsc:twelve_monkeys a sch:Movie ;
     rdfs:label "Twelve Monkeys"@en ;
-    dbo:director rsc:terry_gilliam ;
-    wdt:P577 "1995-01-01"^^xsd:gYear .
+    sch:datePublished "1995-01-01"^^xsd:gYear ;
+    sch:director rsc:terry_gilliam .
 
-rsc:unforgiven a dbo:Film ;
+rsc:unforgiven a sch:Movie ;
     rdfs:label "Unforgiven"@en ;
-    dbo:director rsc:clint_eastwood ;
-    wdt:P577 "1992-01-01"^^xsd:gYear .
+    sch:datePublished "1992-01-01"^^xsd:gYear ;
+    sch:director rsc:clint_eastwood .
 
-rsc:up a dbo:Film ;
+rsc:up a sch:Movie ;
     rdfs:label "Up"@en ;
-    dbo:director rsc:bob_peterson,
-        rsc:pete_docter ;
-    wdt:P577 "2009-01-01"^^xsd:gYear .
+    sch:datePublished "2009-01-01"^^xsd:gYear ;
+    sch:director rsc:bob_peterson,
+        rsc:pete_docter .
 
-rsc:v_for_vendetta a dbo:Film ;
+rsc:v_for_vendetta a sch:Movie ;
     rdfs:label "V for Vendetta"@en ;
-    dbo:director rsc:james_mcteigue ;
-    wdt:P577 "2005-01-01"^^xsd:gYear .
+    sch:datePublished "2005-01-01"^^xsd:gYear ;
+    sch:director rsc:james_mcteigue .
 
-rsc:vertigo a dbo:Film ;
+rsc:vertigo a sch:Movie ;
     rdfs:label "Vertigo"@en ;
-    dbo:director rsc:alfred_hitchcock ;
-    wdt:P577 "1958-01-01"^^xsd:gYear .
+    sch:datePublished "1958-01-01"^^xsd:gYear ;
+    sch:director rsc:alfred_hitchcock .
 
-rsc:wallâ·e a dbo:Film ;
+rsc:wallâ·e a sch:Movie ;
     rdfs:label "WALLÂ·E"@en ;
-    dbo:director rsc:andrew_stanton ;
-    wdt:P577 "2008-01-01"^^xsd:gYear .
+    sch:datePublished "2008-01-01"^^xsd:gYear ;
+    sch:director rsc:andrew_stanton .
 
-rsc:warrior a dbo:Film ;
+rsc:warrior a sch:Movie ;
     rdfs:label "Warrior"@en ;
-    dbo:director <http://philip-broehl.org/resource/gavin_o'connor> ;
-    wdt:P577 "2011-01-01"^^xsd:gYear .
+    sch:datePublished "2011-01-01"^^xsd:gYear ;
+    sch:director <http://philip-broehl.org/resource/gavin_o'connor> .
 
-<http://philip-broehl.org/resource/what_ever_happened_to_baby_jane?> a dbo:Film ;
+<http://philip-broehl.org/resource/what_ever_happened_to_baby_jane?> a sch:Movie ;
     rdfs:label "What Ever Happened to Baby Jane?"@en ;
-    dbo:director rsc:robert_aldrich ;
-    wdt:P577 "1962-01-01"^^xsd:gYear .
+    sch:datePublished "1962-01-01"^^xsd:gYear ;
+    sch:director rsc:robert_aldrich .
 
-rsc:whiplash a dbo:Film ;
+rsc:whiplash a sch:Movie ;
     rdfs:label "Whiplash"@en ;
-    dbo:director rsc:damien_chazelle ;
-    wdt:P577 "2014-01-01"^^xsd:gYear .
+    sch:datePublished "2014-01-01"^^xsd:gYear ;
+    sch:director rsc:damien_chazelle .
 
-<http://philip-broehl.org/resource/who's_afraid_of_virginia_woolf?> a dbo:Film ;
+<http://philip-broehl.org/resource/who's_afraid_of_virginia_woolf?> a sch:Movie ;
     rdfs:label "Who's Afraid of Virginia Woolf?"@en ;
-    dbo:director rsc:mike_nichols ;
-    wdt:P577 "1966-01-01"^^xsd:gYear .
+    sch:datePublished "1966-01-01"^^xsd:gYear ;
+    sch:director rsc:mike_nichols .
 
-rsc:witness_for_the_prosecution a dbo:Film ;
+rsc:witness_for_the_prosecution a sch:Movie ;
     rdfs:label "Witness for the Prosecution"@en ;
-    dbo:director rsc:billy_wilder ;
-    wdt:P577 "1957-01-01"^^xsd:gYear .
+    sch:datePublished "1957-01-01"^^xsd:gYear ;
+    sch:director rsc:billy_wilder .
 
-rsc:young_frankenstein a dbo:Film ;
+rsc:young_frankenstein a sch:Movie ;
     rdfs:label "Young Frankenstein"@en ;
-    dbo:director rsc:mel_brooks ;
-    wdt:P577 "1974-01-01"^^xsd:gYear .
+    sch:datePublished "1974-01-01"^^xsd:gYear ;
+    sch:director rsc:mel_brooks .
 
-rsc:zootopia a dbo:Film ;
+rsc:zootopia a sch:Movie ;
     rdfs:label "Zootopia"@en ;
-    dbo:director rsc:byron_howard,
+    sch:datePublished "2016-01-01"^^xsd:gYear ;
+    sch:director rsc:byron_howard,
         rsc:jared_bush,
-        rsc:rich_moore ;
-    wdt:P577 "2016-01-01"^^xsd:gYear .
+        rsc:rich_moore .
 
-rsc:adam_elliot a dbo:Person ;
+rsc:adam_elliot a sch:Person ;
     foaf:name "Adam Elliot"@en .
 
-rsc:alan_parker a dbo:Person ;
+rsc:alan_parker a sch:Person ;
     foaf:name "Alan Parker"@en .
 
-<http://philip-broehl.org/resource/alejandro_gonzã¡lez_iã±ã¡rritu> a dbo:Person ;
+<http://philip-broehl.org/resource/alejandro_gonzã¡lez_iã±ã¡rritu> a sch:Person ;
     foaf:name "Alejandro GonzÃ¡lez IÃ±Ã¡rritu"@en .
 
-rsc:barry_levinson a dbo:Person ;
+rsc:barry_levinson a sch:Person ;
     foaf:name "Barry Levinson"@en .
 
-rsc:billy_bob_thornton a dbo:Person ;
+rsc:billy_bob_thornton a sch:Person ;
     foaf:name "Billy Bob Thornton"@en .
 
-rsc:bob_clark a dbo:Person ;
+rsc:bob_clark a sch:Person ;
     foaf:name "Bob Clark"@en .
 
-rsc:bob_peterson a dbo:Person ;
+rsc:bob_peterson a sch:Person ;
     foaf:name "Bob Peterson"@en .
 
-rsc:brian_de_palma a dbo:Person ;
+rsc:brian_de_palma a sch:Person ;
     foaf:name "Brian De Palma"@en .
 
-rsc:bryan_singer a dbo:Person ;
+rsc:bryan_singer a sch:Person ;
     foaf:name "Bryan Singer"@en .
 
-rsc:buster_keaton a dbo:Person ;
+rsc:buster_keaton a sch:Person ;
     foaf:name "Buster Keaton"@en .
 
-rsc:byron_howard a dbo:Person ;
+rsc:byron_howard a sch:Person ;
     foaf:name "Byron Howard"@en .
 
-rsc:carol_reed a dbo:Person ;
+rsc:carol_reed a sch:Person ;
     foaf:name "Carol Reed"@en .
 
-rsc:charles_laughton a dbo:Person ;
+rsc:charles_laughton a sch:Person ;
     foaf:name "Charles Laughton"@en .
 
-rsc:chris_sanders a dbo:Person ;
+rsc:chris_sanders a sch:Person ;
     foaf:name "Chris Sanders"@en .
 
-rsc:clyde_bruckman a dbo:Person ;
+rsc:clyde_bruckman a sch:Person ;
     foaf:name "Clyde Bruckman"@en .
 
-rsc:curtis_hanson a dbo:Person ;
+rsc:curtis_hanson a sch:Person ;
     foaf:name "Curtis Hanson"@en .
 
-rsc:darren_aronofsky a dbo:Person ;
+rsc:darren_aronofsky a sch:Person ;
     foaf:name "Darren Aronofsky"@en .
 
-rsc:david_silverman a dbo:Person ;
+rsc:david_silverman a sch:Person ;
     foaf:name "David Silverman"@en .
 
-rsc:david_yates a dbo:Person ;
+rsc:david_yates a sch:Person ;
     foaf:name "David Yates"@en .
 
-rsc:dean_deblois a dbo:Person ;
+rsc:dean_deblois a sch:Person ;
     foaf:name "Dean DeBlois"@en .
 
-rsc:denis_villeneuve a dbo:Person ;
+rsc:denis_villeneuve a sch:Person ;
     foaf:name "Denis Villeneuve"@en .
 
-rsc:destin_daniel_cretton a dbo:Person ;
+rsc:destin_daniel_cretton a sch:Person ;
     foaf:name "Destin Daniel Cretton"@en .
 
-rsc:edgar_wright a dbo:Person ;
+rsc:edgar_wright a sch:Person ;
     foaf:name "Edgar Wright"@en .
 
-rsc:edmund_goulding a dbo:Person ;
+rsc:edmund_goulding a sch:Person ;
     foaf:name "Edmund Goulding"@en .
 
-rsc:edward_zwick a dbo:Person ;
+rsc:edward_zwick a sch:Person ;
     foaf:name "Edward Zwick"@en .
 
-rsc:eli_roth a dbo:Person ;
+rsc:eli_roth a sch:Person ;
     foaf:name "Eli Roth"@en .
 
-rsc:frank_miller a dbo:Person ;
+rsc:frank_miller a sch:Person ;
     foaf:name "Frank Miller"@en .
 
-rsc:fred_zinnemann a dbo:Person ;
+rsc:fred_zinnemann a sch:Person ;
     foaf:name "Fred Zinnemann"@en .
 
-rsc:garth_davis a dbo:Person ;
+rsc:garth_davis a sch:Person ;
     foaf:name "Garth Davis"@en .
 
-rsc:gary_trousdale a dbo:Person ;
+rsc:gary_trousdale a sch:Person ;
     foaf:name "Gary Trousdale"@en .
 
-<http://philip-broehl.org/resource/gavin_o'connor> a dbo:Person ;
+<http://philip-broehl.org/resource/gavin_o'connor> a sch:Person ;
     foaf:name "Gavin O'Connor"@en .
 
-rsc:gene_kelly a dbo:Person ;
+rsc:gene_kelly a sch:Person ;
     foaf:name "Gene Kelly"@en .
 
-rsc:george_lucas a dbo:Person ;
+rsc:george_lucas a sch:Person ;
     foaf:name "George Lucas"@en .
 
-rsc:george_miller a dbo:Person ;
+rsc:george_miller a sch:Person ;
     foaf:name "George Miller"@en .
 
-rsc:giuseppe_tornatore a dbo:Person ;
+rsc:giuseppe_tornatore a sch:Person ;
     foaf:name "Giuseppe Tornatore"@en .
 
-rsc:gore_verbinski a dbo:Person ;
+rsc:gore_verbinski a sch:Person ;
     foaf:name "Gore Verbinski"@en .
 
-rsc:gus_van_sant a dbo:Person ;
+rsc:gus_van_sant a sch:Person ;
     foaf:name "Gus Van Sant"@en .
 
-rsc:harold_ramis a dbo:Person ;
+rsc:harold_ramis a sch:Person ;
     foaf:name "Harold Ramis"@en .
 
-rsc:henry_koster a dbo:Person ;
+rsc:henry_koster a sch:Person ;
     foaf:name "Henry Koster"@en .
 
-rsc:henry_selick a dbo:Person ;
+rsc:henry_selick a sch:Person ;
     foaf:name "Henry Selick"@en .
 
-rsc:irvin_kershner a dbo:Person ;
+rsc:irvin_kershner a sch:Person ;
     foaf:name "Irvin Kershner"@en .
 
-rsc:j.j._abrams a dbo:Person ;
+rsc:j.j._abrams a sch:Person ;
     foaf:name "J.J. Abrams"@en .
 
-rsc:jacques_tourneur a dbo:Person ;
+rsc:jacques_tourneur a sch:Person ;
     foaf:name "Jacques Tourneur"@en .
 
-rsc:james_mangold a dbo:Person ;
+rsc:james_mangold a sch:Person ;
     foaf:name "James Mangold"@en .
 
-rsc:james_mcteigue a dbo:Person ;
+rsc:james_mcteigue a sch:Person ;
     foaf:name "James McTeigue"@en .
 
-rsc:jared_bush a dbo:Person ;
+rsc:jared_bush a sch:Person ;
     foaf:name "Jared Bush"@en .
 
-rsc:jim_sheridan a dbo:Person ;
+rsc:jim_sheridan a sch:Person ;
     foaf:name "Jim Sheridan"@en .
 
-rsc:john_carpenter a dbo:Person ;
+rsc:john_carpenter a sch:Person ;
     foaf:name "John Carpenter"@en .
 
-rsc:john_frankenheimer a dbo:Person ;
+rsc:john_frankenheimer a sch:Person ;
     foaf:name "John Frankenheimer"@en .
 
-rsc:john_g._avildsen a dbo:Person ;
+rsc:john_g._avildsen a sch:Person ;
     foaf:name "John G. Avildsen"@en .
 
-rsc:john_lasseter a dbo:Person ;
+rsc:john_lasseter a sch:Person ;
     foaf:name "John Lasseter"@en .
 
-rsc:john_mctiernan a dbo:Person ;
+rsc:john_mctiernan a sch:Person ;
     foaf:name "John McTiernan"@en .
 
-rsc:john_musker a dbo:Person ;
+rsc:john_musker a sch:Person ;
     foaf:name "John Musker"@en .
 
-rsc:john_sturges a dbo:Person ;
+rsc:john_sturges a sch:Person ;
     foaf:name "John Sturges"@en .
 
-rsc:jon_watts a dbo:Person ;
+rsc:jon_watts a sch:Person ;
     foaf:name "Jon Watts"@en .
 
-rsc:jonathan_demme a dbo:Person ;
+rsc:jonathan_demme a sch:Person ;
     foaf:name "Jonathan Demme"@en .
 
-rsc:joss_whedon a dbo:Person ;
+rsc:joss_whedon a sch:Person ;
     foaf:name "Joss Whedon"@en .
 
-rsc:king_vidor a dbo:Person ;
+rsc:king_vidor a sch:Person ;
     foaf:name "King Vidor"@en .
 
-rsc:kirk_wise a dbo:Person ;
+rsc:kirk_wise a sch:Person ;
     foaf:name "Kirk Wise"@en .
 
-rsc:lana_wachowski a dbo:Person ;
+rsc:lana_wachowski a sch:Person ;
     foaf:name "Lana Wachowski"@en .
 
-rsc:lars_von_trier a dbo:Person ;
+rsc:lars_von_trier a sch:Person ;
     foaf:name "Lars von Trier"@en .
 
-<http://philip-broehl.org/resource/lasse_hallstrã¶m> a dbo:Person ;
+<http://philip-broehl.org/resource/lasse_hallstrã¶m> a sch:Person ;
     foaf:name "Lasse HallstrÃ¶m"@en .
 
-rsc:lenny_abrahamson a dbo:Person ;
+rsc:lenny_abrahamson a sch:Person ;
     foaf:name "Lenny Abrahamson"@en .
 
-rsc:lewis_milestone a dbo:Person ;
+rsc:lewis_milestone a sch:Person ;
     foaf:name "Lewis Milestone"@en .
 
-rsc:lilly_wachowski a dbo:Person ;
+rsc:lilly_wachowski a sch:Person ;
     foaf:name "Lilly Wachowski"@en .
 
-rsc:loveleen_tandan a dbo:Person ;
+rsc:loveleen_tandan a sch:Person ;
     foaf:name "Loveleen Tandan"@en .
 
-rsc:luc_besson a dbo:Person ;
+rsc:luc_besson a sch:Person ;
     foaf:name "Luc Besson"@en .
 
-rsc:m._night_shyamalan a dbo:Person ;
+rsc:m._night_shyamalan a sch:Person ;
     foaf:name "M. Night Shyamalan"@en .
 
-rsc:mel_brooks a dbo:Person ;
+rsc:mel_brooks a sch:Person ;
     foaf:name "Mel Brooks"@en .
 
-rsc:mervyn_leroy a dbo:Person ;
+rsc:mervyn_leroy a sch:Person ;
     foaf:name "Mervyn LeRoy"@en .
 
-rsc:michael_cimino a dbo:Person ;
+rsc:michael_cimino a sch:Person ;
     foaf:name "Michael Cimino"@en .
 
-rsc:michael_curtiz a dbo:Person ;
+rsc:michael_curtiz a sch:Person ;
     foaf:name "Michael Curtiz"@en .
 
-rsc:michael_mann a dbo:Person ;
+rsc:michael_mann a sch:Person ;
     foaf:name "Michael Mann"@en .
 
-rsc:michel_gondry a dbo:Person ;
+rsc:michel_gondry a sch:Person ;
     foaf:name "Michel Gondry"@en .
 
-rsc:morten_tyldum a dbo:Person ;
+rsc:morten_tyldum a sch:Person ;
     foaf:name "Morten Tyldum"@en .
 
-rsc:moustapha_akkad a dbo:Person ;
+rsc:moustapha_akkad a sch:Person ;
     foaf:name "Moustapha Akkad"@en .
 
-rsc:norman_taurog a dbo:Person ;
+rsc:norman_taurog a sch:Person ;
     foaf:name "Norman Taurog"@en .
 
-rsc:paul_greengrass a dbo:Person ;
+rsc:paul_greengrass a sch:Person ;
     foaf:name "Paul Greengrass"@en .
 
-rsc:peter_bogdanovich a dbo:Person ;
+rsc:peter_bogdanovich a sch:Person ;
     foaf:name "Peter Bogdanovich"@en .
 
-rsc:rich_moore a dbo:Person ;
+rsc:rich_moore a sch:Person ;
     foaf:name "Rich Moore"@en .
 
-rsc:richard_attenborough a dbo:Person ;
+rsc:richard_attenborough a sch:Person ;
     foaf:name "Richard Attenborough"@en .
 
-rsc:richard_brooks a dbo:Person ;
+rsc:richard_brooks a sch:Person ;
     foaf:name "Richard Brooks"@en .
 
-rsc:richard_kelly a dbo:Person ;
+rsc:richard_kelly a sch:Person ;
     foaf:name "Richard Kelly"@en .
 
-rsc:richard_marquand a dbo:Person ;
+rsc:richard_marquand a sch:Person ;
     foaf:name "Richard Marquand"@en .
 
-rsc:rob_minkoff a dbo:Person ;
+rsc:rob_minkoff a sch:Person ;
     foaf:name "Rob Minkoff"@en .
 
-rsc:robert_aldrich a dbo:Person ;
+rsc:robert_aldrich a sch:Person ;
     foaf:name "Robert Aldrich"@en .
 
-rsc:robert_hamer a dbo:Person ;
+rsc:robert_hamer a sch:Person ;
     foaf:name "Robert Hamer"@en .
 
-rsc:robert_mulligan a dbo:Person ;
+rsc:robert_mulligan a sch:Person ;
     foaf:name "Robert Mulligan"@en .
 
-rsc:robert_rodriguez a dbo:Person ;
+rsc:robert_rodriguez a sch:Person ;
     foaf:name "Robert Rodriguez"@en .
 
-rsc:robert_rossen a dbo:Person ;
+rsc:robert_rossen a sch:Person ;
     foaf:name "Robert Rossen"@en .
 
-rsc:roger_allers a dbo:Person ;
+rsc:roger_allers a sch:Person ;
     foaf:name "Roger Allers"@en .
 
-rsc:ron_clements a dbo:Person ;
+rsc:ron_clements a sch:Person ;
     foaf:name "Ron Clements"@en .
 
-rsc:ronnie_del_carmen a dbo:Person ;
+rsc:ronnie_del_carmen a sch:Person ;
     foaf:name "Ronnie Del Carmen"@en .
 
-rsc:sam_mendes a dbo:Person ;
+rsc:sam_mendes a sch:Person ;
     foaf:name "Sam Mendes"@en .
 
-rsc:sam_peckinpah a dbo:Person ;
+rsc:sam_peckinpah a sch:Person ;
     foaf:name "Sam Peckinpah"@en .
 
-rsc:sean_penn a dbo:Person ;
+rsc:sean_penn a sch:Person ;
     foaf:name "Sean Penn"@en .
 
-rsc:sergio_leone a dbo:Person ;
+rsc:sergio_leone a sch:Person ;
     foaf:name "Sergio Leone"@en .
 
-rsc:stanley_donen a dbo:Person ;
+rsc:stanley_donen a sch:Person ;
     foaf:name "Stanley Donen"@en .
 
-rsc:stanley_kramer a dbo:Person ;
+rsc:stanley_kramer a sch:Person ;
     foaf:name "Stanley Kramer"@en .
 
-rsc:steve_mcqueen a dbo:Person ;
+rsc:steve_mcqueen a sch:Person ;
     foaf:name "Steve McQueen"@en .
 
-rsc:stuart_rosenberg a dbo:Person ;
+rsc:stuart_rosenberg a sch:Person ;
     foaf:name "Stuart Rosenberg"@en .
 
-rsc:tate_taylor a dbo:Person ;
+rsc:tate_taylor a sch:Person ;
     foaf:name "Tate Taylor"@en .
 
-rsc:terry_george a dbo:Person ;
+rsc:terry_george a sch:Person ;
     foaf:name "Terry George"@en .
 
-rsc:tim_burton a dbo:Person ;
+rsc:tim_burton a sch:Person ;
     foaf:name "Tim Burton"@en .
 
-rsc:tim_miller a dbo:Person ;
+rsc:tim_miller a sch:Person ;
     foaf:name "Tim Miller"@en .
 
-rsc:tom_hooper a dbo:Person ;
+rsc:tom_hooper a sch:Person ;
     foaf:name "Tom Hooper"@en .
 
-rsc:tom_mccarthy a dbo:Person ;
+rsc:tom_mccarthy a sch:Person ;
     foaf:name "Tom McCarthy"@en .
 
-rsc:tomm_moore a dbo:Person ;
+rsc:tomm_moore a sch:Person ;
     foaf:name "Tomm Moore"@en .
 
-rsc:tony_kaye a dbo:Person ;
+rsc:tony_kaye a sch:Person ;
     foaf:name "Tony Kaye"@en .
 
-rsc:wes_anderson a dbo:Person ;
+rsc:wes_anderson a sch:Person ;
     foaf:name "Wes Anderson"@en .
 
-rsc:william_friedkin a dbo:Person ;
+rsc:william_friedkin a sch:Person ;
     foaf:name "William Friedkin"@en .
 
-rsc:wim_wenders a dbo:Person ;
+rsc:wim_wenders a sch:Person ;
     foaf:name "Wim Wenders"@en .
 
-rsc:woody_allen a dbo:Person ;
+rsc:woody_allen a sch:Person ;
     foaf:name "Woody Allen"@en .
 
-rsc:andrew_stanton a dbo:Person ;
+rsc:andrew_stanton a sch:Person ;
     foaf:name "Andrew Stanton"@en .
 
-rsc:damien_chazelle a dbo:Person ;
+rsc:damien_chazelle a sch:Person ;
     foaf:name "Damien Chazelle"@en .
 
-rsc:danny_boyle a dbo:Person ;
+rsc:danny_boyle a sch:Person ;
     foaf:name "Danny Boyle"@en .
 
-rsc:david_lynch a dbo:Person ;
+rsc:david_lynch a sch:Person ;
     foaf:name "David Lynch"@en .
 
-rsc:elia_kazan a dbo:Person ;
+rsc:elia_kazan a sch:Person ;
     foaf:name "Elia Kazan"@en .
 
-rsc:frank_darabont a dbo:Person ;
+rsc:frank_darabont a sch:Person ;
     foaf:name "Frank Darabont"@en .
 
-rsc:franklin_j._schaffner a dbo:Person ;
+rsc:franklin_j._schaffner a sch:Person ;
     foaf:name "Franklin J. Schaffner"@en .
 
-rsc:george_roy_hill a dbo:Person ;
+rsc:george_roy_hill a sch:Person ;
     foaf:name "George Roy Hill"@en .
 
-rsc:guy_ritchie a dbo:Person ;
+rsc:guy_ritchie a sch:Person ;
     foaf:name "Guy Ritchie"@en .
 
-rsc:james_gunn a dbo:Person ;
+rsc:james_gunn a sch:Person ;
     foaf:name "James Gunn"@en .
 
-rsc:john_ford a dbo:Person ;
+rsc:john_ford a sch:Person ;
     foaf:name "John Ford"@en .
 
-rsc:john_huston a dbo:Person ;
+rsc:john_huston a sch:Person ;
     foaf:name "John Huston"@en .
 
-rsc:joseph_l._mankiewicz a dbo:Person ;
+rsc:joseph_l._mankiewicz a sch:Person ;
     foaf:name "Joseph L. Mankiewicz"@en .
 
-rsc:mel_gibson a dbo:Person ;
+rsc:mel_gibson a sch:Person ;
     foaf:name "Mel Gibson"@en .
 
-rsc:mike_nichols a dbo:Person ;
+rsc:mike_nichols a sch:Person ;
     foaf:name "Mike Nichols"@en .
 
-rsc:milos_forman a dbo:Person ;
+rsc:milos_forman a sch:Person ;
     foaf:name "Milos Forman"@en .
 
-rsc:oliver_stone a dbo:Person ;
+rsc:oliver_stone a sch:Person ;
     foaf:name "Oliver Stone"@en .
 
-rsc:orson_welles a dbo:Person ;
+rsc:orson_welles a sch:Person ;
     foaf:name "Orson Welles"@en .
 
-rsc:otto_preminger a dbo:Person ;
+rsc:otto_preminger a sch:Person ;
     foaf:name "Otto Preminger"@en .
 
-rsc:paul_thomas_anderson a dbo:Person ;
+rsc:paul_thomas_anderson a sch:Person ;
     foaf:name "Paul Thomas Anderson"@en .
 
-rsc:peter_weir a dbo:Person ;
+rsc:peter_weir a sch:Person ;
     foaf:name "Peter Weir"@en .
 
-rsc:richard_linklater a dbo:Person ;
+rsc:richard_linklater a sch:Person ;
     foaf:name "Richard Linklater"@en .
 
-rsc:rob_reiner a dbo:Person ;
+rsc:rob_reiner a sch:Person ;
     foaf:name "Rob Reiner"@en .
 
-rsc:robert_zemeckis a dbo:Person ;
+rsc:robert_zemeckis a sch:Person ;
     foaf:name "Robert Zemeckis"@en .
 
-rsc:roman_polanski a dbo:Person ;
+rsc:roman_polanski a sch:Person ;
     foaf:name "Roman Polanski"@en .
 
-rsc:ron_howard a dbo:Person ;
+rsc:ron_howard a sch:Person ;
     foaf:name "Ron Howard"@en .
 
-rsc:sam_wood a dbo:Person ;
+rsc:sam_wood a sch:Person ;
     foaf:name "Sam Wood"@en .
 
-rsc:terry_gilliam a dbo:Person ;
+rsc:terry_gilliam a sch:Person ;
     foaf:name "Terry Gilliam"@en .
 
-rsc:terry_jones a dbo:Person ;
+rsc:terry_jones a sch:Person ;
     foaf:name "Terry Jones"@en .
 
-rsc:victor_fleming a dbo:Person ;
+rsc:victor_fleming a sch:Person ;
     foaf:name "Victor Fleming"@en .
 
-rsc:clint_eastwood a dbo:Person ;
+rsc:clint_eastwood a sch:Person ;
     foaf:name "Clint Eastwood"@en .
 
-rsc:david_fincher a dbo:Person ;
+rsc:david_fincher a sch:Person ;
     foaf:name "David Fincher"@en .
 
-rsc:david_lean a dbo:Person ;
+rsc:david_lean a sch:Person ;
     foaf:name "David Lean"@en .
 
-rsc:ethan_coen a dbo:Person ;
+rsc:ethan_coen a sch:Person ;
     foaf:name "Ethan Coen"@en .
 
-rsc:francis_ford_coppola a dbo:Person ;
+rsc:francis_ford_coppola a sch:Person ;
     foaf:name "Francis Ford Coppola"@en .
 
-rsc:george_cukor a dbo:Person ;
+rsc:george_cukor a sch:Person ;
     foaf:name "George Cukor"@en .
 
-rsc:howard_hawks a dbo:Person ;
+rsc:howard_hawks a sch:Person ;
     foaf:name "Howard Hawks"@en .
 
-rsc:james_cameron a dbo:Person ;
+rsc:james_cameron a sch:Person ;
     foaf:name "James Cameron"@en .
 
-rsc:joel_coen a dbo:Person ;
+rsc:joel_coen a sch:Person ;
     foaf:name "Joel Coen"@en .
 
-rsc:lee_unkrich a dbo:Person ;
+rsc:lee_unkrich a sch:Person ;
     foaf:name "Lee Unkrich"@en .
 
-rsc:pete_docter a dbo:Person ;
+rsc:pete_docter a sch:Person ;
     foaf:name "Pete Docter"@en .
 
-rsc:peter_jackson a dbo:Person ;
+rsc:peter_jackson a sch:Person ;
     foaf:name "Peter Jackson"@en .
 
-rsc:sidney_lumet a dbo:Person ;
+rsc:sidney_lumet a sch:Person ;
     foaf:name "Sidney Lumet"@en .
 
-rsc:william_wyler a dbo:Person ;
+rsc:william_wyler a sch:Person ;
     foaf:name "William Wyler"@en .
 
-rsc:frank_capra a dbo:Person ;
+rsc:frank_capra a sch:Person ;
     foaf:name "Frank Capra"@en .
 
-rsc:ridley_scott a dbo:Person ;
+rsc:ridley_scott a sch:Person ;
     foaf:name "Ridley Scott"@en .
 
-rsc:charles_chaplin a dbo:Person ;
+rsc:charles_chaplin a sch:Person ;
     foaf:name "Charles Chaplin"@en .
 
-rsc:quentin_tarantino a dbo:Person ;
+rsc:quentin_tarantino a sch:Person ;
     foaf:name "Quentin Tarantino"@en .
 
-rsc:billy_wilder a dbo:Person ;
+rsc:billy_wilder a sch:Person ;
     foaf:name "Billy Wilder"@en .
 
-rsc:christopher_nolan a dbo:Person ;
+rsc:christopher_nolan a sch:Person ;
     foaf:name "Christopher Nolan"@en .
 
-rsc:martin_scorsese a dbo:Person ;
+rsc:martin_scorsese a sch:Person ;
     foaf:name "Martin Scorsese"@en .
 
-rsc:steven_spielberg a dbo:Person ;
+rsc:steven_spielberg a sch:Person ;
     foaf:name "Steven Spielberg"@en .
 
-rsc:stanley_kubrick a dbo:Person ;
+rsc:stanley_kubrick a sch:Person ;
     foaf:name "Stanley Kubrick"@en .
 
-rsc:alfred_hitchcock a dbo:Person ;
+rsc:alfred_hitchcock a sch:Person ;
     foaf:name "Alfred Hitchcock"@en .
 
